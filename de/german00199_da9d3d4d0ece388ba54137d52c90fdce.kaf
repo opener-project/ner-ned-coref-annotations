@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" timestamp="2014-03-02T18:52:02Z" version="0.0.1" />
+      <lp name="opener-tokenizer-de" timestamp="2014-03-02T18:52:02Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-de" timestamp="2014-03-02T19:52:07+0100" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="ixa-pipe-coref-de" timestamp="2014-03-02 19:52:10" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="5">Hotel</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="9">Balladins</wf>
+    <wf wid="w3" sent="1" para="1" offset="16" length="13">Gennevilliers</wf>
+    <wf wid="w4" sent="1" para="1" offset="30" length="8">Superior</wf>
+    <wf wid="w5" sent="2" para="2" offset="39" length="9">Irgendwie</wf>
+    <wf wid="w6" sent="2" para="2" offset="49" length="7">gewollt</wf>
+    <wf wid="w7" sent="2" para="2" offset="57" length="4">aber</wf>
+    <wf wid="w8" sent="2" para="2" offset="62" length="5">nicht</wf>
+    <wf wid="w9" sent="2" para="2" offset="68" length="7">richtig</wf>
+    <wf wid="w10" sent="2" para="2" offset="76" length="7">gekonnt</wf>
+    <wf wid="w11" sent="2" para="2" offset="83" length="1">!</wf>
+    <wf wid="w12" sent="3" para="3" offset="86" length="3">Die</wf>
+    <wf wid="w13" sent="3" para="3" offset="90" length="6">Zimmer</wf>
+    <wf wid="w14" sent="3" para="3" offset="97" length="4">sind</wf>
+    <wf wid="w15" sent="3" para="3" offset="102" length="11">ausreichend</wf>
+    <wf wid="w16" sent="3" para="3" offset="114" length="4">groß</wf>
+    <wf wid="w17" sent="3" para="3" offset="119" length="3">und</wf>
+    <wf wid="w18" sent="3" para="3" offset="123" length="2">es</wf>
+    <wf wid="w19" sent="3" para="3" offset="126" length="4">gibt</wf>
+    <wf wid="w20" sent="3" para="3" offset="131" length="5">jeden</wf>
+    <wf wid="w21" sent="3" para="3" offset="137" length="6">Morgen</wf>
+    <wf wid="w22" sent="3" para="3" offset="144" length="8">frisches</wf>
+    <wf wid="w23" sent="3" para="3" offset="153" length="8">Duschgel</wf>
+    <wf wid="w24" sent="3" para="3" offset="161" length="1">.</wf>
+    <wf wid="w25" sent="4" para="3" offset="163" length="4">Auch</wf>
+    <wf wid="w26" sent="4" para="3" offset="168" length="4">WLAN</wf>
+    <wf wid="w27" sent="4" para="3" offset="173" length="3">ist</wf>
+    <wf wid="w28" sent="4" para="3" offset="177" length="9">vorhanden</wf>
+    <wf wid="w29" sent="4" para="3" offset="187" length="3">und</wf>
+    <wf wid="w30" sent="4" para="3" offset="191" length="3">das</wf>
+    <wf wid="w31" sent="4" para="3" offset="195" length="9">Frühstück</wf>
+    <wf wid="w32" sent="4" para="3" offset="205" length="3">ist</wf>
+    <wf wid="w33" sent="4" para="3" offset="209" length="3">für</wf>
+    <wf wid="w34" sent="4" para="3" offset="213" length="12">französische</wf>
+    <wf wid="w35" sent="4" para="3" offset="226" length="12">Verhältnisse</wf>
+    <wf wid="w36" sent="4" para="3" offset="239" length="5">schon</wf>
+    <wf wid="w37" sent="4" para="3" offset="245" length="3">als</wf>
+    <wf wid="w38" sent="4" para="3" offset="249" length="5">üppig</wf>
+    <wf wid="w39" sent="4" para="3" offset="255" length="2">zu</wf>
+    <wf wid="w40" sent="4" para="3" offset="258" length="10">bezeichnen</wf>
+    <wf wid="w41" sent="4" para="3" offset="268" length="1">,</wf>
+    <wf wid="w42" sent="4" para="3" offset="270" length="4">aber</wf>
+    <wf wid="w43" sent="4" para="3" offset="275" length="2">es</wf>
+    <wf wid="w44" sent="4" para="3" offset="278" length="4">sind</wf>
+    <wf wid="w45" sent="4" para="3" offset="283" length="5">viele</wf>
+    <wf wid="w46" sent="4" para="3" offset="289" length="7">Details</wf>
+    <wf wid="w47" sent="4" para="3" offset="297" length="3">die</wf>
+    <wf wid="w48" sent="4" para="3" offset="301" length="7">negativ</wf>
+    <wf wid="w49" sent="4" para="3" offset="309" length="4">sind</wf>
+    <wf wid="w50" sent="4" para="3" offset="313" length="1">.</wf>
+    <wf wid="w51" sent="5" para="3" offset="315" length="3">Die</wf>
+    <wf wid="w52" sent="5" para="3" offset="319" length="7">gesamte</wf>
+    <wf wid="w53" sent="5" para="3" offset="327" length="12">Verarbeitung</wf>
+    <wf wid="w54" sent="5" para="3" offset="340" length="3">der</wf>
+    <wf wid="w55" sent="5" para="3" offset="344" length="6">Zimmer</wf>
+    <wf wid="w56" sent="5" para="3" offset="351" length="5">wirkt</wf>
+    <wf wid="w57" sent="5" para="3" offset="357" length="4">sehr</wf>
+    <wf wid="w58" sent="5" para="3" offset="362" length="7">lieblos</wf>
+    <wf wid="w59" sent="5" para="3" offset="370" length="3">und</wf>
+    <wf wid="w60" sent="5" para="3" offset="374" length="2">so</wf>
+    <wf wid="w61" sent="5" para="3" offset="377" length="3">als</wf>
+    <wf wid="w62" sent="5" para="3" offset="381" length="2">ob</wf>
+    <wf wid="w63" sent="5" para="3" offset="384" length="3">man</wf>
+    <wf wid="w64" sent="5" para="3" offset="388" length="7">schnell</wf>
+    <wf wid="w65" sent="5" para="3" offset="396" length="3">mit</wf>
+    <wf wid="w66" sent="5" para="3" offset="400" length="3">dem</wf>
+    <wf wid="w67" sent="5" para="3" offset="404" length="5">Bauen</wf>
+    <wf wid="w68" sent="5" para="3" offset="410" length="6">fertig</wf>
+    <wf wid="w69" sent="5" para="3" offset="417" length="6">werden</wf>
+    <wf wid="w70" sent="5" para="3" offset="424" length="6">wollte</wf>
+    <wf wid="w71" sent="5" para="3" offset="430" length="1">.</wf>
+    <wf wid="w72" sent="6" para="3" offset="432" length="3">Das</wf>
+    <wf wid="w73" sent="6" para="3" offset="436" length="4">WLAN</wf>
+    <wf wid="w74" sent="6" para="3" offset="441" length="3">ist</wf>
+    <wf wid="w75" sent="6" para="3" offset="445" length="4">lahm</wf>
+    <wf wid="w76" sent="6" para="3" offset="450" length="3">und</wf>
+    <wf wid="w77" sent="6" para="3" offset="454" length="2">es</wf>
+    <wf wid="w78" sent="6" para="3" offset="457" length="4">gibt</wf>
+    <wf wid="w79" sent="6" para="3" offset="462" length="4">noch</wf>
+    <wf wid="w80" sent="6" para="3" offset="467" length="5">nicht</wf>
+    <wf wid="w81" sent="6" para="3" offset="473" length="3">mal</wf>
+    <wf wid="w82" sent="6" para="3" offset="477" length="5">einen</wf>
+    <wf wid="w83" sent="6" para="3" offset="483" length="3">Fön</wf>
+    <wf wid="w84" sent="6" para="3" offset="487" length="3">auf</wf>
+    <wf wid="w85" sent="6" para="3" offset="491" length="3">dem</wf>
+    <wf wid="w86" sent="6" para="3" offset="495" length="6">Zimmer</wf>
+    <wf wid="w87" sent="6" para="3" offset="501" length="1">.</wf>
+    <wf wid="w88" sent="7" para="3" offset="503" length="3">Der</wf>
+    <wf wid="w89" sent="7" para="3" offset="507" length="9">verlangte</wf>
+    <wf wid="w90" sent="7" para="3" offset="517" length="5">Preis</wf>
+    <wf wid="w91" sent="7" para="3" offset="523" length="3">für</wf>
+    <wf wid="w92" sent="7" para="3" offset="527" length="3">das</wf>
+    <wf wid="w93" sent="7" para="3" offset="531" length="6">Zimmer</wf>
+    <wf wid="w94" sent="7" para="3" offset="538" length="5">steht</wf>
+    <wf wid="w95" sent="7" para="3" offset="544" length="5">damit</wf>
+    <wf wid="w96" sent="7" para="3" offset="550" length="2">in</wf>
+    <wf wid="w97" sent="7" para="3" offset="553" length="7">absolut</wf>
+    <wf wid="w98" sent="7" para="3" offset="561" length="6">keinem</wf>
+    <wf wid="w99" sent="7" para="3" offset="568" length="10">Verhältnis</wf>
+    <wf wid="w100" sent="7" para="3" offset="579" length="3">zur</wf>
+    <wf wid="w101" sent="7" para="3" offset="583" length="8">Leistung</wf>
+    <wf wid="w102" sent="7" para="3" offset="591" length="1">.</wf>
+    <wf wid="w103" sent="8" para="4" offset="594" length="7">Positiv</wf>
+    <wf wid="w104" sent="8" para="4" offset="602" length="4">sind</wf>
+    <wf wid="w105" sent="8" para="4" offset="607" length="3">der</wf>
+    <wf wid="w106" sent="8" para="4" offset="611" length="5">große</wf>
+    <wf wid="w107" sent="8" para="4" offset="617" length="9">Parkplatz</wf>
+    <wf wid="w108" sent="8" para="4" offset="627" length="3">und</wf>
+    <wf wid="w109" sent="8" para="4" offset="631" length="3">der</wf>
+    <wf wid="w110" sent="8" para="4" offset="635" length="6">direkt</wf>
+    <wf wid="w111" sent="8" para="4" offset="642" length="3">auf</wf>
+    <wf wid="w112" sent="8" para="4" offset="646" length="3">der</wf>
+    <wf wid="w113" sent="8" para="4" offset="650" length="18">gegenüberliegenden</wf>
+    <wf wid="w114" sent="8" para="4" offset="669" length="12">Straßenseite</wf>
+    <wf wid="w115" sent="8" para="4" offset="682" length="8">gelegene</wf>
+    <wf wid="w116" sent="8" para="4" offset="691" length="7">riesige</wf>
+    <wf wid="w117" sent="8" para="4" offset="699" length="10">Supermarkt</wf>
+    <wf wid="w118" sent="8" para="4" offset="709" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hotel-->
+    <term tid="t1" type="open" lemma="Hotel" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Balladins-->
+    <term tid="t2" type="open" lemma="Balladins" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Gennevilliers-->
+    <term tid="t3" type="open" lemma="Gennevilliers" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Superior-->
+    <term tid="t4" type="open" lemma="Superior" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Irgendwie-->
+    <term tid="t5" type="open" lemma="irgendwie" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--gewollt-->
+    <term tid="t6" type="open" lemma="gewollt" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--aber-->
+    <term tid="t7" type="open" lemma="aber" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--nicht-->
+    <term tid="t8" type="open" lemma="nicht" pos="O" morphofeat="PTKNEG">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--richtig-->
+    <term tid="t9" type="open" lemma="richtig" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--gekonnt-->
+    <term tid="t10" type="open" lemma="gekonnt" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t11" type="open" lemma="!" pos="O" morphofeat="$.">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Die-->
+    <term tid="t12" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Zimmer-->
+    <term tid="t13" type="open" lemma="Zimmer" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--sind-->
+    <term tid="t14" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--ausreichend-->
+    <term tid="t15" type="open" lemma="ausreichend" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--groß-->
+    <term tid="t16" type="open" lemma="groß" pos="V" morphofeat="PTKVZ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t17" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--es-->
+    <term tid="t18" type="close" lemma="es" pos="Q" morphofeat="PPER">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--gibt-->
+    <term tid="t19" type="open" lemma="geben" pos="V" morphofeat="VVFIN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--jeden-->
+    <term tid="t20" type="close" lemma="jede" pos="Q" morphofeat="PIAT">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Morgen-->
+    <term tid="t21" type="open" lemma="Morgen" pos="N" morphofeat="NN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--frisches-->
+    <term tid="t22" type="open" lemma="frisch" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--Duschgel-->
+    <term tid="t23" type="open" lemma="Duschgel" pos="N" morphofeat="NN">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t24" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--Auch-->
+    <term tid="t25" type="open" lemma="auch" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--WLAN-->
+    <term tid="t26" type="open" lemma="WLAN" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--ist-->
+    <term tid="t27" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--vorhanden-->
+    <term tid="t28" type="open" lemma="vorhanden" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t29" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--das-->
+    <term tid="t30" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--Frühstück-->
+    <term tid="t31" type="open" lemma="Frühstück" pos="N" morphofeat="NN">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--ist-->
+    <term tid="t32" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--für-->
+    <term tid="t33" type="close" lemma="für" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--französische-->
+    <term tid="t34" type="open" lemma="französisch" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--Verhältnisse-->
+    <term tid="t35" type="open" lemma="Verhältnis" pos="N" morphofeat="NN">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--schon-->
+    <term tid="t36" type="open" lemma="schon" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t37" type="close" lemma="als" pos="C" morphofeat="KOKOM">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--üppig-->
+    <term tid="t38" type="open" lemma="üppig" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--zu-->
+    <term tid="t39" type="open" lemma="zu" pos="O" morphofeat="PTKZU">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--bezeichnen-->
+    <term tid="t40" type="open" lemma="bezeichnen" pos="V" morphofeat="VVINF">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t41" type="open" lemma="," pos="O" morphofeat="$,">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--aber-->
+    <term tid="t42" type="close" lemma="aber" pos="C" morphofeat="KON">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--es-->
+    <term tid="t43" type="close" lemma="es" pos="Q" morphofeat="PPER">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--sind-->
+    <term tid="t44" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--viele-->
+    <term tid="t45" type="close" lemma="viele" pos="Q" morphofeat="PIAT">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--Details-->
+    <term tid="t46" type="open" lemma="Detail" pos="N" morphofeat="NN">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t47" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--negativ-->
+    <term tid="t48" type="open" lemma="negativ" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--sind-->
+    <term tid="t49" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t50" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--Die-->
+    <term tid="t51" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+    <!--gesamte-->
+    <term tid="t52" type="open" lemma="gesamt" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w52" />
+      </span>
+    </term>
+    <!--Verarbeitung-->
+    <term tid="t53" type="open" lemma="Verarbeitung" pos="N" morphofeat="NN">
+      <span>
+        <target id="w53" />
+      </span>
+    </term>
+    <!--der-->
+    <term tid="t54" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w54" />
+      </span>
+    </term>
+    <!--Zimmer-->
+    <term tid="t55" type="open" lemma="Zimmer" pos="N" morphofeat="NN">
+      <span>
+        <target id="w55" />
+      </span>
+    </term>
+    <!--wirkt-->
+    <term tid="t56" type="open" lemma="wirken" pos="V" morphofeat="VVFIN">
+      <span>
+        <target id="w56" />
+      </span>
+    </term>
+    <!--sehr-->
+    <term tid="t57" type="open" lemma="sehr" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w57" />
+      </span>
+    </term>
+    <!--lieblos-->
+    <term tid="t58" type="open" lemma="lieblos" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w58" />
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t59" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w59" />
+      </span>
+    </term>
+    <!--so-->
+    <term tid="t60" type="open" lemma="so" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w60" />
+      </span>
+    </term>
+    <!--als-->
+    <term tid="t61" type="close" lemma="als" pos="C" morphofeat="KOKOM">
+      <span>
+        <target id="w61" />
+      </span>
+    </term>
+    <!--ob-->
+    <term tid="t62" type="open" lemma="ob" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w62" />
+      </span>
+    </term>
+    <!--man-->
+    <term tid="t63" type="close" lemma="man" pos="Q" morphofeat="PIS">
+      <span>
+        <target id="w63" />
+      </span>
+    </term>
+    <!--schnell-->
+    <term tid="t64" type="open" lemma="schnell" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w64" />
+      </span>
+    </term>
+    <!--mit-->
+    <term tid="t65" type="close" lemma="mit" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w65" />
+      </span>
+    </term>
+    <!--dem-->
+    <term tid="t66" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w66" />
+      </span>
+    </term>
+    <!--Bauen-->
+    <term tid="t67" type="open" lemma="Bauen" pos="N" morphofeat="NN">
+      <span>
+        <target id="w67" />
+      </span>
+    </term>
+    <!--fertig-->
+    <term tid="t68" type="open" lemma="fertig" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w68" />
+      </span>
+    </term>
+    <!--werden-->
+    <term tid="t69" type="open" lemma="werden" pos="V" morphofeat="VAINF">
+      <span>
+        <target id="w69" />
+      </span>
+    </term>
+    <!--wollte-->
+    <term tid="t70" type="open" lemma="wollen" pos="V" morphofeat="VMFIN">
+      <span>
+        <target id="w70" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t71" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w71" />
+      </span>
+    </term>
+    <!--Das-->
+    <term tid="t72" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w72" />
+      </span>
+    </term>
+    <!--WLAN-->
+    <term tid="t73" type="open" lemma="WLAN" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w73" />
+      </span>
+    </term>
+    <!--ist-->
+    <term tid="t74" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w74" />
+      </span>
+    </term>
+    <!--lahm-->
+    <term tid="t75" type="open" lemma="lahm" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w75" />
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t76" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w76" />
+      </span>
+    </term>
+    <!--es-->
+    <term tid="t77" type="close" lemma="es" pos="Q" morphofeat="PPER">
+      <span>
+        <target id="w77" />
+      </span>
+    </term>
+    <!--gibt-->
+    <term tid="t78" type="open" lemma="geben" pos="V" morphofeat="VVFIN">
+      <span>
+        <target id="w78" />
+      </span>
+    </term>
+    <!--noch-->
+    <term tid="t79" type="open" lemma="noch" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w79" />
+      </span>
+    </term>
+    <!--nicht-->
+    <term tid="t80" type="open" lemma="nicht" pos="O" morphofeat="PTKNEG">
+      <span>
+        <target id="w80" />
+      </span>
+    </term>
+    <!--mal-->
+    <term tid="t81" type="open" lemma="mal" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w81" />
+      </span>
+    </term>
+    <!--einen-->
+    <term tid="t82" type="close" lemma="eine" pos="D" morphofeat="ART">
+      <span>
+        <target id="w82" />
+      </span>
+    </term>
+    <!--Fön-->
+    <term tid="t83" type="open" lemma="Fön" pos="N" morphofeat="NN">
+      <span>
+        <target id="w83" />
+      </span>
+    </term>
+    <!--auf-->
+    <term tid="t84" type="close" lemma="auf" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w84" />
+      </span>
+    </term>
+    <!--dem-->
+    <term tid="t85" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w85" />
+      </span>
+    </term>
+    <!--Zimmer-->
+    <term tid="t86" type="open" lemma="Zimmer" pos="N" morphofeat="NN">
+      <span>
+        <target id="w86" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t87" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w87" />
+      </span>
+    </term>
+    <!--Der-->
+    <term tid="t88" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w88" />
+      </span>
+    </term>
+    <!--verlangte-->
+    <term tid="t89" type="open" lemma="verlangt" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w89" />
+      </span>
+    </term>
+    <!--Preis-->
+    <term tid="t90" type="open" lemma="Preis" pos="N" morphofeat="NN">
+      <span>
+        <target id="w90" />
+      </span>
+    </term>
+    <!--für-->
+    <term tid="t91" type="close" lemma="für" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w91" />
+      </span>
+    </term>
+    <!--das-->
+    <term tid="t92" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w92" />
+      </span>
+    </term>
+    <!--Zimmer-->
+    <term tid="t93" type="open" lemma="Zimmer" pos="N" morphofeat="NN">
+      <span>
+        <target id="w93" />
+      </span>
+    </term>
+    <!--steht-->
+    <term tid="t94" type="open" lemma="stehen" pos="V" morphofeat="VVFIN">
+      <span>
+        <target id="w94" />
+      </span>
+    </term>
+    <!--damit-->
+    <term tid="t95" type="close" lemma="damit" pos="Q" morphofeat="PAV">
+      <span>
+        <target id="w95" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t96" type="close" lemma="in" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w96" />
+      </span>
+    </term>
+    <!--absolut-->
+    <term tid="t97" type="open" lemma="absolut" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w97" />
+      </span>
+    </term>
+    <!--keinem-->
+    <term tid="t98" type="close" lemma="keine" pos="Q" morphofeat="PIAT">
+      <span>
+        <target id="w98" />
+      </span>
+    </term>
+    <!--Verhältnis-->
+    <term tid="t99" type="open" lemma="Verhältnis" pos="N" morphofeat="NN">
+      <span>
+        <target id="w99" />
+      </span>
+    </term>
+    <!--zur-->
+    <term tid="t100" type="close" lemma="zu" pos="P" morphofeat="APPRART">
+      <span>
+        <target id="w100" />
+      </span>
+    </term>
+    <!--Leistung-->
+    <term tid="t101" type="open" lemma="Leistung" pos="N" morphofeat="NN">
+      <span>
+        <target id="w101" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t102" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w102" />
+      </span>
+    </term>
+    <!--Positiv-->
+    <term tid="t103" type="open" lemma="positiv" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w103" />
+      </span>
+    </term>
+    <!--sind-->
+    <term tid="t104" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w104" />
+      </span>
+    </term>
+    <!--der-->
+    <term tid="t105" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w105" />
+      </span>
+    </term>
+    <!--große-->
+    <term tid="t106" type="open" lemma="groß" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w106" />
+      </span>
+    </term>
+    <!--Parkplatz-->
+    <term tid="t107" type="open" lemma="Parkplatz" pos="N" morphofeat="NN">
+      <span>
+        <target id="w107" />
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t108" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w108" />
+      </span>
+    </term>
+    <!--der-->
+    <term tid="t109" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w109" />
+      </span>
+    </term>
+    <!--direkt-->
+    <term tid="t110" type="open" lemma="direkt" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w110" />
+      </span>
+    </term>
+    <!--auf-->
+    <term tid="t111" type="close" lemma="auf" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w111" />
+      </span>
+    </term>
+    <!--der-->
+    <term tid="t112" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w112" />
+      </span>
+    </term>
+    <!--gegenüberliegenden-->
+    <term tid="t113" type="open" lemma="gegenüberliegend" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w113" />
+      </span>
+    </term>
+    <!--Straßenseite-->
+    <term tid="t114" type="open" lemma="Straßenseite" pos="N" morphofeat="NN">
+      <span>
+        <target id="w114" />
+      </span>
+    </term>
+    <!--gelegene-->
+    <term tid="t115" type="open" lemma="gelegen" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w115" />
+      </span>
+    </term>
+    <!--riesige-->
+    <term tid="t116" type="open" lemma="riesig" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w116" />
+      </span>
+    </term>
+    <!--Supermarkt-->
+    <term tid="t117" type="open" lemma="Supermarkt" pos="N" morphofeat="NN">
+      <span>
+        <target id="w117" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t118" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w118" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Hotel Balladins Gennevilliers-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--es-->
+      <span>
+        <target id="t43" />
+      </span>
+      <!--viele Details-->
+      <span>
+        <target id="t45" />
+        <target id="t46" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--der Zimmer-->
+      <span>
+        <target id="t54" />
+        <target id="t55" />
+      </span>
+      <!--Die Zimmer-->
+      <span>
+        <target id="t12" />
+        <target id="t13" />
+      </span>
+      <!--dem Zimmer-->
+      <span>
+        <target id="t85" />
+        <target id="t86" />
+      </span>
+      <!--das Zimmer-->
+      <span>
+        <target id="t92" />
+        <target id="t93" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--Das WLAN-->
+      <span>
+        <target id="t72" />
+        <target id="t73" />
+      </span>
+      <!--WLAN-->
+      <span>
+        <target id="t26" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-02-28T11:57:06Z" version="0.0.1" />
+      <lp name="opener-tokenizer-nl" timestamp="2014-02-28T11:57:06Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-nl" timestamp="2014-03-02T17:00:38+0100" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="ixa-pipe-coref-nl" timestamp="2014-03-02 17:00:39" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Geen</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="3">Van</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="3">der</wf>
+    <wf wid="w4" sent="1" para="1" offset="13" length="4">Valk</wf>
+    <wf wid="w5" sent="1" para="1" offset="18" length="7">waardig</wf>
+    <wf wid="w6" sent="2" para="2" offset="26" length="4">Veel</wf>
+    <wf wid="w7" sent="2" para="2" offset="31" length="7">vlekken</wf>
+    <wf wid="w8" sent="2" para="2" offset="39" length="2">in</wf>
+    <wf wid="w9" sent="2" para="2" offset="42" length="2">de</wf>
+    <wf wid="w10" sent="2" para="2" offset="45" length="14">vloerbedekking</wf>
+    <wf wid="w11" sent="2" para="2" offset="59" length="1">.</wf>
+    <wf wid="w12" sent="3" para="2" offset="61" length="6">Scheur</wf>
+    <wf wid="w13" sent="3" para="2" offset="68" length="2">in</wf>
+    <wf wid="w14" sent="3" para="2" offset="71" length="2">de</wf>
+    <wf wid="w15" sent="3" para="2" offset="74" length="7">vitrage</wf>
+    <wf wid="w16" sent="3" para="2" offset="81" length="1">.</wf>
+    <wf wid="w17" sent="4" para="2" offset="83" length="7">Rubbers</wf>
+    <wf wid="w18" sent="4" para="2" offset="91" length="4">raam</wf>
+    <wf wid="w19" sent="4" para="2" offset="96" length="4">stuk</wf>
+    <wf wid="w20" sent="4" para="2" offset="100" length="1">.</wf>
+    <wf wid="w21" sent="5" para="2" offset="102" length="12">Douchedeuren</wf>
+    <wf wid="w22" sent="5" para="2" offset="115" length="7">sluiten</wf>
+    <wf wid="w23" sent="5" para="2" offset="123" length="6">slecht</wf>
+    <wf wid="w24" sent="5" para="2" offset="129" length="1">.</wf>
+    <wf wid="w25" sent="6" para="3" offset="132" length="7">Handvat</wf>
+    <wf wid="w26" sent="6" para="3" offset="140" length="6">ligbad</wf>
+    <wf wid="w27" sent="6" para="3" offset="147" length="3">zat</wf>
+    <wf wid="w28" sent="6" para="3" offset="151" length="3">los</wf>
+    <wf wid="w29" sent="6" para="3" offset="155" length="2">in</wf>
+    <wf wid="w30" sent="6" para="3" offset="158" length="2">de</wf>
+    <wf wid="w31" sent="6" para="3" offset="161" length="4">muur</wf>
+    <wf wid="w32" sent="6" para="3" offset="165" length="1">.</wf>
+    <wf wid="w33" sent="7" para="3" offset="167" length="6">Weinig</wf>
+    <wf wid="w34" sent="7" para="3" offset="174" length="10">ventilatie</wf>
+    <wf wid="w35" sent="7" para="3" offset="185" length="2">in</wf>
+    <wf wid="w36" sent="7" para="3" offset="188" length="2">de</wf>
+    <wf wid="w37" sent="7" para="3" offset="191" length="6">douche</wf>
+    <wf wid="w38" sent="7" para="3" offset="197" length="1">.</wf>
+    <wf wid="w39" sent="8" para="3" offset="199" length="4">Gele</wf>
+    <wf wid="w40" sent="8" para="3" offset="204" length="4">vlek</wf>
+    <wf wid="w41" sent="8" para="3" offset="209" length="2">in</wf>
+    <wf wid="w42" sent="8" para="3" offset="212" length="3">het</wf>
+    <wf wid="w43" sent="8" para="3" offset="216" length="10">onderlaken</wf>
+    <wf wid="w44" sent="8" para="3" offset="226" length="1">.</wf>
+    <wf wid="w45" sent="9" para="4" offset="229" length="2">De</wf>
+    <wf wid="w46" sent="9" para="4" offset="232" length="6">eerste</wf>
+    <wf wid="w47" sent="9" para="4" offset="239" length="5">avond</wf>
+    <wf wid="w48" sent="9" para="4" offset="245" length="3">aan</wf>
+    <wf wid="w49" sent="9" para="4" offset="249" length="2">de</wf>
+    <wf wid="w50" sent="9" para="4" offset="252" length="14">bedrijfsleider</wf>
+    <wf wid="w51" sent="9" para="4" offset="267" length="8">gevraagd</wf>
+    <wf wid="w52" sent="9" para="4" offset="276" length="2">of</wf>
+    <wf wid="w53" sent="9" para="4" offset="279" length="3">wij</wf>
+    <wf wid="w54" sent="9" para="4" offset="283" length="3">ook</wf>
+    <wf wid="w55" sent="9" para="4" offset="287" length="5">brood</wf>
+    <wf wid="w56" sent="9" para="4" offset="293" length="6">konden</wf>
+    <wf wid="w57" sent="9" para="4" offset="300" length="4">eten</wf>
+    <wf wid="w58" sent="9" para="4" offset="305" length="5">omdat</wf>
+    <wf wid="w59" sent="9" para="4" offset="311" length="3">wij</wf>
+    <wf wid="w60" sent="9" para="4" offset="315" length="8">onderweg</wf>
+    <wf wid="w61" sent="9" para="4" offset="324" length="5">reeds</wf>
+    <wf wid="w62" sent="9" para="4" offset="330" length="4">warm</wf>
+    <wf wid="w63" sent="9" para="4" offset="335" length="7">gegeten</wf>
+    <wf wid="w64" sent="9" para="4" offset="343" length="7">hadden.</wf>
+    <wf wid="w65" sent="9" para="4" offset="351" length="8">antwoord</wf>
+    <wf wid="w66" sent="9" para="4" offset="359" length="1">:</wf>
+    <wf wid="w67" sent="9" para="4" offset="361" length="4">Geen</wf>
+    <wf wid="w68" sent="9" para="4" offset="366" length="5">enkel</wf>
+    <wf wid="w69" sent="9" para="4" offset="372" length="8">probleem</wf>
+    <wf wid="w70" sent="9" para="4" offset="380" length="1">.</wf>
+    <wf wid="w71" sent="10" para="5" offset="383" length="4">Maar</wf>
+    <wf wid="w72" sent="10" para="5" offset="388" length="4">toen</wf>
+    <wf wid="w73" sent="10" para="5" offset="393" length="3">wij</wf>
+    <wf wid="w74" sent="10" para="5" offset="397" length="2">in</wf>
+    <wf wid="w75" sent="10" para="5" offset="400" length="3">het</wf>
+    <wf wid="w76" sent="10" para="5" offset="404" length="10">restaurant</wf>
+    <wf wid="w77" sent="10" para="5" offset="415" length="6">kwamen</wf>
+    <wf wid="w78" sent="10" para="5" offset="422" length="6">werden</wf>
+    <wf wid="w79" sent="10" para="5" offset="429" length="3">wij</wf>
+    <wf wid="w80" sent="10" para="5" offset="433" length="11">weggestuurd</wf>
+    <wf wid="w81" sent="10" para="5" offset="445" length="3">met</wf>
+    <wf wid="w82" sent="10" para="5" offset="449" length="2">de</wf>
+    <wf wid="w83" sent="10" para="5" offset="452" length="10">mededeling</wf>
+    <wf wid="w84" sent="10" para="5" offset="462" length="1">:</wf>
+    <wf wid="w85" sent="10" para="5" offset="464" length="2">Er</wf>
+    <wf wid="w86" sent="10" para="5" offset="467" length="2">is</wf>
+    <wf wid="w87" sent="10" para="5" offset="470" length="4">geen</wf>
+    <wf wid="w88" sent="10" para="5" offset="475" length="5">brood</wf>
+    <wf wid="w89" sent="10" para="5" offset="480" length="1">.</wf>
+    <wf wid="w90" sent="11" para="6" offset="483" length="3">Dus</wf>
+    <wf wid="w91" sent="11" para="6" offset="487" length="4">snel</wf>
+    <wf wid="w92" sent="11" para="6" offset="492" length="2">in</wf>
+    <wf wid="w93" sent="11" para="6" offset="495" length="2">de</wf>
+    <wf wid="w94" sent="11" para="6" offset="498" length="4">auto</wf>
+    <wf wid="w95" sent="11" para="6" offset="503" length="2">de</wf>
+    <wf wid="w96" sent="11" para="6" offset="506" length="4">stad</wf>
+    <wf wid="w97" sent="11" para="6" offset="511" length="2">in</wf>
+    <wf wid="w98" sent="11" para="6" offset="514" length="2">om</wf>
+    <wf wid="w99" sent="11" para="6" offset="517" length="2">te</wf>
+    <wf wid="w100" sent="11" para="6" offset="520" length="4">eten</wf>
+    <wf wid="w101" sent="11" para="6" offset="524" length="1">.</wf>
+    <wf wid="w102" sent="12" para="7" offset="527" length="2">De</wf>
+    <wf wid="w103" sent="12" para="7" offset="530" length="14">bedrijfsleider</wf>
+    <wf wid="w104" sent="12" para="7" offset="545" length="3">zou</wf>
+    <wf wid="w105" sent="12" para="7" offset="549" length="2">er</wf>
+    <wf wid="w106" sent="12" para="7" offset="552" length="2">op</wf>
+    <wf wid="w107" sent="12" para="7" offset="555" length="10">terugkomen</wf>
+    <wf wid="w108" sent="12" para="7" offset="566" length="3">bij</wf>
+    <wf wid="w109" sent="12" para="7" offset="570" length="3">het</wf>
+    <wf wid="w110" sent="12" para="7" offset="574" length="9">avondeten</wf>
+    <wf wid="w111" sent="12" para="7" offset="584" length="2">de</wf>
+    <wf wid="w112" sent="12" para="7" offset="587" length="8">volgende</wf>
+    <wf wid="w113" sent="12" para="7" offset="596" length="3">dag</wf>
+    <wf wid="w114" sent="12" para="7" offset="599" length="1">.</wf>
+    <wf wid="w115" sent="13" para="8" offset="602" length="4">Maar</wf>
+    <wf wid="w116" sent="13" para="8" offset="607" length="3">hij</wf>
+    <wf wid="w117" sent="13" para="8" offset="611" length="4">liep</wf>
+    <wf wid="w118" sent="13" para="8" offset="616" length="3">ons</wf>
+    <wf wid="w119" sent="13" para="8" offset="620" length="6">gewoon</wf>
+    <wf wid="w120" sent="13" para="8" offset="627" length="7">voorbij</wf>
+    <wf wid="w121" sent="13" para="8" offset="634" length="1">.</wf>
+    <wf wid="w122" sent="14" para="9" offset="637" length="4">Geen</wf>
+    <wf wid="w123" sent="14" para="9" offset="642" length="8">prettige</wf>
+    <wf wid="w124" sent="14" para="9" offset="651" length="4">reis</wf>
+    <wf wid="w125" sent="14" para="9" offset="656" length="10">toegewenst</wf>
+    <wf wid="w126" sent="14" para="9" offset="667" length="3">bij</wf>
+    <wf wid="w127" sent="14" para="9" offset="671" length="7">vertrek</wf>
+    <wf wid="w128" sent="14" para="9" offset="678" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Geen-->
+    <term tid="t1" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Van-->
+    <term tid="t2" type="open" lemma="Van" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--der-->
+    <term tid="t3" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Valk-->
+    <term tid="t4" type="open" lemma="valk" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--waardig-->
+    <term tid="t5" type="open" lemma="waardig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Veel-->
+    <term tid="t6" type="open" lemma="veel" pos="A" morphofeat="adv">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--vlekken-->
+    <term tid="t7" type="open" lemma="vlekken" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t8" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t9" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--vloerbedekking-->
+    <term tid="t10" type="open" lemma="vloerbedekking" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t11" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--Scheur-->
+    <term tid="t12" type="open" lemma="scheur" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t13" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t14" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--vitrage-->
+    <term tid="t15" type="open" lemma="vitrage" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t16" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Rubbers-->
+    <term tid="t17" type="open" lemma="rubber" pos="N" morphofeat="nounpl">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--raam-->
+    <term tid="t18" type="open" lemma="raam" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--stuk-->
+    <term tid="t19" type="open" lemma="stuk" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t20" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Douchedeuren-->
+    <term tid="t21" type="open" lemma="Douchedeuren" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--sluiten-->
+    <term tid="t22" type="open" lemma="sluiten" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--slecht-->
+    <term tid="t23" type="open" lemma="slecht" pos="G" morphofeat="adj">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t24" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--Handvat-->
+    <term tid="t25" type="open" lemma="handvat" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--ligbad-->
+    <term tid="t26" type="open" lemma="ligbad" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--zat-->
+    <term tid="t27" type="open" lemma="zat" pos="G" morphofeat="adj">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--los-->
+    <term tid="t28" type="open" lemma="lossen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t29" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t30" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--muur-->
+    <term tid="t31" type="open" lemma="muur" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t32" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--Weinig-->
+    <term tid="t33" type="open" lemma="weinig" pos="O" morphofeat="num__card">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--ventilatie-->
+    <term tid="t34" type="open" lemma="ventilatie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t35" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t36" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--douche-->
+    <term tid="t37" type="open" lemma="douche" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t38" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--Gele-->
+    <term tid="t39" type="open" lemma="geel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--vlek-->
+    <term tid="t40" type="open" lemma="vlek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t41" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t42" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--onderlaken-->
+    <term tid="t43" type="open" lemma="onderlaken" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t44" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t45" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--eerste-->
+    <term tid="t46" type="open" lemma="een" pos="O" morphofeat="num__ord">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--avond-->
+    <term tid="t47" type="open" lemma="avond" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t48" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t49" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--bedrijfsleider-->
+    <term tid="t50" type="open" lemma="bedrijfsleider" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--gevraagd-->
+    <term tid="t51" type="open" lemma="vragen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+    <!--of-->
+    <term tid="t52" type="close" lemma="of" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w52" />
+      </span>
+    </term>
+    <!--wij-->
+    <term tid="t53" type="close" lemma="wij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w53" />
+      </span>
+    </term>
+    <!--ook-->
+    <term tid="t54" type="open" lemma="ook" pos="A" morphofeat="adv">
+      <span>
+        <target id="w54" />
+      </span>
+    </term>
+    <!--brood-->
+    <term tid="t55" type="open" lemma="brood" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w55" />
+      </span>
+    </term>
+    <!--konden-->
+    <term tid="t56" type="open" lemma="kunnen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w56" />
+      </span>
+    </term>
+    <!--eten-->
+    <term tid="t57" type="open" lemma="eten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w57" />
+      </span>
+    </term>
+    <!--omdat-->
+    <term tid="t58" type="close" lemma="omdat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w58" />
+      </span>
+    </term>
+    <!--wij-->
+    <term tid="t59" type="close" lemma="wij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w59" />
+      </span>
+    </term>
+    <!--onderweg-->
+    <term tid="t60" type="open" lemma="onderweg" pos="A" morphofeat="adv">
+      <span>
+        <target id="w60" />
+      </span>
+    </term>
+    <!--reeds-->
+    <term tid="t61" type="open" lemma="reeds" pos="A" morphofeat="adv">
+      <span>
+        <target id="w61" />
+      </span>
+    </term>
+    <!--warm-->
+    <term tid="t62" type="open" lemma="warm" pos="G" morphofeat="adj">
+      <span>
+        <target id="w62" />
+      </span>
+    </term>
+    <!--gegeten-->
+    <term tid="t63" type="open" lemma="eten" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w63" />
+      </span>
+    </term>
+    <!--hadden.-->
+    <term tid="t64" type="open" lemma="hebben" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w64" />
+      </span>
+    </term>
+    <!--hadden.-->
+    <term tid="t65" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w64" />
+      </span>
+    </term>
+    <!--antwoord-->
+    <term tid="t66" type="open" lemma="antwoord" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w65" />
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t67" type="open" lemma=":" pos="O" morphofeat="$.">
+      <span>
+        <target id="w66" />
+      </span>
+    </term>
+    <!--Geen-->
+    <term tid="t68" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w67" />
+      </span>
+    </term>
+    <!--enkel-->
+    <term tid="t69" type="open" lemma="enkel" pos="G" morphofeat="adj">
+      <span>
+        <target id="w68" />
+      </span>
+    </term>
+    <!--probleem-->
+    <term tid="t70" type="open" lemma="probleem" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w69" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t71" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w70" />
+      </span>
+    </term>
+    <!--Maar-->
+    <term tid="t72" type="open" lemma="maar" pos="A" morphofeat="adv">
+      <span>
+        <target id="w71" />
+      </span>
+    </term>
+    <!--toen-->
+    <term tid="t73" type="close" lemma="toen" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w72" />
+      </span>
+    </term>
+    <!--wij-->
+    <term tid="t74" type="close" lemma="wij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w73" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t75" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w74" />
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t76" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w75" />
+      </span>
+    </term>
+    <!--restaurant-->
+    <term tid="t77" type="open" lemma="restaurant" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w76" />
+      </span>
+    </term>
+    <!--kwamen-->
+    <term tid="t78" type="open" lemma="komen" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w77" />
+      </span>
+    </term>
+    <!--werden-->
+    <term tid="t79" type="open" lemma="worden" pos="V" morphofeat="verbpastpl">
+      <span>
+        <target id="w78" />
+      </span>
+    </term>
+    <!--wij-->
+    <term tid="t80" type="close" lemma="wij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w79" />
+      </span>
+    </term>
+    <!--weggestuurd-->
+    <term tid="t81" type="open" lemma="wegsturen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w80" />
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t82" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w81" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t83" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w82" />
+      </span>
+    </term>
+    <!--mededeling-->
+    <term tid="t84" type="open" lemma="mededeling" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w83" />
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t85" type="open" lemma=":" pos="O" morphofeat="$.">
+      <span>
+        <target id="w84" />
+      </span>
+    </term>
+    <!--Er-->
+    <term tid="t86" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w85" />
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t87" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w86" />
+      </span>
+    </term>
+    <!--geen-->
+    <term tid="t88" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w87" />
+      </span>
+    </term>
+    <!--brood-->
+    <term tid="t89" type="open" lemma="brood" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w88" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t90" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w89" />
+      </span>
+    </term>
+    <!--Dus-->
+    <term tid="t91" type="open" lemma="dus" pos="A" morphofeat="adv">
+      <span>
+        <target id="w90" />
+      </span>
+    </term>
+    <!--snel-->
+    <term tid="t92" type="open" lemma="snellen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w91" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t93" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w92" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t94" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w93" />
+      </span>
+    </term>
+    <!--auto-->
+    <term tid="t95" type="open" lemma="auto" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w94" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t96" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w95" />
+      </span>
+    </term>
+    <!--stad-->
+    <term tid="t97" type="open" lemma="stad" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w96" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t98" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w97" />
+      </span>
+    </term>
+    <!--om-->
+    <term tid="t99" type="close" lemma="om" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w98" />
+      </span>
+    </term>
+    <!--te-->
+    <term tid="t100" type="open" lemma="te" pos="O" morphofeat="partte">
+      <span>
+        <target id="w99" />
+      </span>
+    </term>
+    <!--eten-->
+    <term tid="t101" type="open" lemma="eten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w100" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t102" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w101" />
+      </span>
+    </term>
+    <!--De-->
+    <term tid="t103" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w102" />
+      </span>
+    </term>
+    <!--bedrijfsleider-->
+    <term tid="t104" type="open" lemma="bedrijfsleider" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w103" />
+      </span>
+    </term>
+    <!--zou-->
+    <term tid="t105" type="open" lemma="zullen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w104" />
+      </span>
+    </term>
+    <!--er-->
+    <term tid="t106" type="close" lemma="er" pos="Q" morphofeat="pronadv">
+      <span>
+        <target id="w105" />
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t107" type="open" lemma="op" pos="A" morphofeat="adv">
+      <span>
+        <target id="w106" />
+      </span>
+    </term>
+    <!--terugkomen-->
+    <term tid="t108" type="open" lemma="terugkomen" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w107" />
+      </span>
+    </term>
+    <!--bij-->
+    <term tid="t109" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w108" />
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t110" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w109" />
+      </span>
+    </term>
+    <!--avondeten-->
+    <term tid="t111" type="open" lemma="avondeten" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w110" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t112" type="close" lemma="de" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w111" />
+      </span>
+    </term>
+    <!--volgende-->
+    <term tid="t113" type="open" lemma="volgend" pos="G" morphofeat="adj">
+      <span>
+        <target id="w112" />
+      </span>
+    </term>
+    <!--dag-->
+    <term tid="t114" type="open" lemma="dag" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w113" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t115" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w114" />
+      </span>
+    </term>
+    <!--Maar-->
+    <term tid="t116" type="close" lemma="maar" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w115" />
+      </span>
+    </term>
+    <!--hij-->
+    <term tid="t117" type="close" lemma="hij" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w116" />
+      </span>
+    </term>
+    <!--liep-->
+    <term tid="t118" type="open" lemma="lopen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w117" />
+      </span>
+    </term>
+    <!--ons-->
+    <term tid="t119" type="close" lemma="ons" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w118" />
+      </span>
+    </term>
+    <!--gewoon-->
+    <term tid="t120" type="open" lemma="gewoon" pos="G" morphofeat="adj">
+      <span>
+        <target id="w119" />
+      </span>
+    </term>
+    <!--voorbij-->
+    <term tid="t121" type="open" lemma="voorbij" pos="A" morphofeat="adv">
+      <span>
+        <target id="w120" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t122" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w121" />
+      </span>
+    </term>
+    <!--Geen-->
+    <term tid="t123" type="close" lemma="geen" pos="D" morphofeat="det__indef">
+      <span>
+        <target id="w122" />
+      </span>
+    </term>
+    <!--prettige-->
+    <term tid="t124" type="open" lemma="prettig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w123" />
+      </span>
+    </term>
+    <!--reis-->
+    <term tid="t125" type="open" lemma="reis" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w124" />
+      </span>
+    </term>
+    <!--toegewenst-->
+    <term tid="t126" type="open" lemma="toewensen" pos="V" morphofeat="verbpapa">
+      <span>
+        <target id="w125" />
+      </span>
+    </term>
+    <!--bij-->
+    <term tid="t127" type="close" lemma="bij" pos="P" morphofeat="prep">
+      <span>
+        <target id="w126" />
+      </span>
+    </term>
+    <!--vertrek-->
+    <term tid="t128" type="open" lemma="vertrek" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w127" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t129" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w128" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="Person">
+      <references>
+        <!--De bedrijfsleider-->
+        <span>
+          <target id="t103" />
+          <target id="t104" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Person">
+      <references>
+        <!--de bedrijfsleider-->
+        <span>
+          <target id="t49" />
+          <target id="t50" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--wij-->
+      <span>
+        <target id="t74" />
+      </span>
+      <!--wij-->
+      <span>
+        <target id="t53" />
+      </span>
+      <!--wij-->
+      <span>
+        <target id="t59" />
+      </span>
+      <!--wij-->
+      <span>
+        <target id="t80" />
+      </span>
+      <!--ons-->
+      <span>
+        <target id="t119" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--De bedrijfsleider-->
+      <span>
+        <target id="t103" />
+        <target id="t104" />
+      </span>
+      <!--de bedrijfsleider-->
+      <span>
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+      <!--hij-->
+      <span>
+        <target id="t117" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

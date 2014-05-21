@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-03-02T19:04:35Z" version="0.0.1" />
+      <lp name="opener-tokenizer-it" timestamp="2014-03-02T19:04:35Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-03-02-T07:04:35Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-it" timestamp="2014-03-02T20:04:35+0100" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-it" timestamp="2014-03-02 20:04:35" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="ixa-pipe-coref-it" timestamp="2014-03-02 20:04:36" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="8">Paradiso</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="1">,</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="7">perduto</wf>
+    <wf wid="w4" sent="1" para="1" offset="17" length="1">!</wf>
+    <wf wid="w5" sent="2" para="2" offset="19" length="7">Albergo</wf>
+    <wf wid="w6" sent="2" para="2" offset="27" length="10">fatiscente</wf>
+    <wf wid="w7" sent="2" para="2" offset="37" length="1">,</wf>
+    <wf wid="w8" sent="2" para="2" offset="39" length="3">con</wf>
+    <wf wid="w9" sent="2" para="2" offset="43" length="6">camere</wf>
+    <wf wid="w10" sent="2" para="2" offset="50" length="3">che</wf>
+    <wf wid="w11" sent="2" para="2" offset="54" length="11">necessitano</wf>
+    <wf wid="w12" sent="2" para="2" offset="66" length="2">di</wf>
+    <wf wid="w13" sent="2" para="2" offset="69" length="3">una</wf>
+    <wf wid="w14" sent="2" para="2" offset="73" length="7">urgente</wf>
+    <wf wid="w15" sent="2" para="2" offset="81" length="16">ristrutturazione</wf>
+    <wf wid="w16" sent="2" para="2" offset="97" length="1">.</wf>
+    <wf wid="w17" sent="3" para="3" offset="100" length="7">Pulizia</wf>
+    <wf wid="w18" sent="3" para="3" offset="108" length="13">insufficiente</wf>
+    <wf wid="w19" sent="3" para="3" offset="121" length="1">,</wf>
+    <wf wid="w20" sent="3" para="3" offset="123" length="6">specie</wf>
+    <wf wid="w21" sent="3" para="3" offset="130" length="5">degli</wf>
+    <wf wid="w22" sent="3" para="3" offset="136" length="5">spazi</wf>
+    <wf wid="w23" sent="3" para="3" offset="142" length="6">comuni</wf>
+    <wf wid="w24" sent="3" para="3" offset="149" length="1">(</wf>
+    <wf wid="w25" sent="3" para="3" offset="150" length="4">hall</wf>
+    <wf wid="w26" sent="3" para="3" offset="154" length="1">,</wf>
+    <wf wid="w27" sent="3" para="3" offset="156" length="8">giardino</wf>
+    <wf wid="w28" sent="3" para="3" offset="164" length="1">,</wf>
+    <wf wid="w29" sent="3" para="3" offset="166" length="6">cucine</wf>
+    <wf wid="w30" sent="3" para="3" offset="172" length="1">)</wf>
+    <wf wid="w31" sent="3" para="3" offset="173" length="1">.</wf>
+    <wf wid="w32" sent="4" para="4" offset="176" length="4">Cibo</wf>
+    <wf wid="w33" sent="4" para="4" offset="181" length="13">assolutamente</wf>
+    <wf wid="w34" sent="4" para="4" offset="195" length="7">pessimo</wf>
+    <wf wid="w35" sent="4" para="4" offset="202" length="1">,</wf>
+    <wf wid="w36" sent="4" para="4" offset="204" length="3">sia</wf>
+    <wf wid="w37" sent="4" para="4" offset="208" length="3">per</wf>
+    <wf wid="w38" sent="4" para="4" offset="212" length="8">quantità</wf>
+    <wf wid="w39" sent="4" para="4" offset="221" length="3">che</wf>
+    <wf wid="w40" sent="4" para="4" offset="225" length="3">per</wf>
+    <wf wid="w41" sent="4" para="4" offset="229" length="7">qualità</wf>
+    <wf wid="w42" sent="4" para="4" offset="237" length="3">con</wf>
+    <wf wid="w43" sent="4" para="4" offset="241" length="12">ridottissimo</wf>
+    <wf wid="w44" sent="4" para="4" offset="254" length="12">assortimento</wf>
+    <wf wid="w45" sent="4" para="4" offset="266" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Paradiso-->
+    <term tid="t1" type="" lemma="paradiso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t2" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--perduto-->
+    <term tid="t3" type="" lemma="perduto" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t4" type="" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Albergo-->
+    <term tid="t5" type="" lemma="albergo" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--fatiscente-->
+    <term tid="t6" type="" lemma="fatiscente" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t7" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t8" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--camere-->
+    <term tid="t9" type="" lemma="camera" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t10" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--necessitano-->
+    <term tid="t11" type="" lemma="necessitare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t12" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t13" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--urgente-->
+    <term tid="t14" type="" lemma="urgere" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--ristrutturazione-->
+    <term tid="t15" type="" lemma="ristrutturazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t16" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--Pulizia-->
+    <term tid="t17" type="" lemma="pulizia" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--insufficiente-->
+    <term tid="t18" type="" lemma="insufficiente" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t19" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--specie-->
+    <term tid="t20" type="" lemma="specie" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--degli-->
+    <term tid="t21" type="" lemma="degli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--spazi-->
+    <term tid="t22" type="" lemma="spazio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--comuni-->
+    <term tid="t23" type="" lemma="comune" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t24" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--hall-->
+    <term tid="t25" type="" lemma="hall" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t26" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--giardino-->
+    <term tid="t27" type="" lemma="giardino" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t28" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--cucine-->
+    <term tid="t29" type="" lemma="cucina" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t30" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t31" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--Cibo-->
+    <term tid="t32" type="" lemma="cibo" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--assolutamente-->
+    <term tid="t33" type="" lemma="assolutamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--pessimo-->
+    <term tid="t34" type="" lemma="pessimo" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t35" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t36" type="" lemma="sia" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t37" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--quantità-->
+    <term tid="t38" type="" lemma="quantità" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t39" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t40" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--qualità-->
+    <term tid="t41" type="" lemma="qualita'" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t42" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--ridottissimo-->
+    <term tid="t43" type="" lemma="ridottissimo" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--assortimento-->
+    <term tid="t44" type="" lemma="assortimento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t45" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+  </terms>
+  <coreferences>
+    <coref coid="c1">
+      <!--hall , giardino , cucine-->
+      <span>
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+      </span>
+      <!--spazi comuni-->
+      <span>
+        <target id="t22" />
+        <target id="t23" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

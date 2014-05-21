@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-03-02T19:01:45Z" version="0.0.1" />
+      <lp name="opener-tokenizer-it" timestamp="2014-03-02T19:01:45Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-03-02-T07:01:45Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-it" timestamp="2014-03-02T20:01:45+0100" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-it" timestamp="2014-03-02 20:01:45" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="ixa-pipe-coref-it" timestamp="2014-03-02 20:01:45" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Comodo</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="3">per</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="9">aeroporto</wf>
+    <wf wid="w4" sent="2" para="2" offset="21" length="7">Albergo</wf>
+    <wf wid="w5" sent="2" para="2" offset="29" length="5">senza</wf>
+    <wf wid="w6" sent="2" para="2" offset="35" length="6">grosse</wf>
+    <wf wid="w7" sent="2" para="2" offset="42" length="7">pretese</wf>
+    <wf wid="w8" sent="2" para="2" offset="49" length="1">.</wf>
+    <wf wid="w9" sent="3" para="2" offset="51" length="5">Tutti</wf>
+    <wf wid="w10" sent="3" para="2" offset="57" length="1">i</wf>
+    <wf wid="w11" sent="3" para="2" offset="59" length="7">servizi</wf>
+    <wf wid="w12" sent="3" para="2" offset="67" length="4">sono</wf>
+    <wf wid="w13" sent="3" para="2" offset="72" length="6">minimi</wf>
+    <wf wid="w14" sent="3" para="2" offset="79" length="1">e</wf>
+    <wf wid="w15" sent="3" para="2" offset="81" length="2">lo</wf>
+    <wf wid="w16" sent="3" para="2" offset="84" length="7">albergo</wf>
+    <wf wid="w17" sent="3" para="2" offset="92" length="1">è</wf>
+    <wf wid="w18" sent="3" para="2" offset="95" length="2">da</wf>
+    <wf wid="w19" sent="3" para="2" offset="98" length="9">scegliere</wf>
+    <wf wid="w20" sent="3" para="2" offset="108" length="4">solo</wf>
+    <wf wid="w21" sent="3" para="2" offset="113" length="3">per</wf>
+    <wf wid="w22" sent="3" para="2" offset="117" length="2">la</wf>
+    <wf wid="w23" sent="3" para="2" offset="120" length="6">grande</wf>
+    <wf wid="w24" sent="3" para="2" offset="127" length="9">vicinanza</wf>
+    <wf wid="w25" sent="3" para="2" offset="137" length="4">allo</wf>
+    <wf wid="w26" sent="3" para="2" offset="142" length="9">aeroporto</wf>
+    <wf wid="w27" sent="3" para="2" offset="151" length="1">.</wf>
+    <wf wid="w28" sent="4" para="2" offset="153" length="3">Non</wf>
+    <wf wid="w29" sent="4" para="2" offset="157" length="2">ci</wf>
+    <wf wid="w30" sent="4" para="2" offset="160" length="4">sono</wf>
+    <wf wid="w31" sent="4" para="2" offset="165" length="10">ristoranti</wf>
+    <wf wid="w32" sent="4" para="2" offset="176" length="5">nelle</wf>
+    <wf wid="w33" sent="4" para="2" offset="182" length="9">vicinanze</wf>
+    <wf wid="w34" sent="4" para="2" offset="191" length="1">.</wf>
+    <wf wid="w35" sent="5" para="2" offset="193" length="2">Ci</wf>
+    <wf wid="w36" sent="5" para="2" offset="196" length="1">è</wf>
+    <wf wid="w37" sent="5" para="2" offset="198" length="4">solo</wf>
+    <wf wid="w38" sent="5" para="2" offset="203" length="2">un</wf>
+    <wf wid="w39" sent="5" para="2" offset="206" length="11">supermarket</wf>
+    <wf wid="w40" sent="5" para="2" offset="218" length="3">con</wf>
+    <wf wid="w41" sent="5" para="2" offset="222" length="6">panini</wf>
+    <wf wid="w42" sent="5" para="2" offset="229" length="6">pronti</wf>
+  </text>
+  <terms>
+    <!--Comodo-->
+    <term tid="t1" type="" lemma="comodare" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t2" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--aeroporto-->
+    <term tid="t3" type="" lemma="aeroporto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--Albergo-->
+    <term tid="t4" type="" lemma="albergo" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--senza-->
+    <term tid="t5" type="" lemma="senza" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--grosse-->
+    <term tid="t6" type="" lemma="grosso" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--pretese-->
+    <term tid="t7" type="" lemma="pretesa" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t8" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Tutti-->
+    <term tid="t9" type="" lemma="tutto" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t10" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--servizi-->
+    <term tid="t11" type="" lemma="servizio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t12" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--minimi-->
+    <term tid="t13" type="" lemma="minimo" pos="G" morphofeat="ADJ~MP">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t14" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t15" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--albergo-->
+    <term tid="t16" type="" lemma="albergo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t17" type="" lemma="è" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t18" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--scegliere-->
+    <term tid="t19" type="" lemma="scegliere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--solo-->
+    <term tid="t20" type="" lemma="solo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t21" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t22" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--grande-->
+    <term tid="t23" type="" lemma="grande" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--vicinanza-->
+    <term tid="t24" type="" lemma="vicinanza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--allo-->
+    <term tid="t25" type="" lemma="allo" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--aeroporto-->
+    <term tid="t26" type="" lemma="aeroporto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t27" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--Non-->
+    <term tid="t28" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--ci-->
+    <term tid="t29" type="" lemma="ci" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t30" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--ristoranti-->
+    <term tid="t31" type="" lemma="ristorare" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--nelle-->
+    <term tid="t32" type="" lemma="nelle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--vicinanze-->
+    <term tid="t33" type="" lemma="vicinanza" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t34" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--Ci-->
+    <term tid="t35" type="" lemma="ci" pos="Q" morphofeat="PRON~DEN3">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t36" type="" lemma="è" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--solo-->
+    <term tid="t37" type="" lemma="solo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t38" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--supermarket-->
+    <term tid="t39" type="" lemma="supermarket" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t40" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--panini-->
+    <term tid="t41" type="" lemma="panino" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--pronti-->
+    <term tid="t42" type="" lemma="pronto" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+  </terms>
+  <coreferences>
+    <coref coid="c1">
+      <!--albergo-->
+      <span>
+        <target id="t16" />
+      </span>
+      <!--Albergo-->
+      <span>
+        <target id="t4" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--aeroporto-->
+      <span>
+        <target id="t26" />
+      </span>
+      <!--aeroporto-->
+      <span>
+        <target id="t3" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

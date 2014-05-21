@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-03-02T19:01:42Z" version="0.0.1" />
+      <lp name="opener-tokenizer-it" timestamp="2014-03-02T19:01:42Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-03-02-T07:01:42Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-it" timestamp="2014-03-02T20:01:42+0100" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-it" timestamp="2014-03-02 20:01:42" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="ixa-pipe-coref-it" timestamp="2014-03-02 20:01:43" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">Al</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="7">massimo</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="3">due</wf>
+    <wf wid="w4" sent="1" para="1" offset="15" length="6">stelle</wf>
+    <wf wid="w5" sent="2" para="2" offset="22" length="10">Bruciature</wf>
+    <wf wid="w6" sent="2" para="2" offset="33" length="2">di</wf>
+    <wf wid="w7" sent="2" para="2" offset="36" length="9">sigarette</wf>
+    <wf wid="w8" sent="2" para="2" offset="46" length="5">sulla</wf>
+    <wf wid="w9" sent="2" para="2" offset="52" length="8">moquette</wf>
+    <wf wid="w10" sent="2" para="2" offset="61" length="7">vecchia</wf>
+    <wf wid="w11" sent="2" para="2" offset="69" length="1">e</wf>
+    <wf wid="w12" sent="2" para="2" offset="71" length="12">maleodorante</wf>
+    <wf wid="w13" sent="2" para="2" offset="83" length="1">.</wf>
+    <wf wid="w14" sent="3" para="2" offset="85" length="2">L'</wf>
+    <wf wid="w15" sent="3" para="2" offset="87" length="5">unica</wf>
+    <wf wid="w16" sent="3" para="2" offset="93" length="4">cosa</wf>
+    <wf wid="w17" sent="3" para="2" offset="98" length="5">buona</wf>
+    <wf wid="w18" sent="3" para="2" offset="104" length="1">è</wf>
+    <wf wid="w19" sent="3" para="2" offset="106" length="2">la</wf>
+    <wf wid="w20" sent="3" para="2" offset="109" length="8">location</wf>
+    <wf wid="w21" sent="3" para="2" offset="117" length="1">:</wf>
+    <wf wid="w22" sent="3" para="2" offset="119" length="6">vicino</wf>
+    <wf wid="w23" sent="3" para="2" offset="126" length="1">a</wf>
+    <wf wid="w24" sent="3" para="2" offset="128" length="5">Prati</wf>
+    <wf wid="w25" sent="3" para="2" offset="134" length="1">e</wf>
+    <wf wid="w26" sent="3" para="2" offset="136" length="2">al</wf>
+    <wf wid="w27" sent="3" para="2" offset="139" length="8">Colosseo</wf>
+    <wf wid="w28" sent="3" para="2" offset="147" length="1">.</wf>
+    <wf wid="w29" sent="4" para="2" offset="149" length="9">Colazione</wf>
+    <wf wid="w30" sent="4" para="2" offset="159" length="11">accettabile</wf>
+    <wf wid="w31" sent="4" para="2" offset="170" length="1">.</wf>
+    <wf wid="w32" sent="5" para="2" offset="172" length="9">Personale</wf>
+    <wf wid="w33" sent="5" para="2" offset="182" length="7">cortese</wf>
+    <wf wid="w34" sent="5" para="2" offset="189" length="1">.</wf>
+    <wf wid="w35" sent="6" para="2" offset="191" length="9">Struttura</wf>
+    <wf wid="w36" sent="6" para="2" offset="201" length="4">però</wf>
+    <wf wid="w37" sent="6" para="2" offset="206" length="13">completamente</wf>
+    <wf wid="w38" sent="6" para="2" offset="220" length="2">da</wf>
+    <wf wid="w39" sent="6" para="2" offset="223" length="9">rinnovare</wf>
+    <wf wid="w40" sent="6" para="2" offset="232" length="1">.</wf>
+    <wf wid="w41" sent="7" para="2" offset="234" length="7">Cercano</wf>
+    <wf wid="w42" sent="7" para="2" offset="242" length="2">di</wf>
+    <wf wid="w43" sent="7" para="2" offset="245" length="11">risparmiare</wf>
+    <wf wid="w44" sent="7" para="2" offset="257" length="2">su</wf>
+    <wf wid="w45" sent="7" para="2" offset="260" length="4">cose</wf>
+    <wf wid="w46" sent="7" para="2" offset="265" length="8">risibili</wf>
+    <wf wid="w47" sent="7" para="2" offset="273" length="1">:</wf>
+    <wf wid="w48" sent="7" para="2" offset="275" length="7">shampoo</wf>
+    <wf wid="w49" sent="7" para="2" offset="283" length="1">e</wf>
+    <wf wid="w50" sent="7" para="2" offset="285" length="12">bagnoschiuma</wf>
+    <wf wid="w51" sent="7" para="2" offset="298" length="2">in</wf>
+    <wf wid="w52" sent="7" para="2" offset="301" length="6">camera</wf>
+    <wf wid="w53" sent="7" para="2" offset="308" length="1">e</wf>
+    <wf wid="w54" sent="7" para="2" offset="310" length="8">ciabatte</wf>
+    <wf wid="w55" sent="7" para="2" offset="319" length="3">per</wf>
+    <wf wid="w56" sent="7" para="2" offset="323" length="2">il</wf>
+    <wf wid="w57" sent="7" para="2" offset="326" length="5">bagno</wf>
+    <wf wid="w58" sent="7" para="2" offset="331" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Al-->
+    <term tid="t1" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--massimo-->
+    <term tid="t2" type="" lemma="massimo" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--due-->
+    <term tid="t3" type="" lemma="due" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--stelle-->
+    <term tid="t4" type="" lemma="stella" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Bruciature-->
+    <term tid="t5" type="" lemma="bruciatura" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t6" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--sigarette-->
+    <term tid="t7" type="" lemma="sigaretta" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t8" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--moquette-->
+    <term tid="t9" type="" lemma="moquette" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--vecchia-->
+    <term tid="t10" type="" lemma="vecchio" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t11" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--maleodorante-->
+    <term tid="t12" type="" lemma="maleodorante" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t13" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--L'-->
+    <term tid="t14" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--unica-->
+    <term tid="t15" type="" lemma="unico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--cosa-->
+    <term tid="t16" type="" lemma="cosa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--buona-->
+    <term tid="t17" type="" lemma="buono" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t18" type="" lemma="essere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t19" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--location-->
+    <term tid="t20" type="" lemma="location" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t21" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--vicino-->
+    <term tid="t22" type="" lemma="vicino" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t23" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--Prati-->
+    <term tid="t24" type="" lemma="prato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t25" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t26" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--Colosseo-->
+    <term tid="t27" type="" lemma="colosseo" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t28" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--Colazione-->
+    <term tid="t29" type="" lemma="colazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--accettabile-->
+    <term tid="t30" type="" lemma="accettabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t31" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--Personale-->
+    <term tid="t32" type="" lemma="personale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--cortese-->
+    <term tid="t33" type="" lemma="cortese" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t34" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--Struttura-->
+    <term tid="t35" type="" lemma="struttura" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--però-->
+    <term tid="t36" type="" lemma="però" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--completamente-->
+    <term tid="t37" type="" lemma="completamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t38" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--rinnovare-->
+    <term tid="t39" type="" lemma="rinnovare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t40" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--Cercano-->
+    <term tid="t41" type="" lemma="cercare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t42" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--risparmiare-->
+    <term tid="t43" type="" lemma="risparmiare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--su-->
+    <term tid="t44" type="" lemma="su" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--cose-->
+    <term tid="t45" type="" lemma="cosa" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--risibili-->
+    <term tid="t46" type="" lemma="risibile" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t47" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--shampoo-->
+    <term tid="t48" type="" lemma="shampoo" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t49" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--bagnoschiuma-->
+    <term tid="t50" type="" lemma="bagnoschiuma" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t51" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+    <!--camera-->
+    <term tid="t52" type="" lemma="camera" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w52" />
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t53" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w53" />
+      </span>
+    </term>
+    <!--ciabatte-->
+    <term tid="t54" type="" lemma="ciabatta" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w54" />
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t55" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w55" />
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t56" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w56" />
+      </span>
+    </term>
+    <!--bagno-->
+    <term tid="t57" type="" lemma="bagno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w57" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t58" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w58" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--Prati-->
+        <span>
+          <target id="t24" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--Colosseo-->
+        <span>
+          <target id="t27" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+</KAF>

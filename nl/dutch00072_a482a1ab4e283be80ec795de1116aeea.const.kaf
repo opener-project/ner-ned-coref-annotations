@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="nl" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-nl" timestamp="2014-02-28T11:56:39Z" version="0.0.1" />
+      <lp name="opener-tokenizer-nl" timestamp="2014-02-28T11:56:39Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-nl" timestamp="2014-03-02T16:58:36+0100" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="ixa-pipe-coref-nl" timestamp="2014-03-02 16:58:37" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Leuk</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="5">hotel</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="2">in</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="6">hartje</wf>
+    <wf wid="w5" sent="1" para="1" offset="21" length="6">Madrid</wf>
+    <wf wid="w6" sent="1" para="1" offset="27" length="1">.</wf>
+    <wf wid="w7" sent="2" para="2" offset="29" length="11">Ontbijtzaal</wf>
+    <wf wid="w8" sent="2" para="2" offset="41" length="2">is</wf>
+    <wf wid="w9" sent="2" para="2" offset="44" length="3">aan</wf>
+    <wf wid="w10" sent="2" para="2" offset="48" length="9">renovatie</wf>
+    <wf wid="w11" sent="2" para="2" offset="58" length="3">toe</wf>
+    <wf wid="w12" sent="2" para="2" offset="61" length="1">.</wf>
+    <wf wid="w13" sent="3" para="2" offset="63" length="3">Het</wf>
+    <wf wid="w14" sent="3" para="2" offset="67" length="7">typisch</wf>
+    <wf wid="w15" sent="3" para="2" offset="75" length="7">Spaanse</wf>
+    <wf wid="w16" sent="3" para="2" offset="83" length="7">ontbijt</wf>
+    <wf wid="w17" sent="3" para="2" offset="91" length="2">is</wf>
+    <wf wid="w18" sent="3" para="2" offset="94" length="5">karig</wf>
+    <wf wid="w19" sent="3" para="2" offset="99" length="1">,</wf>
+    <wf wid="w20" sent="3" para="2" offset="101" length="4">meer</wf>
+    <wf wid="w21" sent="3" para="2" offset="106" length="8">variatie</wf>
+    <wf wid="w22" sent="3" para="2" offset="115" length="2">en</wf>
+    <wf wid="w23" sent="3" para="2" offset="118" length="5">keuze</wf>
+    <wf wid="w24" sent="3" para="2" offset="124" length="3">zou</wf>
+    <wf wid="w25" sent="3" para="2" offset="128" length="4">fijn</wf>
+    <wf wid="w26" sent="3" para="2" offset="133" length="4">zijn</wf>
+    <wf wid="w27" sent="3" para="2" offset="137" length="1">.</wf>
+    <wf wid="w28" sent="4" para="2" offset="139" length="10">Anderzijds</wf>
+    <wf wid="w29" sent="4" para="2" offset="149" length="1">:</wf>
+    <wf wid="w30" sent="4" para="2" offset="151" length="2">in</wf>
+    <wf wid="w31" sent="4" para="2" offset="154" length="3">het</wf>
+    <wf wid="w32" sent="4" para="2" offset="158" length="7">centrum</wf>
+    <wf wid="w33" sent="4" para="2" offset="166" length="3">van</wf>
+    <wf wid="w34" sent="4" para="2" offset="170" length="6">Madrid</wf>
+    <wf wid="w35" sent="4" para="2" offset="177" length="4">zijn</wf>
+    <wf wid="w36" sent="4" para="2" offset="182" length="6">genoeg</wf>
+    <wf wid="w37" sent="4" para="2" offset="189" length="20">ontbijtmogelijkheden</wf>
+    <wf wid="w38" sent="4" para="2" offset="209" length="1">.</wf>
+    <wf wid="w39" sent="5" para="2" offset="211" length="8">Grootste</wf>
+    <wf wid="w40" sent="5" para="2" offset="220" length="8">voordeel</wf>
+    <wf wid="w41" sent="5" para="2" offset="229" length="2">is</wf>
+    <wf wid="w42" sent="5" para="2" offset="232" length="3">dat</wf>
+    <wf wid="w43" sent="5" para="2" offset="236" length="2">je</wf>
+    <wf wid="w44" sent="5" para="2" offset="239" length="4">niet</wf>
+    <wf wid="w45" sent="5" para="2" offset="244" length="4">meer</wf>
+    <wf wid="w46" sent="5" para="2" offset="249" length="2">in</wf>
+    <wf wid="w47" sent="5" para="2" offset="252" length="3">het</wf>
+    <wf wid="w48" sent="5" para="2" offset="256" length="6">Cetrum</wf>
+    <wf wid="w49" sent="5" para="2" offset="263" length="3">van</wf>
+    <wf wid="w50" sent="5" para="2" offset="267" length="6">MAdrid</wf>
+    <wf wid="w51" sent="5" para="2" offset="274" length="3">kan</wf>
+    <wf wid="w52" sent="5" para="2" offset="278" length="6">zitten</wf>
+    <wf wid="w53" sent="5" para="2" offset="285" length="3">dan</wf>
+    <wf wid="w54" sent="5" para="2" offset="289" length="3">met</wf>
+    <wf wid="w55" sent="5" para="2" offset="293" length="3">dit</wf>
+    <wf wid="w56" sent="5" para="2" offset="297" length="5">hotel</wf>
+    <wf wid="w57" sent="5" para="2" offset="302" length="1">.</wf>
+    <wf wid="w58" sent="6" para="2" offset="304" length="5">Alles</wf>
+    <wf wid="w59" sent="6" para="2" offset="310" length="2">op</wf>
+    <wf wid="w60" sent="6" para="2" offset="313" length="11">loopafstand</wf>
+    <wf wid="w61" sent="6" para="2" offset="324" length="1">.</wf>
+    <wf wid="w62" sent="7" para="2" offset="326" length="5">Metro</wf>
+    <wf wid="w63" sent="7" para="2" offset="332" length="2">op</wf>
+    <wf wid="w64" sent="7" para="2" offset="335" length="4">100m</wf>
+    <wf wid="w65" sent="7" para="2" offset="339" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Leuk-->
+    <term tid="t1" type="open" lemma="leuk" pos="G" morphofeat="adj">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--hotel-->
+    <term tid="t2" type="open" lemma="hotel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t3" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--hartje-->
+    <term tid="t4" type="open" lemma="hartje" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Madrid-->
+    <term tid="t5" type="open" lemma="Madrid" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t6" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Ontbijtzaal-->
+    <term tid="t7" type="open" lemma="Ontbijtzaal" pos="O" morphofeat="nounprop unknown_lemma">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t8" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--aan-->
+    <term tid="t9" type="close" lemma="aan" pos="P" morphofeat="prep">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--renovatie-->
+    <term tid="t10" type="open" lemma="renovatie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--toe-->
+    <term tid="t11" type="open" lemma="toe" pos="A" morphofeat="adv">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t12" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Het-->
+    <term tid="t13" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--typisch-->
+    <term tid="t14" type="open" lemma="typisch" pos="G" morphofeat="adj">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--Spaanse-->
+    <term tid="t15" type="open" lemma="Spaans" pos="G" morphofeat="adj">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--ontbijt-->
+    <term tid="t16" type="open" lemma="ontbijt" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t17" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--karig-->
+    <term tid="t18" type="open" lemma="karig" pos="G" morphofeat="adj">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t19" type="open" lemma="," pos="O" morphofeat="punc">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t20" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--variatie-->
+    <term tid="t21" type="open" lemma="variatie" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t22" type="close" lemma="en" pos="C" morphofeat="conjcoord">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--keuze-->
+    <term tid="t23" type="open" lemma="keuze" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--zou-->
+    <term tid="t24" type="open" lemma="zullen" pos="V" morphofeat="verbpastsg">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--fijn-->
+    <term tid="t25" type="open" lemma="fijn" pos="G" morphofeat="adj">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t26" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t27" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--Anderzijds-->
+    <term tid="t28" type="open" lemma="anderzijds" pos="A" morphofeat="adv">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t29" type="open" lemma=":" pos="O" morphofeat="$.">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t30" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t31" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--centrum-->
+    <term tid="t32" type="open" lemma="centrum" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t33" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--Madrid-->
+    <term tid="t34" type="open" lemma="Madrid" pos="R" morphofeat="nounprop">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--zijn-->
+    <term tid="t35" type="open" lemma="zijn" pos="V" morphofeat="verbprespl">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--genoeg-->
+    <term tid="t36" type="open" lemma="genoeg" pos="A" morphofeat="adv">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--ontbijtmogelijkheden-->
+    <term tid="t37" type="open" lemma="ontbijtmogelijkheden" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t38" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--Grootste-->
+    <term tid="t39" type="open" lemma="groot|groots" pos="G" morphofeat="adj">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--voordeel-->
+    <term tid="t40" type="open" lemma="voordeel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--is-->
+    <term tid="t41" type="open" lemma="zijn" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--dat-->
+    <term tid="t42" type="close" lemma="dat" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--je-->
+    <term tid="t43" type="close" lemma="je" pos="Q" morphofeat="pronpers">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--niet-->
+    <term tid="t44" type="open" lemma="niet" pos="A" morphofeat="adv">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--meer-->
+    <term tid="t45" type="open" lemma="meer" pos="A" morphofeat="adv">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t46" type="close" lemma="in" pos="P" morphofeat="prep">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--het-->
+    <term tid="t47" type="close" lemma="het" pos="D" morphofeat="det__art">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--Cetrum-->
+    <term tid="t48" type="open" lemma="Cetrum" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--van-->
+    <term tid="t49" type="close" lemma="van" pos="P" morphofeat="prep">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--MAdrid-->
+    <term tid="t50" type="open" lemma="MAdrid" pos="O" morphofeat="nounsg unknown_lemma">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--kan-->
+    <term tid="t51" type="open" lemma="kunnen" pos="V" morphofeat="verbpressg">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+    <!--zitten-->
+    <term tid="t52" type="open" lemma="zitten" pos="V" morphofeat="verbinf">
+      <span>
+        <target id="w52" />
+      </span>
+    </term>
+    <!--dan-->
+    <term tid="t53" type="close" lemma="dan" pos="C" morphofeat="conjsubo">
+      <span>
+        <target id="w53" />
+      </span>
+    </term>
+    <!--met-->
+    <term tid="t54" type="close" lemma="met" pos="P" morphofeat="prep">
+      <span>
+        <target id="w54" />
+      </span>
+    </term>
+    <!--dit-->
+    <term tid="t55" type="close" lemma="dit" pos="D" morphofeat="det__demo">
+      <span>
+        <target id="w55" />
+      </span>
+    </term>
+    <!--hotel-->
+    <term tid="t56" type="open" lemma="hotel" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w56" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t57" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w57" />
+      </span>
+    </term>
+    <!--Alles-->
+    <term tid="t58" type="close" lemma="alles" pos="Q" morphofeat="pronindef">
+      <span>
+        <target id="w58" />
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t59" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w59" />
+      </span>
+    </term>
+    <!--loopafstand-->
+    <term tid="t60" type="open" lemma="loopafstand" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w60" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t61" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w61" />
+      </span>
+    </term>
+    <!--Metro-->
+    <term tid="t62" type="open" lemma="metro" pos="N" morphofeat="nounsg">
+      <span>
+        <target id="w62" />
+      </span>
+    </term>
+    <!--op-->
+    <term tid="t63" type="close" lemma="op" pos="P" morphofeat="prep">
+      <span>
+        <target id="w63" />
+      </span>
+    </term>
+    <!--100m-->
+    <term tid="t64" type="open" lemma="100m" pos="O" morphofeat="nounpl unknown_lemma">
+      <span>
+        <target id="w64" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t65" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w65" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Madrid-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="196365230374162" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Madrid-->
+        <span>
+          <target id="t34" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="196365230374162" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--MAdrid-->
+        <span>
+          <target id="t50" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="196365230374162" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--het centrum van Madrid-->
+      <span>
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+      </span>
+      <!--hartje Madrid-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+      <!--Cetrum van MAdrid-->
+      <span>
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--dit hotel-->
+      <span>
+        <target id="t55" />
+        <target id="t56" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t2" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

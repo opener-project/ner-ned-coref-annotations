@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" timestamp="2014-03-02T18:35:13Z" version="0.0.1" />
+      <lp name="opener-tokenizer-de" timestamp="2014-03-02T18:35:13Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-de" timestamp="2014-03-02T19:35:16+0100" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="ixa-pipe-coref-de" timestamp="2014-03-02 19:35:18" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="3">Nie</wf>
+    <wf wid="w2" sent="1" para="1" offset="4" length="6">wieder</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="2">in</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="6">dieses</wf>
+    <wf wid="w5" sent="1" para="1" offset="21" length="5">Hotel</wf>
+    <wf wid="w6" sent="2" para="2" offset="27" length="15">Schimmelproblem</wf>
+    <wf wid="w7" sent="2" para="2" offset="43" length="2">im</wf>
+    <wf wid="w8" sent="2" para="2" offset="46" length="6">Zimmer</wf>
+    <wf wid="w9" sent="2" para="2" offset="52" length="1">,</wf>
+    <wf wid="w10" sent="2" para="2" offset="54" length="9">dreckiger</wf>
+    <wf wid="w11" sent="2" para="2" offset="64" length="7">Teppich</wf>
+    <wf wid="w12" sent="2" para="2" offset="72" length="2">im</wf>
+    <wf wid="w13" sent="2" para="2" offset="75" length="6">Zimmer</wf>
+    <wf wid="w14" sent="2" para="2" offset="81" length="1">,</wf>
+    <wf wid="w15" sent="2" para="2" offset="83" length="5">Farbe</wf>
+    <wf wid="w16" sent="2" para="2" offset="89" length="4">lößt</wf>
+    <wf wid="w17" sent="2" para="2" offset="94" length="4">sich</wf>
+    <wf wid="w18" sent="2" para="2" offset="99" length="2">ab</wf>
+    <wf wid="w19" sent="2" para="2" offset="102" length="2">im</wf>
+    <wf wid="w20" sent="2" para="2" offset="105" length="3">Bad</wf>
+    <wf wid="w21" sent="2" para="2" offset="108" length="1">,</wf>
+    <wf wid="w22" sent="2" para="2" offset="110" length="7">defekte</wf>
+    <wf wid="w23" sent="2" para="2" offset="118" length="6">Geräte</wf>
+    <wf wid="w24" sent="2" para="2" offset="125" length="4">z.B.</wf>
+    <wf wid="w25" sent="2" para="2" offset="130" length="9">Fernseher</wf>
+    <wf wid="w26" sent="2" para="2" offset="140" length="3">und</wf>
+    <wf wid="w27" sent="2" para="2" offset="144" length="11">Abfalleimer</wf>
+    <wf wid="w28" sent="2" para="2" offset="156" length="3">und</wf>
+    <wf wid="w29" sent="2" para="2" offset="160" length="9">Duschkopf</wf>
+    <wf wid="w30" sent="2" para="2" offset="169" length="1">·</wf>
+    <wf wid="w31" sent="2" para="2" offset="171" length="5">Keine</wf>
+    <wf wid="w32" sent="2" para="2" offset="177" length="14">Entschuldigung</wf>
+    <wf wid="w33" sent="2" para="2" offset="192" length="3">vom</wf>
+    <wf wid="w34" sent="2" para="2" offset="196" length="15">Servicepersonal</wf>
+    <wf wid="w35" sent="2" para="2" offset="211" length="1">.</wf>
+    <wf wid="w36" sent="3" para="2" offset="213" length="5">Trotz</wf>
+    <wf wid="w37" sent="3" para="2" offset="219" length="13">Zimmerwechsel</wf>
+    <wf wid="w38" sent="3" para="2" offset="233" length="6">wieder</wf>
+    <wf wid="w39" sent="3" para="2" offset="240" length="8">Schimmel</wf>
+    <wf wid="w40" sent="3" para="2" offset="248" length="1">!</wf>
+    <wf wid="w41" sent="4" para="2" offset="250" length="3">Ich</wf>
+    <wf wid="w42" sent="4" para="2" offset="254" length="5">werde</wf>
+    <wf wid="w43" sent="4" para="2" offset="260" length="4">auch</wf>
+    <wf wid="w44" sent="4" para="2" offset="265" length="6">gleich</wf>
+    <wf wid="w45" sent="4" para="2" offset="272" length="5">Fotos</wf>
+    <wf wid="w46" sent="4" para="2" offset="278" length="9">hochladen</wf>
+  </text>
+  <terms>
+    <!--Nie-->
+    <term tid="t1" type="open" lemma="nie" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--wieder-->
+    <term tid="t2" type="open" lemma="wieder" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t3" type="close" lemma="in" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--dieses-->
+    <term tid="t4" type="close" lemma="dies" pos="Q" morphofeat="PDAT">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Hotel-->
+    <term tid="t5" type="open" lemma="Hotel" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Schimmelproblem-->
+    <term tid="t6" type="open" lemma="Schimmelproblem" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--im-->
+    <term tid="t7" type="close" lemma="in" pos="P" morphofeat="APPRART">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--Zimmer-->
+    <term tid="t8" type="open" lemma="Zimmer" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t9" type="open" lemma="," pos="O" morphofeat="$,">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--dreckiger-->
+    <term tid="t10" type="open" lemma="dreckig" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Teppich-->
+    <term tid="t11" type="open" lemma="Teppich" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--im-->
+    <term tid="t12" type="close" lemma="in" pos="P" morphofeat="APPRART">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--Zimmer-->
+    <term tid="t13" type="open" lemma="Zimmer" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t14" type="open" lemma="," pos="O" morphofeat="$,">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--Farbe-->
+    <term tid="t15" type="open" lemma="Farbe" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--lößt-->
+    <term tid="t16" type="open" lemma="lößt" pos="O" morphofeat="VVFIN unknown_lemma">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--sich-->
+    <term tid="t17" type="close" lemma="sich" pos="Q" morphofeat="PRF">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--ab-->
+    <term tid="t18" type="open" lemma="ab" pos="V" morphofeat="PTKVZ">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--im-->
+    <term tid="t19" type="close" lemma="in" pos="P" morphofeat="APPRART">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--Bad-->
+    <term tid="t20" type="open" lemma="Bad" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t21" type="open" lemma="," pos="O" morphofeat="$,">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--defekte-->
+    <term tid="t22" type="open" lemma="defekt" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--Geräte-->
+    <term tid="t23" type="open" lemma="Gerät" pos="N" morphofeat="NN">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--z.B.-->
+    <term tid="t24" type="close" lemma="z.b." pos="P" morphofeat="APPRART">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--Fernseher-->
+    <term tid="t25" type="open" lemma="Fernseher" pos="N" morphofeat="NN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t26" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--Abfalleimer-->
+    <term tid="t27" type="open" lemma="Abfalleimer" pos="N" morphofeat="NN">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t28" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--Duschkopf-->
+    <term tid="t29" type="open" lemma="Duschkopf" pos="N" morphofeat="NN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--·-->
+    <term tid="t30" type="open" lemma="·" pos="O" morphofeat="XY">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--Keine-->
+    <term tid="t31" type="close" lemma="keine" pos="Q" morphofeat="PIAT">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--Entschuldigung-->
+    <term tid="t32" type="open" lemma="Entschuldigung" pos="N" morphofeat="NN">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--vom-->
+    <term tid="t33" type="close" lemma="von" pos="P" morphofeat="APPRART">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--Servicepersonal-->
+    <term tid="t34" type="open" lemma="Servicepersonal" pos="N" morphofeat="NN">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t35" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--Trotz-->
+    <term tid="t36" type="close" lemma="trotz" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--Zimmerwechsel-->
+    <term tid="t37" type="open" lemma="Zimmerwechsel" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--wieder-->
+    <term tid="t38" type="open" lemma="wieder" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--Schimmel-->
+    <term tid="t39" type="open" lemma="Schimmel" pos="N" morphofeat="NN">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t40" type="open" lemma="!" pos="O" morphofeat="$.">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--Ich-->
+    <term tid="t41" type="close" lemma="ich" pos="Q" morphofeat="PPER">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--werde-->
+    <term tid="t42" type="open" lemma="werden" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--auch-->
+    <term tid="t43" type="open" lemma="auch" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--gleich-->
+    <term tid="t44" type="open" lemma="gleich" pos="G" morphofeat="ADJD">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--Fotos-->
+    <term tid="t45" type="open" lemma="Foto" pos="N" morphofeat="NN">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--hochladen-->
+    <term tid="t46" type="open" lemma="hochladen" pos="O" morphofeat="VVFIN unknown_lemma">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+  </terms>
+  <coreferences>
+    <coref coid="c1">
+      <!--Zimmer-->
+      <span>
+        <target id="t8" />
+      </span>
+      <!--Zimmer-->
+      <span>
+        <target id="t13" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--Geräte-->
+      <span>
+        <target id="t23" />
+      </span>
+      <!--Fernseher und Abfalleimer und Duschkopf-->
+      <span>
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>
