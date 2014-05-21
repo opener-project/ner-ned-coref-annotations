@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="fr" version="2.0">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-03T09:07:39Z" version="0.0.1" />
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-03T09:07:39Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-03T09:07:39Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="opennlp-fr-ner-all" timestamp="2014-02-03T09:07:39Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-fr" timestamp="2014-02-03 10:07:40" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-fr" timestamp="2014-02-03T10:07:40" version="0.8" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">TRop</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="6">froide</wf>
+    <wf wid="w3" sent="2" para="2" offset="12" length="2">L'</wf>
+    <wf wid="w4" sent="2" para="2" offset="14" length="3">eau</wf>
+    <wf wid="w5" sent="2" para="2" offset="18" length="5">était</wf>
+    <wf wid="w6" sent="2" para="2" offset="24" length="5">gelée</wf>
+    <wf wid="w7" sent="2" para="2" offset="29" length="1">,</wf>
+    <wf wid="w8" sent="2" para="2" offset="31" length="5">notre</wf>
+    <wf wid="w9" sent="2" para="2" offset="37" length="4">fils</wf>
+    <wf wid="w10" sent="2" para="2" offset="42" length="2">n'</wf>
+    <wf wid="w11" sent="2" para="2" offset="44" length="8">arrêtait</wf>
+    <wf wid="w12" sent="2" para="2" offset="53" length="3">pas</wf>
+    <wf wid="w13" sent="2" para="2" offset="57" length="2">de</wf>
+    <wf wid="w14" sent="2" para="2" offset="60" length="4">dire</wf>
+    <wf wid="w15" sent="2" para="2" offset="65" length="1">'</wf>
+    <wf wid="w16" sent="2" para="2" offset="66" length="4">nini</wf>
+    <wf wid="w17" sent="2" para="2" offset="70" length="1">'</wf>
+    <wf wid="w18" sent="2" para="2" offset="72" length="4">pour</wf>
+    <wf wid="w19" sent="2" para="2" offset="77" length="4">fini</wf>
+    <wf wid="w20" sent="2" para="2" offset="82" length="3">dès</wf>
+    <wf wid="w21" sent="2" para="2" offset="86" length="3">qu'</wf>
+    <wf wid="w22" sent="2" para="2" offset="89" length="2">on</wf>
+    <wf wid="w23" sent="2" para="2" offset="92" length="2">le</wf>
+    <wf wid="w24" sent="2" para="2" offset="95" length="7">mettait</wf>
+    <wf wid="w25" sent="2" para="2" offset="103" length="4">dans</wf>
+    <wf wid="w26" sent="2" para="2" offset="108" length="2">la</wf>
+    <wf wid="w27" sent="2" para="2" offset="111" length="12">pateaugeoire</wf>
+    <wf wid="w28" sent="2" para="2" offset="124" length="9">tellement</wf>
+    <wf wid="w29" sent="2" para="2" offset="134" length="4">elle</wf>
+    <wf wid="w30" sent="2" para="2" offset="139" length="5">était</wf>
+    <wf wid="w31" sent="2" para="2" offset="145" length="6">froide</wf>
+    <wf wid="w32" sent="2" para="2" offset="151" length="3">...</wf>
+    <wf wid="w33" sent="3" para="2" offset="155" length="4">Seul</wf>
+    <wf wid="w34" sent="3" para="2" offset="160" length="3">les</wf>
+    <wf wid="w35" sent="3" para="2" offset="164" length="1">'</wf>
+    <wf wid="w36" sent="3" para="2" offset="165" length="9">jaccuzzis</wf>
+    <wf wid="w37" sent="3" para="2" offset="174" length="1">'</wf>
+    <wf wid="w38" sent="3" para="2" offset="176" length="3">ont</wf>
+    <wf wid="w39" sent="3" para="2" offset="180" length="3">une</wf>
+    <wf wid="w40" sent="3" para="2" offset="184" length="11">température</wf>
+    <wf wid="w41" sent="3" para="2" offset="196" length="10">acceptable</wf>
+    <wf wid="w42" sent="3" para="2" offset="206" length="3">...</wf>
+  </text>
+  <terms>
+    <!--TRop-->
+    <term tid="t1" type="open" lemma="TRop" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--froide-->
+    <term tid="t2" type="open" lemma="froide" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--L'-->
+    <term tid="t3" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--eau-->
+    <term tid="t4" type="open" lemma="eau" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--était-->
+    <term tid="t5" type="open" lemma="être" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--gelée-->
+    <term tid="t6" type="open" lemma="geler" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t7" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--notre-->
+    <term tid="t8" type="close" lemma="son" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--fils-->
+    <term tid="t9" type="open" lemma="fil" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--n'-->
+    <term tid="t10" type="open" lemma="n'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--arrêtait-->
+    <term tid="t11" type="open" lemma="arrêter" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t12" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t13" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--dire-->
+    <term tid="t14" type="open" lemma="dire" pos="V" morphofeat="VW">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t15" type="close" lemma="'" pos="P" morphofeat="P">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--nini-->
+    <term tid="t16" type="open" lemma="nini" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t17" type="open" lemma="'" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t18" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--fini-->
+    <term tid="t19" type="open" lemma="finir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--dès-->
+    <term tid="t20" type="close" lemma="dès" pos="P" morphofeat="P">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--qu'-->
+    <term tid="t21" type="close" lemma="qu'" pos="C" morphofeat="C">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--on-->
+    <term tid="t22" type="close" lemma="on" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t23" type="close" lemma="le" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--mettait-->
+    <term tid="t24" type="open" lemma="mettre" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--dans-->
+    <term tid="t25" type="close" lemma="dans" pos="P" morphofeat="P">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t26" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--pateaugeoire-->
+    <term tid="t27" type="open" lemma="pateaugeoire" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--tellement-->
+    <term tid="t28" type="open" lemma="tellement" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--elle-->
+    <term tid="t29" type="close" lemma="lui" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--était-->
+    <term tid="t30" type="open" lemma="être" pos="V" morphofeat="VI3s">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--froide-->
+    <term tid="t31" type="open" lemma="froid" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--...-->
+    <term tid="t32" type="close" lemma="..." pos="O" morphofeat="...">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--Seul-->
+    <term tid="t33" type="open" lemma="seul" pos="G" morphofeat="AIms">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t34" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t35" type="close" lemma="'" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--jaccuzzis-->
+    <term tid="t36" type="open" lemma="jaccuzzis" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t37" type="close" lemma="'" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--ont-->
+    <term tid="t38" type="open" lemma="avoir" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t39" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--température-->
+    <term tid="t40" type="open" lemma="température" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--acceptable-->
+    <term tid="t41" type="open" lemma="acceptable" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--...-->
+    <term tid="t42" type="close" lemma="..." pos="O" morphofeat="...">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+  </terms>
+  <coreferences>
+    <coref coid="c1">
+      <!--notre fils-->
+      <span>
+        <target id="t8" />
+        <target id="t9" />
+      </span>
+      <!--le-->
+      <span>
+        <target id="t23" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--elle-->
+      <span>
+        <target id="t29" />
+      </span>
+      <!--la pateaugeoire-->
+      <span>
+        <target id="t26" />
+        <target id="t27" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

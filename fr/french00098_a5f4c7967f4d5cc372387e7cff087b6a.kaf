@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="fr" version="2.0">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-03T09:07:01Z" version="0.0.1" />
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-03T09:07:01Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-03T09:07:01Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="opennlp-fr-ner-all" timestamp="2014-02-03T09:07:02Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-fr" timestamp="2014-02-03 10:07:02" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-fr" timestamp="2014-02-03T10:07:03" version="0.8" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="11">Merveilleux</wf>
+    <wf wid="w2" sent="2" para="2" offset="12" length="4">Nous</wf>
+    <wf wid="w3" sent="2" para="2" offset="17" length="4">vous</wf>
+    <wf wid="w4" sent="2" para="2" offset="22" length="8">invitons</wf>
+    <wf wid="w5" sent="2" para="2" offset="31" length="1">à</wf>
+    <wf wid="w6" sent="2" para="2" offset="33" length="6">suivre</wf>
+    <wf wid="w7" sent="2" para="2" offset="40" length="2">le</wf>
+    <wf wid="w8" sent="2" para="2" offset="43" length="7">dernier</wf>
+    <wf wid="w9" sent="2" para="2" offset="51" length="9">spectacle</wf>
+    <wf wid="w10" sent="2" para="2" offset="61" length="2">de</wf>
+    <wf wid="w11" sent="2" para="2" offset="64" length="2">la</wf>
+    <wf wid="w12" sent="2" para="2" offset="67" length="7">journée</wf>
+    <wf wid="w13" sent="2" para="2" offset="74" length="1">,</wf>
+    <wf wid="w14" sent="2" para="2" offset="76" length="4">vous</wf>
+    <wf wid="w15" sent="2" para="2" offset="81" length="9">assiterez</wf>
+    <wf wid="w16" sent="2" para="2" offset="91" length="1">à</wf>
+    <wf wid="w17" sent="2" para="2" offset="93" length="2">la</wf>
+    <wf wid="w18" sent="2" para="2" offset="96" length="12">présentation</wf>
+    <wf wid="w19" sent="2" para="2" offset="109" length="3">des</wf>
+    <wf wid="w20" sent="2" para="2" offset="113" length="7">oiseaux</wf>
+    <wf wid="w21" sent="2" para="2" offset="121" length="9">nocturnes</wf>
+    <wf wid="w22" sent="2" para="2" offset="131" length="4">avec</wf>
+    <wf wid="w23" sent="2" para="2" offset="136" length="2">un</wf>
+    <wf wid="w24" sent="2" para="2" offset="139" length="9">passionné</wf>
+    <wf wid="w25" sent="2" para="2" offset="149" length="3">qui</wf>
+    <wf wid="w26" sent="2" para="2" offset="153" length="4">vous</wf>
+    <wf wid="w27" sent="2" para="2" offset="158" length="8">présente</wf>
+    <wf wid="w28" sent="2" para="2" offset="167" length="3">les</wf>
+    <wf wid="w29" sent="2" para="2" offset="171" length="7">espèces</wf>
+    <wf wid="w30" sent="2" para="2" offset="179" length="5">comme</wf>
+    <wf wid="w31" sent="2" para="2" offset="185" length="8">personne</wf>
+    <wf wid="w32" sent="2" para="2" offset="194" length="4">avec</wf>
+    <wf wid="w33" sent="2" para="2" offset="199" length="2">un</wf>
+    <wf wid="w34" sent="2" para="2" offset="202" length="6">humour</wf>
+    <wf wid="w35" sent="2" para="2" offset="209" length="8">décapant</wf>
+    <wf wid="w36" sent="2" para="2" offset="217" length="1">.</wf>
+    <wf wid="w37" sent="3" para="2" offset="219" length="4">Vous</wf>
+    <wf wid="w38" sent="3" para="2" offset="224" length="2">en</wf>
+    <wf wid="w39" sent="3" para="2" offset="227" length="11">ressortirez</wf>
+    <wf wid="w40" sent="3" para="2" offset="239" length="4">ravi</wf>
+    <wf wid="w41" sent="3" para="2" offset="244" length="2">et</wf>
+    <wf wid="w42" sent="3" para="2" offset="247" length="8">enchanté</wf>
+    <wf wid="w43" sent="3" para="2" offset="255" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merveilleux-->
+    <term tid="t1" type="open" lemma="merveilleux" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Nous-->
+    <term tid="t2" type="close" lemma="lui" pos="Q" morphofeat="CLS1mp">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--vous-->
+    <term tid="t3" type="close" lemma="lui" pos="Q" morphofeat="CLO2mp">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--invitons-->
+    <term tid="t4" type="open" lemma="invitons" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t5" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--suivre-->
+    <term tid="t6" type="open" lemma="suivre" pos="V" morphofeat="VW">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t7" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--dernier-->
+    <term tid="t8" type="open" lemma="dernier" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--spectacle-->
+    <term tid="t9" type="open" lemma="spectacle" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t10" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t11" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--journée-->
+    <term tid="t12" type="open" lemma="journée" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t13" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--vous-->
+    <term tid="t14" type="close" lemma="lui" pos="Q" morphofeat="CLS2mp">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--assiterez-->
+    <term tid="t15" type="open" lemma="assiterez" pos="V" morphofeat="VP2p">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t16" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t17" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--présentation-->
+    <term tid="t18" type="open" lemma="présentation" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--des-->
+    <term tid="t19" type="close" lemma="des" pos="P" morphofeat="P">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--oiseaux-->
+    <term tid="t20" type="open" lemma="oiseau" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--nocturnes-->
+    <term tid="t21" type="open" lemma="nocturne" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t22" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t23" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--passionné-->
+    <term tid="t24" type="open" lemma="passionné" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--qui-->
+    <term tid="t25" type="close" lemma="qui" pos="P" morphofeat="PROR3ms">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--vous-->
+    <term tid="t26" type="close" lemma="lui" pos="Q" morphofeat="CLO2mp">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--présente-->
+    <term tid="t27" type="open" lemma="présenter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t28" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--espèces-->
+    <term tid="t29" type="open" lemma="espèce" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--comme-->
+    <term tid="t30" type="close" lemma="comme" pos="P" morphofeat="P">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--personne-->
+    <term tid="t31" type="close" lemma="personne" pos="P" morphofeat="PROms">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t32" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t33" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--humour-->
+    <term tid="t34" type="open" lemma="humour" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--décapant-->
+    <term tid="t35" type="open" lemma="décapant" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t36" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--Vous-->
+    <term tid="t37" type="close" lemma="lui" pos="Q" morphofeat="CLS2mp">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t38" type="close" lemma="en" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--ressortirez-->
+    <term tid="t39" type="open" lemma="ressortir" pos="V" morphofeat="VF2p">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--ravi-->
+    <term tid="t40" type="open" lemma="ravir" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t41" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--enchanté-->
+    <term tid="t42" type="open" lemma="enchanter" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t43" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+  </terms>
+  <coreferences>
+    <coref coid="c1">
+      <!--vous-->
+      <span>
+        <target id="t3" />
+      </span>
+      <!--vous-->
+      <span>
+        <target id="t14" />
+      </span>
+      <!--vous-->
+      <span>
+        <target id="t26" />
+      </span>
+      <!--Vous-->
+      <span>
+        <target id="t37" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--qui-->
+      <span>
+        <target id="t25" />
+      </span>
+      <!--passionné-->
+      <span>
+        <target id="t24" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

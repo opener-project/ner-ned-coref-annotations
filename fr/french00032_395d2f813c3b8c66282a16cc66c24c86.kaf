@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="fr" version="2.0">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-01-14T16:33:26Z" version="0.0.1" />
+      <lp name="opener-tokenizer-fr" timestamp="2014-01-14T16:33:26Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-01-14T16:33:26Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="opennlp-fr-ner-all" timestamp="2014-01-14T16:33:27Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-fr" timestamp="2014-01-14 17:33:27" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-fr" timestamp="2014-01-14T17:33:28" version="0.8" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Titanic</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="5">Beach</wf>
+    <wf wid="w3" sent="2" para="2" offset="14" length="5">Hotel</wf>
+    <wf wid="w4" sent="2" para="2" offset="20" length="7">immense</wf>
+    <wf wid="w5" sent="2" para="2" offset="27" length="1">,</wf>
+    <wf wid="w6" sent="2" para="2" offset="29" length="4">avec</wf>
+    <wf wid="w7" sent="2" para="2" offset="34" length="6">grande</wf>
+    <wf wid="w8" sent="2" para="2" offset="41" length="7">piscine</wf>
+    <wf wid="w9" sent="2" para="2" offset="49" length="2">et</wf>
+    <wf wid="w10" sent="2" para="2" offset="52" length="3">mer</wf>
+    <wf wid="w11" sent="2" para="2" offset="56" length="1">a</wf>
+    <wf wid="w12" sent="2" para="2" offset="58" length="9">proximite</wf>
+    <wf wid="w13" sent="2" para="2" offset="67" length="1">.</wf>
+    <wf wid="w14" sent="3" para="2" offset="69" length="3">Eau</wf>
+    <wf wid="w15" sent="3" para="2" offset="73" length="4">tres</wf>
+    <wf wid="w16" sent="3" para="2" offset="78" length="6">chaude</wf>
+    <wf wid="w17" sent="3" para="2" offset="85" length="2">et</wf>
+    <wf wid="w18" sent="3" para="2" offset="88" length="7">remplie</wf>
+    <wf wid="w19" sent="3" para="2" offset="96" length="2">de</wf>
+    <wf wid="w20" sent="3" para="2" offset="99" length="11">magnifiques</wf>
+    <wf wid="w21" sent="3" para="2" offset="111" length="8">poissons</wf>
+    <wf wid="w22" sent="3" para="2" offset="120" length="3">aux</wf>
+    <wf wid="w23" sent="3" para="2" offset="124" length="9">multiples</wf>
+    <wf wid="w24" sent="3" para="2" offset="134" length="8">couleurs</wf>
+    <wf wid="w25" sent="3" para="2" offset="142" length="1">.</wf>
+    <wf wid="w26" sent="4" para="2" offset="144" length="9">Animation</wf>
+    <wf wid="w27" sent="4" para="2" offset="154" length="6">durant</wf>
+    <wf wid="w28" sent="4" para="2" offset="161" length="5">toute</wf>
+    <wf wid="w29" sent="4" para="2" offset="167" length="2">la</wf>
+    <wf wid="w30" sent="4" para="2" offset="170" length="7">journee</wf>
+    <wf wid="w31" sent="4" para="2" offset="177" length="1">.</wf>
+    <wf wid="w32" sent="5" para="2" offset="179" length="3">Les</wf>
+    <wf wid="w33" sent="5" para="2" offset="183" length="9">Egyptiens</wf>
+    <wf wid="w34" sent="5" para="2" offset="193" length="4">sont</wf>
+    <wf wid="w35" sent="5" para="2" offset="198" length="4">tres</wf>
+    <wf wid="w36" sent="5" para="2" offset="203" length="11">sympatiques</wf>
+    <wf wid="w37" sent="5" para="2" offset="215" length="2">et</wf>
+    <wf wid="w38" sent="5" para="2" offset="218" length="5">aussi</wf>
+    <wf wid="w39" sent="5" para="2" offset="224" length="4">tres</wf>
+    <wf wid="w40" sent="5" para="2" offset="229" length="9">dragueurs</wf>
+    <wf wid="w41" sent="5" para="2" offset="238" length="1">.</wf>
+    <wf wid="w42" sent="6" para="2" offset="240" length="3">Mis</wf>
+    <wf wid="w43" sent="6" para="2" offset="244" length="1">a</wf>
+    <wf wid="w44" sent="6" para="2" offset="246" length="4">part</wf>
+    <wf wid="w45" sent="6" para="2" offset="251" length="2">sa</wf>
+    <wf wid="w46" sent="6" para="2" offset="253" length="1">,</wf>
+    <wf wid="w47" sent="6" para="2" offset="255" length="2">la</wf>
+    <wf wid="w48" sent="6" para="2" offset="258" length="10">nourriture</wf>
+    <wf wid="w49" sent="6" para="2" offset="269" length="3">est</wf>
+    <wf wid="w50" sent="6" para="2" offset="273" length="8">vraiment</wf>
+    <wf wid="w51" sent="6" para="2" offset="282" length="9">mangeable</wf>
+    <wf wid="w52" sent="6" para="2" offset="291" length="1">.</wf>
+    <wf wid="w53" sent="7" para="2" offset="293" length="4">Tres</wf>
+    <wf wid="w54" sent="7" para="2" offset="298" length="4">bons</wf>
+    <wf wid="w55" sent="7" para="2" offset="303" length="9">souvenirs</wf>
+    <wf wid="w56" sent="7" para="2" offset="312" length="1">!</wf>
+    <wf wid="w57" sent="7" para="2" offset="313" length="1">!</wf>
+    <wf wid="w58" sent="7" para="2" offset="314" length="1">!</wf>
+    <wf wid="w59" sent="7" para="2" offset="315" length="1">!</wf>
+    <wf wid="w60" sent="7" para="2" offset="316" length="1">!</wf>
+    <wf wid="w61" sent="7" para="2" offset="317" length="1">!</wf>
+    <wf wid="w62" sent="7" para="2" offset="318" length="1">!</wf>
+  </text>
+  <terms>
+    <!--Titanic-->
+    <term tid="t1" type="open" lemma="Titanic" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--Beach-->
+    <term tid="t2" type="open" lemma="Beach" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Hotel-->
+    <term tid="t3" type="open" lemma="Hotel" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--immense-->
+    <term tid="t4" type="open" lemma="immense" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t5" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t6" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--grande-->
+    <term tid="t7" type="open" lemma="grand" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--piscine-->
+    <term tid="t8" type="open" lemma="piscine" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t9" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--mer-->
+    <term tid="t10" type="open" lemma="mer" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t11" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--proximite-->
+    <term tid="t12" type="open" lemma="proximite" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t13" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--Eau-->
+    <term tid="t14" type="close" lemma="Eau" pos="P" morphofeat="P">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--tres-->
+    <term tid="t15" type="open" lemma="tres" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--chaude-->
+    <term tid="t16" type="open" lemma="chaude" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t17" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--remplie-->
+    <term tid="t18" type="open" lemma="remplir" pos="V" morphofeat="VKfs">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t19" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--magnifiques-->
+    <term tid="t20" type="open" lemma="magnifiques" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--poissons-->
+    <term tid="t21" type="open" lemma="poisser" pos="V" morphofeat="VP1p">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--aux-->
+    <term tid="t22" type="close" lemma="aux" pos="P" morphofeat="P">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--multiples-->
+    <term tid="t23" type="open" lemma="multiple" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--couleurs-->
+    <term tid="t24" type="open" lemma="couleur" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t25" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--Animation-->
+    <term tid="t26" type="open" lemma="animation" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--durant-->
+    <term tid="t27" type="close" lemma="durant" pos="P" morphofeat="P">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--toute-->
+    <term tid="t28" type="close" lemma="tout" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t29" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--journee-->
+    <term tid="t30" type="open" lemma="journee" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t31" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--Les-->
+    <term tid="t32" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--Egyptiens-->
+    <term tid="t33" type="open" lemma="Egyptiens" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--sont-->
+    <term tid="t34" type="open" lemma="être" pos="V" morphofeat="VP3p">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--tres-->
+    <term tid="t35" type="open" lemma="tres" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--sympatiques-->
+    <term tid="t36" type="open" lemma="sympatiques" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t37" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--aussi-->
+    <term tid="t38" type="open" lemma="aussi" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--tres-->
+    <term tid="t39" type="open" lemma="tres" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--dragueurs-->
+    <term tid="t40" type="open" lemma="dragueur" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t41" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--Mis-->
+    <term tid="t42" type="close" lemma="Mis" pos="O" morphofeat="ET">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t43" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--part-->
+    <term tid="t44" type="open" lemma="part" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--sa-->
+    <term tid="t45" type="close" lemma="son" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t46" type="close" lemma="," pos="P" morphofeat="PONCT">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t47" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--nourriture-->
+    <term tid="t48" type="open" lemma="nourriture" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t49" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--vraiment-->
+    <term tid="t50" type="open" lemma="vraiment" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--mangeable-->
+    <term tid="t51" type="open" lemma="mangeable" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t52" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w52" />
+      </span>
+    </term>
+    <!--Tres-->
+    <term tid="t53" type="close" lemma="Tres" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w53" />
+      </span>
+    </term>
+    <!--bons-->
+    <term tid="t54" type="open" lemma="bon" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w54" />
+      </span>
+    </term>
+    <!--souvenirs-->
+    <term tid="t55" type="open" lemma="souvenir" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w55" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t56" type="close" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w56" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t57" type="close" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w57" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t58" type="close" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w58" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t59" type="close" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w59" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t60" type="close" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w60" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t61" type="close" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w61" />
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t62" type="close" lemma="!" pos="O" morphofeat="!">
+      <span>
+        <target id="w62" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Titanic Beach-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Hotel-->
+      <span>
+        <target id="t3" />
+      </span>
+      <!--Titanic Beach-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

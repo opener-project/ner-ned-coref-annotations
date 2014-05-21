@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="es" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-es" timestamp="2014-01-14T16:12:54Z" version="0.0.1" />
+      <lp name="opener-tokenizer-es" timestamp="2014-01-14T16:12:54Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2014-01-14 17:12:55" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-es" timestamp="2014-01-14 17:12:55" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-es" timestamp="2014-01-14 17:12:56" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="10">Recomiendo</wf>
+    <wf wid="w2" sent="1" para="1" offset="11" length="2">el</wf>
+    <wf wid="w3" sent="1" para="1" offset="14" length="5">hotel</wf>
+    <wf wid="w4" sent="1" para="1" offset="20" length="4">para</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="7">parejas</wf>
+    <wf wid="w6" sent="2" para="2" offset="33" length="3">Muy</wf>
+    <wf wid="w7" sent="2" para="2" offset="37" length="4">buen</wf>
+    <wf wid="w8" sent="2" para="2" offset="42" length="5">hotel</wf>
+    <wf wid="w9" sent="2" para="2" offset="48" length="5">cerca</wf>
+    <wf wid="w10" sent="2" para="2" offset="54" length="2">de</wf>
+    <wf wid="w11" sent="2" para="2" offset="57" length="2">la</wf>
+    <wf wid="w12" sent="2" para="2" offset="60" length="5">playa</wf>
+    <wf wid="w13" sent="2" para="2" offset="65" length="1">,</wf>
+    <wf wid="w14" sent="2" para="2" offset="67" length="2">lo</wf>
+    <wf wid="w15" sent="2" para="2" offset="70" length="10">recomiendo</wf>
+    <wf wid="w16" sent="2" para="2" offset="81" length="4">para</wf>
+    <wf wid="w17" sent="2" para="2" offset="86" length="2">ir</wf>
+    <wf wid="w18" sent="2" para="2" offset="89" length="2">en</wf>
+    <wf wid="w19" sent="2" para="2" offset="92" length="6">pareja</wf>
+    <wf wid="w20" sent="2" para="2" offset="99" length="4">pero</wf>
+    <wf wid="w21" sent="2" para="2" offset="104" length="2">he</wf>
+    <wf wid="w22" sent="2" para="2" offset="107" length="5">visto</wf>
+    <wf wid="w23" sent="2" para="2" offset="113" length="4">zona</wf>
+    <wf wid="w24" sent="2" para="2" offset="118" length="8">infantil</wf>
+    <wf wid="w25" sent="2" para="2" offset="127" length="3">por</wf>
+    <wf wid="w26" sent="2" para="2" offset="131" length="2">lo</wf>
+    <wf wid="w27" sent="2" para="2" offset="134" length="5">tanto</wf>
+    <wf wid="w28" sent="2" para="2" offset="140" length="2">se</wf>
+    <wf wid="w29" sent="2" para="2" offset="143" length="5">puede</wf>
+    <wf wid="w30" sent="2" para="2" offset="149" length="5">dejar</wf>
+    <wf wid="w31" sent="2" para="2" offset="155" length="3">los</wf>
+    <wf wid="w32" sent="2" para="2" offset="159" length="5">niños</wf>
+    <wf wid="w33" sent="2" para="2" offset="165" length="8">ocupados</wf>
+    <wf wid="w34" sent="2" para="2" offset="173" length="1">,</wf>
+    <wf wid="w35" sent="2" para="2" offset="175" length="3">las</wf>
+    <wf wid="w36" sent="2" para="2" offset="179" length="12">habitaciones</wf>
+    <wf wid="w37" sent="2" para="2" offset="192" length="2">no</wf>
+    <wf wid="w38" sent="2" para="2" offset="195" length="3">son</wf>
+    <wf wid="w39" sent="2" para="2" offset="199" length="7">baratas</wf>
+    <wf wid="w40" sent="2" para="2" offset="207" length="4">pero</wf>
+    <wf wid="w41" sent="2" para="2" offset="212" length="4">vale</wf>
+    <wf wid="w42" sent="2" para="2" offset="217" length="2">la</wf>
+    <wf wid="w43" sent="2" para="2" offset="220" length="4">pena</wf>
+    <wf wid="w44" sent="2" para="2" offset="225" length="7">pagarlo</wf>
+    <wf wid="w45" sent="2" para="2" offset="232" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Recomiendo-->
+    <term tid="t1" type="close" lemma="Recomiendo" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--el-->
+    <term tid="t2" type="open" lemma="el" pos="N" morphofeat="NN">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--hotel-->
+    <term tid="t3" type="open" lemma="hotel" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--para-->
+    <term tid="t4" type="open" lemma="para" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--parejas-->
+    <term tid="t5" type="open" lemma="parejas" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Muy-->
+    <term tid="t6" type="close" lemma="Muy" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--buen-->
+    <term tid="t7" type="open" lemma="buen" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--hotel-->
+    <term tid="t8" type="open" lemma="hotel" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--cerca-->
+    <term tid="t9" type="open" lemma="cerca" pos="N" morphofeat="NN">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t10" type="close" lemma="de" pos="P" morphofeat="IN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t11" type="close" lemma="la" pos="D" morphofeat="DT">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--playa-->
+    <term tid="t12" type="open" lemma="playa" pos="N" morphofeat="NN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t13" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t14" type="open" lemma="lo" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--recomiendo-->
+    <term tid="t15" type="open" lemma="recomiendo" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--para-->
+    <term tid="t16" type="open" lemma="para" pos="N" morphofeat="NN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--ir-->
+    <term tid="t17" type="close" lemma="ir" pos="Q" morphofeat="PRP$">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t18" type="open" lemma="en" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--pareja-->
+    <term tid="t19" type="open" lemma="pareja" pos="N" morphofeat="NN">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--pero-->
+    <term tid="t20" type="close" lemma="pero" pos="P" morphofeat="IN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--he-->
+    <term tid="t21" type="close" lemma="he" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--visto-->
+    <term tid="t22" type="close" lemma="visto" pos="O" morphofeat="MD">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--zona-->
+    <term tid="t23" type="open" lemma="zona" pos="V" morphofeat="VB">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--infantil-->
+    <term tid="t24" type="close" lemma="infantil" pos="P" morphofeat="IN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--por-->
+    <term tid="t25" type="open" lemma="por" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t26" type="open" lemma="lo" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--tanto-->
+    <term tid="t27" type="open" lemma="tanto" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t28" type="open" lemma="se" pos="N" morphofeat="NN">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--puede-->
+    <term tid="t29" type="open" lemma="puede" pos="N" morphofeat="NN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--dejar-->
+    <term tid="t30" type="open" lemma="dejar" pos="N" morphofeat="NN">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--los-->
+    <term tid="t31" type="open" lemma="los" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--niños-->
+    <term tid="t32" type="open" lemma="niños" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--ocupados-->
+    <term tid="t33" type="open" lemma="ocupados" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t34" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--las-->
+    <term tid="t35" type="open" lemma="las" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--habitaciones-->
+    <term tid="t36" type="open" lemma="habitaciones" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--no-->
+    <term tid="t37" type="close" lemma="no" pos="D" morphofeat="DT">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--son-->
+    <term tid="t38" type="open" lemma="son" pos="N" morphofeat="NN">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--baratas-->
+    <term tid="t39" type="open" lemma="baratas" pos="A" morphofeat="RB">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--pero-->
+    <term tid="t40" type="close" lemma="pero" pos="O" morphofeat="FW">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--vale-->
+    <term tid="t41" type="close" lemma="vale" pos="O" morphofeat="FW">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t42" type="close" lemma="la" pos="O" morphofeat="FW">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--pena-->
+    <term tid="t43" type="close" lemma="pena" pos="O" morphofeat="FW">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--pagarlo-->
+    <term tid="t44" type="open" lemma="pagarlo" pos="N" morphofeat="NN">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t45" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+  </terms>
+</KAF>

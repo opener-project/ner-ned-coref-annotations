@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="en" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-tokenizer-en" timestamp="2013-12-05T11:10:14Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2013-12-05 12:10:14" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Very</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="4">good</wf>
+    <wf wid="w3" sent="2" para="2" offset="10" length="1">A</wf>
+    <wf wid="w4" sent="2" para="2" offset="12" length="5">hotel</wf>
+    <wf wid="w5" sent="2" para="2" offset="18" length="6">within</wf>
+    <wf wid="w6" sent="2" para="2" offset="25" length="3">the</wf>
+    <wf wid="w7" sent="2" para="2" offset="29" length="6">Hilton</wf>
+    <wf wid="w8" sent="2" para="2" offset="36" length="8">standard</wf>
+    <wf wid="w9" sent="2" para="2" offset="44" length="1">.</wf>
+    <wf wid="w10" sent="3" para="2" offset="46" length="4">Very</wf>
+    <wf wid="w11" sent="3" para="2" offset="51" length="11">comfortable</wf>
+    <wf wid="w12" sent="3" para="2" offset="63" length="3">bed</wf>
+    <wf wid="w13" sent="3" para="2" offset="67" length="3">and</wf>
+    <wf wid="w14" sent="3" para="2" offset="71" length="4">room</wf>
+    <wf wid="w15" sent="3" para="2" offset="76" length="4">with</wf>
+    <wf wid="w16" sent="3" para="2" offset="81" length="3">sea</wf>
+    <wf wid="w17" sent="3" para="2" offset="85" length="5">views</wf>
+    <wf wid="w18" sent="3" para="2" offset="90" length="1">.</wf>
+    <wf wid="w19" sent="4" para="2" offset="92" length="5">Ideal</wf>
+    <wf wid="w20" sent="4" para="2" offset="98" length="8">location</wf>
+    <wf wid="w21" sent="4" para="2" offset="107" length="3">for</wf>
+    <wf wid="w22" sent="4" para="2" offset="111" length="3">the</wf>
+    <wf wid="w23" sent="4" para="2" offset="115" length="5">Forum</wf>
+    <wf wid="w24" sent="4" para="2" offset="121" length="10">convention</wf>
+    <wf wid="w25" sent="4" para="2" offset="132" length="6">center</wf>
+    <wf wid="w26" sent="4" para="2" offset="138" length="1">.</wf>
+    <wf wid="w27" sent="5" para="2" offset="140" length="5">Close</wf>
+    <wf wid="w28" sent="5" para="2" offset="146" length="2">to</wf>
+    <wf wid="w29" sent="5" para="2" offset="149" length="3">the</wf>
+    <wf wid="w30" sent="5" para="2" offset="153" length="5">beach</wf>
+    <wf wid="w31" sent="5" para="2" offset="159" length="3">and</wf>
+    <wf wid="w32" sent="5" para="2" offset="163" length="4">with</wf>
+    <wf wid="w33" sent="5" para="2" offset="168" length="1">a</wf>
+    <wf wid="w34" sent="5" para="2" offset="170" length="8">shopping</wf>
+    <wf wid="w35" sent="5" para="2" offset="179" length="6">center</wf>
+    <wf wid="w36" sent="5" para="2" offset="186" length="2">on</wf>
+    <wf wid="w37" sent="5" para="2" offset="189" length="3">the</wf>
+    <wf wid="w38" sent="5" para="2" offset="193" length="5">other</wf>
+    <wf wid="w39" sent="5" para="2" offset="199" length="4">side</wf>
+    <wf wid="w40" sent="5" para="2" offset="204" length="2">of</wf>
+    <wf wid="w41" sent="5" para="2" offset="207" length="3">the</wf>
+    <wf wid="w42" sent="5" para="2" offset="211" length="6">street</wf>
+    <wf wid="w43" sent="5" para="2" offset="217" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Very-->
+    <term tid="t1" type="close" lemma="Very" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--good-->
+    <term tid="t2" type="open" lemma="good" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--A-->
+    <term tid="t3" type="close" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--hotel-->
+    <term tid="t4" type="open" lemma="hotel" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--within-->
+    <term tid="t5" type="close" lemma="within" pos="P" morphofeat="IN">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t6" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--Hilton-->
+    <term tid="t7" type="close" lemma="Hilton" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--standard-->
+    <term tid="t8" type="open" lemma="standard" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t9" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--Very-->
+    <term tid="t10" type="close" lemma="Very" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--comfortable-->
+    <term tid="t11" type="open" lemma="comfortable" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--bed-->
+    <term tid="t12" type="open" lemma="bed" pos="N" morphofeat="NN">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--and-->
+    <term tid="t13" type="close" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--room-->
+    <term tid="t14" type="open" lemma="room" pos="N" morphofeat="NN">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--with-->
+    <term tid="t15" type="close" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--sea-->
+    <term tid="t16" type="open" lemma="sea" pos="N" morphofeat="NN">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--views-->
+    <term tid="t17" type="open" lemma="view" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t18" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--Ideal-->
+    <term tid="t19" type="close" lemma="Ideal" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--location-->
+    <term tid="t20" type="open" lemma="location" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--for-->
+    <term tid="t21" type="close" lemma="for" pos="P" morphofeat="IN">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t22" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--Forum-->
+    <term tid="t23" type="close" lemma="Forum" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--convention-->
+    <term tid="t24" type="open" lemma="convention" pos="N" morphofeat="NN">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--center-->
+    <term tid="t25" type="open" lemma="center" pos="N" morphofeat="NN">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t26" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--Close-->
+    <term tid="t27" type="open" lemma="close" pos="V" morphofeat="VB">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--to-->
+    <term tid="t28" type="close" lemma="to" pos="P" morphofeat="TO">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t29" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--beach-->
+    <term tid="t30" type="open" lemma="beach" pos="N" morphofeat="NN">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--and-->
+    <term tid="t31" type="close" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--with-->
+    <term tid="t32" type="close" lemma="with" pos="P" morphofeat="IN">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t33" type="close" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--shopping-->
+    <term tid="t34" type="open" lemma="shopping" pos="N" morphofeat="NN">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--center-->
+    <term tid="t35" type="open" lemma="center" pos="N" morphofeat="NN">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--on-->
+    <term tid="t36" type="close" lemma="on" pos="P" morphofeat="IN">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t37" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--other-->
+    <term tid="t38" type="open" lemma="other" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--side-->
+    <term tid="t39" type="open" lemma="side" pos="N" morphofeat="NN">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--of-->
+    <term tid="t40" type="close" lemma="of" pos="P" morphofeat="IN">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--the-->
+    <term tid="t41" type="close" lemma="the" pos="D" morphofeat="DT">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--street-->
+    <term tid="t42" type="open" lemma="street" pos="N" morphofeat="NN">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t43" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Hilton-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--Forum convention center-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+</KAF>

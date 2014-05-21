@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="fr" version="2.0">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-03T09:04:03Z" version="0.0.1" />
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-03T09:04:03Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-03T09:04:04Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="opennlp-fr-ner-all" timestamp="2014-02-03T09:04:04Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-fr" timestamp="2014-02-03 10:04:04" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-fr" timestamp="2014-02-03T10:04:05" version="0.8" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Nunc</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="2">eu</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="6">cursus</wf>
+    <wf wid="w4" sent="1" para="1" offset="15" length="4">erat</wf>
+    <wf wid="w5" sent="1" para="1" offset="19" length="1">.</wf>
+    <wf wid="w6" sent="2" para="2" offset="21" length="4">Nunc</wf>
+    <wf wid="w7" sent="2" para="2" offset="26" length="2">eu</wf>
+    <wf wid="w8" sent="2" para="2" offset="29" length="6">cursus</wf>
+    <wf wid="w9" sent="2" para="2" offset="36" length="4">erat</wf>
+    <wf wid="w10" sent="2" para="2" offset="40" length="1">.</wf>
+    <wf wid="w11" sent="3" para="2" offset="42" length="5">Donec</wf>
+    <wf wid="w12" sent="3" para="2" offset="48" length="9">tincidunt</wf>
+    <wf wid="w13" sent="3" para="2" offset="58" length="4">nibh</wf>
+    <wf wid="w14" sent="3" para="2" offset="63" length="4">eros</wf>
+    <wf wid="w15" sent="3" para="2" offset="67" length="1">.</wf>
+    <wf wid="w16" sent="4" para="2" offset="69" length="7">Quisque</wf>
+    <wf wid="w17" sent="4" para="2" offset="77" length="9">tincidunt</wf>
+    <wf wid="w18" sent="4" para="2" offset="87" length="5">magna</wf>
+    <wf wid="w19" sent="4" para="2" offset="93" length="3">nec</wf>
+    <wf wid="w20" sent="4" para="2" offset="97" length="4">arcu</wf>
+    <wf wid="w21" sent="4" para="2" offset="102" length="6">mattis</wf>
+    <wf wid="w22" sent="4" para="2" offset="109" length="3">non</wf>
+    <wf wid="w23" sent="4" para="2" offset="113" length="9">venenatis</wf>
+    <wf wid="w24" sent="4" para="2" offset="123" length="6">turpis</wf>
+    <wf wid="w25" sent="4" para="2" offset="130" length="9">venenatis</wf>
+    <wf wid="w26" sent="4" para="2" offset="139" length="1">.</wf>
+    <wf wid="w27" sent="5" para="2" offset="141" length="6">Nullam</wf>
+    <wf wid="w28" sent="5" para="2" offset="148" length="3">sed</wf>
+    <wf wid="w29" sent="5" para="2" offset="152" length="6">turpis</wf>
+    <wf wid="w30" sent="5" para="2" offset="159" length="2">ut</wf>
+    <wf wid="w31" sent="5" para="2" offset="162" length="4">enim</wf>
+    <wf wid="w32" sent="5" para="2" offset="167" length="8">pharetra</wf>
+    <wf wid="w33" sent="5" para="2" offset="176" length="7">viverra</wf>
+    <wf wid="w34" sent="5" para="2" offset="184" length="3">sed</wf>
+    <wf wid="w35" sent="5" para="2" offset="188" length="2">at</wf>
+    <wf wid="w36" sent="5" para="2" offset="191" length="5">magna</wf>
+    <wf wid="w37" sent="5" para="2" offset="196" length="1">.</wf>
+    <wf wid="w38" sent="6" para="2" offset="198" length="5">Fusce</wf>
+    <wf wid="w39" sent="6" para="2" offset="204" length="9">dignissim</wf>
+    <wf wid="w40" sent="6" para="2" offset="214" length="5">risus</wf>
+    <wf wid="w41" sent="6" para="2" offset="220" length="3">vel</wf>
+    <wf wid="w42" sent="6" para="2" offset="224" length="5">risus</wf>
+    <wf wid="w43" sent="6" para="2" offset="230" length="10">vestibulum</wf>
+    <wf wid="w44" sent="6" para="2" offset="241" length="7">posuere</wf>
+    <wf wid="w45" sent="6" para="2" offset="248" length="1">.</wf>
+    <wf wid="w46" sent="7" para="2" offset="250" length="6">Aenean</wf>
+    <wf wid="w47" sent="7" para="2" offset="257" length="4">urna</wf>
+    <wf wid="w48" sent="7" para="2" offset="262" length="4">enim</wf>
+    <wf wid="w49" sent="7" para="2" offset="266" length="1">,</wf>
+    <wf wid="w50" sent="7" para="2" offset="268" length="9">ultricies</wf>
+    <wf wid="w51" sent="7" para="2" offset="278" length="3">sed</wf>
+    <wf wid="w52" sent="7" para="2" offset="282" length="9">dignissim</wf>
+    <wf wid="w53" sent="7" para="2" offset="292" length="3">sed</wf>
+    <wf wid="w54" sent="7" para="2" offset="295" length="1">,</wf>
+    <wf wid="w55" sent="7" para="2" offset="297" length="7">aliquet</wf>
+    <wf wid="w56" sent="7" para="2" offset="305" length="2">eu</wf>
+    <wf wid="w57" sent="7" para="2" offset="308" length="4">sem.</wf>
+    <wf wid="w58" sent="7" para="2" offset="313" length="11">Suspendisse</wf>
+    <wf wid="w59" sent="7" para="2" offset="325" length="5">lorem</wf>
+    <wf wid="w60" sent="7" para="2" offset="331" length="4">nibh</wf>
+    <wf wid="w61" sent="7" para="2" offset="335" length="1">,</wf>
+    <wf wid="w62" sent="7" para="2" offset="337" length="9">convallis</wf>
+    <wf wid="w63" sent="7" para="2" offset="347" length="7">laoreet</wf>
+    <wf wid="w64" sent="7" para="2" offset="355" length="9">tristique</wf>
+    <wf wid="w65" sent="7" para="2" offset="365" length="2">in</wf>
+    <wf wid="w66" sent="7" para="2" offset="367" length="1">,</wf>
+    <wf wid="w67" sent="7" para="2" offset="369" length="6">varius</wf>
+    <wf wid="w68" sent="7" para="2" offset="376" length="8">bibendum</wf>
+    <wf wid="w69" sent="7" para="2" offset="385" length="4">nisi</wf>
+    <wf wid="w70" sent="7" para="2" offset="389" length="1">.</wf>
+    <wf wid="w71" sent="8" para="2" offset="391" length="7">Aliquam</wf>
+    <wf wid="w72" sent="8" para="2" offset="399" length="2">ac</wf>
+    <wf wid="w73" sent="8" para="2" offset="402" length="4">nunc</wf>
+    <wf wid="w74" sent="8" para="2" offset="407" length="7">viverra</wf>
+    <wf wid="w75" sent="8" para="2" offset="415" length="5">lorem</wf>
+    <wf wid="w76" sent="8" para="2" offset="421" length="6">congue</wf>
+    <wf wid="w77" sent="8" para="2" offset="428" length="10">adipiscing</wf>
+    <wf wid="w78" sent="8" para="2" offset="439" length="2">eu</wf>
+    <wf wid="w79" sent="8" para="2" offset="442" length="4">quis</wf>
+    <wf wid="w80" sent="8" para="2" offset="447" length="3">dui</wf>
+    <wf wid="w81" sent="8" para="2" offset="450" length="1">.</wf>
+    <wf wid="w82" sent="9" para="2" offset="452" length="5">Proin</wf>
+    <wf wid="w83" sent="9" para="2" offset="458" length="9">vulputate</wf>
+    <wf wid="w84" sent="9" para="2" offset="468" length="6">sapien</wf>
+    <wf wid="w85" sent="9" para="2" offset="475" length="5">vitae</wf>
+    <wf wid="w86" sent="9" para="2" offset="481" length="5">purus</wf>
+    <wf wid="w87" sent="9" para="2" offset="487" length="8">interdum</wf>
+    <wf wid="w88" sent="9" para="2" offset="496" length="8">placerat</wf>
+    <wf wid="w89" sent="9" para="2" offset="504" length="1">.</wf>
+    <wf wid="w90" sent="10" para="2" offset="452" length="5">Proin</wf>
+    <wf wid="w91" sent="10" para="2" offset="512" length="2">et</wf>
+    <wf wid="w92" sent="10" para="2" offset="515" length="5">ipsum</wf>
+    <wf wid="w93" sent="10" para="2" offset="521" length="2">mi</wf>
+    <wf wid="w94" sent="10" para="2" offset="523" length="1">,</wf>
+    <wf wid="w95" sent="10" para="2" offset="525" length="2">in</wf>
+    <wf wid="w96" sent="10" para="2" offset="528" length="11">condimentum</wf>
+    <wf wid="w97" sent="10" para="2" offset="540" length="5">justo</wf>
+    <wf wid="w98" sent="10" para="2" offset="545" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nunc-->
+    <term tid="t1" type="open" lemma="Nunc" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--eu-->
+    <term tid="t2" type="open" lemma="avoir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--cursus-->
+    <term tid="t3" type="open" lemma="cursus" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--erat-->
+    <term tid="t4" type="open" lemma="erat" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t5" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Nunc-->
+    <term tid="t6" type="open" lemma="Nunc" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--eu-->
+    <term tid="t7" type="open" lemma="avoir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--cursus-->
+    <term tid="t8" type="open" lemma="cursus" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--erat-->
+    <term tid="t9" type="open" lemma="erat" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t10" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--Donec-->
+    <term tid="t11" type="open" lemma="Donec" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--tincidunt-->
+    <term tid="t12" type="open" lemma="tincidunt" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--nibh-->
+    <term tid="t13" type="close" lemma="nibh" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--eros-->
+    <term tid="t14" type="open" lemma="eros" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t15" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--Quisque-->
+    <term tid="t16" type="close" lemma="Quisque" pos="C" morphofeat="CS">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--tincidunt-->
+    <term tid="t17" type="open" lemma="tincidunt" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--magna-->
+    <term tid="t18" type="open" lemma="magna" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--nec-->
+    <term tid="t19" type="close" lemma="nec" pos="P" morphofeat="P">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--arcu-->
+    <term tid="t20" type="open" lemma="arcu" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--mattis-->
+    <term tid="t21" type="close" lemma="mattis" pos="C" morphofeat="CC">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t22" type="open" lemma="non" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--venenatis-->
+    <term tid="t23" type="open" lemma="venenatis" pos="V" morphofeat="VKmp">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--turpis-->
+    <term tid="t24" type="open" lemma="turpis" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--venenatis-->
+    <term tid="t25" type="open" lemma="venenatis" pos="V" morphofeat="VKmp">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t26" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--Nullam-->
+    <term tid="t27" type="open" lemma="Nullam" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--sed-->
+    <term tid="t28" type="open" lemma="sed" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--turpis-->
+    <term tid="t29" type="open" lemma="turpis" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--ut-->
+    <term tid="t30" type="open" lemma="ut" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--enim-->
+    <term tid="t31" type="close" lemma="enim" pos="P" morphofeat="P">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--pharetra-->
+    <term tid="t32" type="open" lemma="pharetra" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--viverra-->
+    <term tid="t33" type="open" lemma="viverra" pos="V" morphofeat="VF3s">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--sed-->
+    <term tid="t34" type="open" lemma="sed" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--at-->
+    <term tid="t35" type="open" lemma="at" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--magna-->
+    <term tid="t36" type="open" lemma="magna" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t37" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--Fusce-->
+    <term tid="t38" type="close" lemma="Fusce" pos="O" morphofeat="ET">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--dignissim-->
+    <term tid="t39" type="open" lemma="dignissim" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--risus-->
+    <term tid="t40" type="open" lemma="risus" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--vel-->
+    <term tid="t41" type="open" lemma="vel" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--risus-->
+    <term tid="t42" type="open" lemma="risus" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--vestibulum-->
+    <term tid="t43" type="open" lemma="vestibulum" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--posuere-->
+    <term tid="t44" type="open" lemma="posuere" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t45" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--Aenean-->
+    <term tid="t46" type="close" lemma="Aenean" pos="O" morphofeat="ET">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--urna-->
+    <term tid="t47" type="open" lemma="urna" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--enim-->
+    <term tid="t48" type="open" lemma="enim" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t49" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w49" />
+      </span>
+    </term>
+    <!--ultricies-->
+    <term tid="t50" type="open" lemma="ultricies" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w50" />
+      </span>
+    </term>
+    <!--sed-->
+    <term tid="t51" type="open" lemma="sed" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w51" />
+      </span>
+    </term>
+    <!--dignissim-->
+    <term tid="t52" type="open" lemma="dignissim" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w52" />
+      </span>
+    </term>
+    <!--sed-->
+    <term tid="t53" type="open" lemma="sed" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w53" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t54" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w54" />
+      </span>
+    </term>
+    <!--aliquet-->
+    <term tid="t55" type="open" lemma="aliquet" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w55" />
+      </span>
+    </term>
+    <!--eu-->
+    <term tid="t56" type="open" lemma="avoir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w56" />
+      </span>
+    </term>
+    <!--sem.-->
+    <term tid="t57" type="close" lemma="sem." pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w57" />
+      </span>
+    </term>
+    <!--Suspendisse-->
+    <term tid="t58" type="open" lemma="suspendre" pos="V" morphofeat="VS3s">
+      <span>
+        <target id="w58" />
+      </span>
+    </term>
+    <!--lorem-->
+    <term tid="t59" type="open" lemma="lorem" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w59" />
+      </span>
+    </term>
+    <!--nibh-->
+    <term tid="t60" type="open" lemma="nibh" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w60" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t61" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w61" />
+      </span>
+    </term>
+    <!--convallis-->
+    <term tid="t62" type="open" lemma="convallis" pos="V" morphofeat="VKmp">
+      <span>
+        <target id="w62" />
+      </span>
+    </term>
+    <!--laoreet-->
+    <term tid="t63" type="close" lemma="laoreet" pos="C" morphofeat="CC">
+      <span>
+        <target id="w63" />
+      </span>
+    </term>
+    <!--tristique-->
+    <term tid="t64" type="open" lemma="tristique" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w64" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t65" type="close" lemma="in" pos="O" morphofeat="ET">
+      <span>
+        <target id="w65" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t66" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w66" />
+      </span>
+    </term>
+    <!--varius-->
+    <term tid="t67" type="open" lemma="varius" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w67" />
+      </span>
+    </term>
+    <!--bibendum-->
+    <term tid="t68" type="open" lemma="bibendum" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w68" />
+      </span>
+    </term>
+    <!--nisi-->
+    <term tid="t69" type="open" lemma="nisi" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w69" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t70" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w70" />
+      </span>
+    </term>
+    <!--Aliquam-->
+    <term tid="t71" type="open" lemma="Aliquam" pos="N" morphofeat="NPfs">
+      <span>
+        <target id="w71" />
+      </span>
+    </term>
+    <!--ac-->
+    <term tid="t72" type="open" lemma="ac" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w72" />
+      </span>
+    </term>
+    <!--nunc-->
+    <term tid="t73" type="open" lemma="nunc" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w73" />
+      </span>
+    </term>
+    <!--viverra-->
+    <term tid="t74" type="open" lemma="viverra" pos="V" morphofeat="VF3s">
+      <span>
+        <target id="w74" />
+      </span>
+    </term>
+    <!--lorem-->
+    <term tid="t75" type="open" lemma="lorem" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w75" />
+      </span>
+    </term>
+    <!--congue-->
+    <term tid="t76" type="open" lemma="congue" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w76" />
+      </span>
+    </term>
+    <!--adipiscing-->
+    <term tid="t77" type="open" lemma="adipiscing" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w77" />
+      </span>
+    </term>
+    <!--eu-->
+    <term tid="t78" type="open" lemma="avoir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w78" />
+      </span>
+    </term>
+    <!--quis-->
+    <term tid="t79" type="open" lemma="quis" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w79" />
+      </span>
+    </term>
+    <!--dui-->
+    <term tid="t80" type="close" lemma="dui" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w80" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t81" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w81" />
+      </span>
+    </term>
+    <!--Proin-->
+    <term tid="t82" type="open" lemma="Proin" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w82" />
+      </span>
+    </term>
+    <!--vulputate-->
+    <term tid="t83" type="open" lemma="vulputate" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w83" />
+      </span>
+    </term>
+    <!--sapien-->
+    <term tid="t84" type="open" lemma="sapien" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w84" />
+      </span>
+    </term>
+    <!--vitae-->
+    <term tid="t85" type="open" lemma="vitae" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w85" />
+      </span>
+    </term>
+    <!--purus-->
+    <term tid="t86" type="open" lemma="purus" pos="V" morphofeat="VKmp">
+      <span>
+        <target id="w86" />
+      </span>
+    </term>
+    <!--interdum-->
+    <term tid="t87" type="open" lemma="interdum" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w87" />
+      </span>
+    </term>
+    <!--placerat-->
+    <term tid="t88" type="open" lemma="placerat" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w88" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t89" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w89" />
+      </span>
+    </term>
+    <!--Proin-->
+    <term tid="t90" type="open" lemma="Proin" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w90" />
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t91" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w91" />
+      </span>
+    </term>
+    <!--ipsum-->
+    <term tid="t92" type="open" lemma="ipsum" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w92" />
+      </span>
+    </term>
+    <!--mi-->
+    <term tid="t93" type="open" lemma="mi" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w93" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t94" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w94" />
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t95" type="close" lemma="in" pos="O" morphofeat="ET">
+      <span>
+        <target id="w95" />
+      </span>
+    </term>
+    <!--condimentum-->
+    <term tid="t96" type="close" lemma="condimentum" pos="O" morphofeat="ET">
+      <span>
+        <target id="w96" />
+      </span>
+    </term>
+    <!--justo-->
+    <term tid="t97" type="open" lemma="justo" pos="G" morphofeat="A">
+      <span>
+        <target id="w97" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t98" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w98" />
+      </span>
+    </term>
+  </terms>
+</KAF>

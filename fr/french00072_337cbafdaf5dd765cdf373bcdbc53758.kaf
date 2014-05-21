@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="fr" version="2.0">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-03T09:06:10Z" version="0.0.1" />
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-03T09:06:10Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-03T09:06:10Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="opennlp-fr-ner-all" timestamp="2014-02-03T09:06:10Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-fr" timestamp="2014-02-03 10:06:10" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-fr" timestamp="2014-02-03T10:06:11" version="0.8" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Journée</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="9">mémorable</wf>
+    <wf wid="w3" sent="2" para="2" offset="18" length="4">très</wf>
+    <wf wid="w4" sent="2" para="2" offset="23" length="8">agreable</wf>
+    <wf wid="w5" sent="2" para="2" offset="32" length="4">site</wf>
+    <wf wid="w6" sent="2" para="2" offset="37" length="1">,</wf>
+    <wf wid="w7" sent="2" para="2" offset="38" length="4">vous</wf>
+    <wf wid="w8" sent="2" para="2" offset="43" length="6">pouvez</wf>
+    <wf wid="w9" sent="2" para="2" offset="50" length="1">y</wf>
+    <wf wid="w10" sent="2" para="2" offset="52" length="6">passer</wf>
+    <wf wid="w11" sent="2" para="2" offset="59" length="2">la</wf>
+    <wf wid="w12" sent="2" para="2" offset="62" length="6">jounée</wf>
+    <wf wid="w13" sent="2" para="2" offset="69" length="4">avec</wf>
+    <wf wid="w14" sent="2" para="2" offset="74" length="3">ses</wf>
+    <wf wid="w15" sent="2" para="2" offset="78" length="10">nombreuses</wf>
+    <wf wid="w16" sent="2" para="2" offset="89" length="10">animations</wf>
+    <wf wid="w17" sent="2" para="2" offset="99" length="1">,</wf>
+    <wf wid="w18" sent="2" para="2" offset="101" length="3">ses</wf>
+    <wf wid="w19" sent="2" para="2" offset="105" length="10">curiosités</wf>
+    <wf wid="w20" sent="2" para="2" offset="115" length="1">.</wf>
+    <wf wid="w21" sent="2" para="2" offset="116" length="1">,</wf>
+    <wf wid="w22" sent="2" para="2" offset="117" length="7">visitez</wf>
+    <wf wid="w23" sent="2" para="2" offset="125" length="3">les</wf>
+    <wf wid="w24" sent="2" para="2" offset="129" length="7">grottes</wf>
+    <wf wid="w25" sent="2" para="2" offset="136" length="1">,</wf>
+    <wf wid="w26" sent="2" para="2" offset="138" length="3">les</wf>
+    <wf wid="w27" sent="2" para="2" offset="142" length="10">nombreuses</wf>
+    <wf wid="w28" sent="2" para="2" offset="153" length="7">criques</wf>
+    <wf wid="w29" sent="2" para="2" offset="161" length="2">de</wf>
+    <wf wid="w30" sent="2" para="2" offset="164" length="5">plage</wf>
+    <wf wid="w31" sent="2" para="2" offset="169" length="1">,</wf>
+    <wf wid="w32" sent="2" para="2" offset="171" length="2">le</wf>
+    <wf wid="w33" sent="2" para="2" offset="174" length="5">phare</wf>
+    <wf wid="w34" sent="2" para="2" offset="180" length="2">de</wf>
+    <wf wid="w35" sent="2" para="2" offset="183" length="8">Cordouan</wf>
+    <wf wid="w36" sent="2" para="2" offset="191" length="10">..........</wf>
+    <wf wid="w37" sent="2" para="2" offset="201" length="1">,</wf>
+    <wf wid="w38" sent="2" para="2" offset="202" length="6">restez</wf>
+    <wf wid="w39" sent="2" para="2" offset="209" length="2">au</wf>
+    <wf wid="w40" sent="2" para="2" offset="212" length="5">moins</wf>
+    <wf wid="w41" sent="2" para="2" offset="218" length="4">deux</wf>
+    <wf wid="w42" sent="2" para="2" offset="223" length="8">semaines</wf>
+    <wf wid="w43" sent="2" para="2" offset="232" length="4">pour</wf>
+    <wf wid="w44" sent="2" para="2" offset="237" length="2">en</wf>
+    <wf wid="w45" sent="2" para="2" offset="240" length="4">voir</wf>
+    <wf wid="w46" sent="2" para="2" offset="245" length="2">un</wf>
+    <wf wid="w47" sent="2" para="2" offset="248" length="3">max</wf>
+  </text>
+  <terms>
+    <!--Journée-->
+    <term tid="t1" type="open" lemma="journée" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--mémorable-->
+    <term tid="t2" type="open" lemma="mémorable" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--très-->
+    <term tid="t3" type="open" lemma="très" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--agreable-->
+    <term tid="t4" type="open" lemma="agreable" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--site-->
+    <term tid="t5" type="open" lemma="site" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t6" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--vous-->
+    <term tid="t7" type="close" lemma="lui" pos="Q" morphofeat="CLS2mp">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--pouvez-->
+    <term tid="t8" type="open" lemma="pouvoir" pos="V" morphofeat="VP2p">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--y-->
+    <term tid="t9" type="close" lemma="y" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--passer-->
+    <term tid="t10" type="open" lemma="passer" pos="V" morphofeat="VW">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t11" type="close" lemma="le" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--jounée-->
+    <term tid="t12" type="open" lemma="jounée" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t13" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--ses-->
+    <term tid="t14" type="close" lemma="son" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--nombreuses-->
+    <term tid="t15" type="open" lemma="nombreux" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--animations-->
+    <term tid="t16" type="open" lemma="animation" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t17" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--ses-->
+    <term tid="t18" type="close" lemma="son" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--curiosités-->
+    <term tid="t19" type="open" lemma="curiosité" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t20" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t21" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--visitez-->
+    <term tid="t22" type="open" lemma="visiter" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t23" type="close" lemma="le" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--grottes-->
+    <term tid="t24" type="open" lemma="grotte" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t25" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--les-->
+    <term tid="t26" type="close" lemma="le" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--nombreuses-->
+    <term tid="t27" type="open" lemma="nombreux" pos="G" morphofeat="Afp">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--criques-->
+    <term tid="t28" type="open" lemma="crique" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t29" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--plage-->
+    <term tid="t30" type="open" lemma="plage" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t31" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t32" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--phare-->
+    <term tid="t33" type="open" lemma="phare" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t34" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--Cordouan-->
+    <term tid="t35" type="open" lemma="Cordouan" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--..........-->
+    <term tid="t36" type="close" lemma=".........." pos="O" morphofeat=".">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t37" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--restez-->
+    <term tid="t38" type="open" lemma="rester" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--au-->
+    <term tid="t39" type="close" lemma="au" pos="P" morphofeat="P">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--moins-->
+    <term tid="t40" type="open" lemma="moins" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--deux-->
+    <term tid="t41" type="close" lemma="deux" pos="D" morphofeat="Dfp">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--semaines-->
+    <term tid="t42" type="open" lemma="semaine" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t43" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t44" type="close" lemma="en" pos="Q" morphofeat="CL3fs">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--voir-->
+    <term tid="t45" type="open" lemma="voir" pos="V" morphofeat="VW">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t46" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--max-->
+    <term tid="t47" type="open" lemma="maximum" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--le phare de Cordouan-->
+        <span>
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Cordouan-->
+        <span>
+          <target id="t35" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Journée-->
+      <span>
+        <target id="t1" />
+      </span>
+      <!--jounée-->
+      <span>
+        <target id="t12" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--ses-->
+      <span>
+        <target id="t14" />
+      </span>
+      <!--ses-->
+      <span>
+        <target id="t18" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--en-->
+      <span>
+        <target id="t44" />
+      </span>
+      <!--ses nombreuses animations , ses curiosités . , visitez les grottes , les nombreuses criques de plage , le phare de Cordouan-->
+      <span>
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+        <target id="t21" />
+        <target id="t22" />
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>

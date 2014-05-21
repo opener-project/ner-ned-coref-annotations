@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="fr" version="2.0">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-01-14T16:36:47Z" version="0.0.1" />
+      <lp name="opener-tokenizer-fr" timestamp="2014-01-14T16:36:47Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-01-14T16:36:47Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="opennlp-fr-ner-all" timestamp="2014-01-14T16:36:48Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-fr" timestamp="2014-01-14 17:36:48" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-fr" timestamp="2014-01-14T17:36:50" version="0.8" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Très</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="3">bon</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="5">hôtel</wf>
+    <wf wid="w4" sent="1" para="1" offset="15" length="1">à</wf>
+    <wf wid="w5" sent="1" para="1" offset="17" length="6">Annecy</wf>
+    <wf wid="w6" sent="2" para="2" offset="24" length="7">Parfait</wf>
+    <wf wid="w7" sent="2" para="2" offset="32" length="4">pour</wf>
+    <wf wid="w8" sent="2" para="2" offset="37" length="3">une</wf>
+    <wf wid="w9" sent="2" para="2" offset="41" length="6">soirée</wf>
+    <wf wid="w10" sent="2" para="2" offset="48" length="5">étape</wf>
+    <wf wid="w11" sent="2" para="2" offset="54" length="4">avec</wf>
+    <wf wid="w12" sent="2" para="2" offset="59" length="2">un</wf>
+    <wf wid="w13" sent="2" para="2" offset="62" length="4">menu</wf>
+    <wf wid="w14" sent="2" para="2" offset="67" length="2">du</wf>
+    <wf wid="w15" sent="2" para="2" offset="70" length="4">jour</wf>
+    <wf wid="w16" sent="2" para="2" offset="75" length="9">abordable</wf>
+    <wf wid="w17" sent="2" para="2" offset="85" length="4">pour</wf>
+    <wf wid="w18" sent="2" para="2" offset="90" length="9">compléter</wf>
+    <wf wid="w19" sent="2" para="2" offset="100" length="2">le</wf>
+    <wf wid="w20" sent="2" para="2" offset="103" length="6">séjour</wf>
+    <wf wid="w21" sent="3" para="3" offset="111" length="11">Possibilité</wf>
+    <wf wid="w22" sent="3" para="3" offset="123" length="2">de</wf>
+    <wf wid="w23" sent="3" para="3" offset="126" length="7">parking</wf>
+    <wf wid="w24" sent="4" para="4" offset="135" length="8">Chambres</wf>
+    <wf wid="w25" sent="4" para="4" offset="144" length="4">tout</wf>
+    <wf wid="w26" sent="4" para="4" offset="149" length="7">confort</wf>
+    <wf wid="w27" sent="4" para="4" offset="157" length="2">et</wf>
+    <wf wid="w28" sent="4" para="4" offset="160" length="2">le</wf>
+    <wf wid="w29" sent="4" para="4" offset="163" length="9">personnel</wf>
+    <wf wid="w30" sent="4" para="4" offset="173" length="3">est</wf>
+    <wf wid="w31" sent="4" para="4" offset="177" length="4">très</wf>
+    <wf wid="w32" sent="4" para="4" offset="182" length="15">professionnelle</wf>
+    <wf wid="w33" sent="5" para="5" offset="199" length="1">A</wf>
+    <wf wid="w34" sent="5" para="5" offset="201" length="11">recommander</wf>
+    <wf wid="w35" sent="5" para="5" offset="213" length="4">pour</wf>
+    <wf wid="w36" sent="5" para="5" offset="218" length="8">prochain</wf>
+    <wf wid="w37" sent="5" para="5" offset="227" length="6">voyage</wf>
+  </text>
+  <terms>
+    <!--Très-->
+    <term tid="t1" type="open" lemma="Très" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--bon-->
+    <term tid="t2" type="open" lemma="bon" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--hôtel-->
+    <term tid="t3" type="open" lemma="hôtel" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--à-->
+    <term tid="t4" type="close" lemma="à" pos="P" morphofeat="P">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--Annecy-->
+    <term tid="t5" type="open" lemma="Annecy" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--Parfait-->
+    <term tid="t6" type="open" lemma="parfait" pos="N" morphofeat="NPms">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t7" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--une-->
+    <term tid="t8" type="close" lemma="un" pos="D" morphofeat="Dfs">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--soirée-->
+    <term tid="t9" type="open" lemma="soirée" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--étape-->
+    <term tid="t10" type="open" lemma="étape" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--avec-->
+    <term tid="t11" type="close" lemma="avec" pos="P" morphofeat="P">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t12" type="close" lemma="un" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--menu-->
+    <term tid="t13" type="open" lemma="menu" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--du-->
+    <term tid="t14" type="close" lemma="du" pos="P" morphofeat="P">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--jour-->
+    <term tid="t15" type="open" lemma="jour" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--abordable-->
+    <term tid="t16" type="open" lemma="abordable" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t17" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--compléter-->
+    <term tid="t18" type="open" lemma="compléter" pos="V" morphofeat="VW">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t19" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--séjour-->
+    <term tid="t20" type="open" lemma="séjour" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--Possibilité-->
+    <term tid="t21" type="open" lemma="Possibilité" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t22" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--parking-->
+    <term tid="t23" type="open" lemma="parking" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--Chambres-->
+    <term tid="t24" type="open" lemma="chambre" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--tout-->
+    <term tid="t25" type="open" lemma="tout" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--confort-->
+    <term tid="t26" type="open" lemma="confort" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t27" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t28" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--personnel-->
+    <term tid="t29" type="open" lemma="personnel" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--est-->
+    <term tid="t30" type="open" lemma="être" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--très-->
+    <term tid="t31" type="open" lemma="très" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--professionnelle-->
+    <term tid="t32" type="open" lemma="professionnel" pos="G" morphofeat="Afs">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--A-->
+    <term tid="t33" type="close" lemma="A" pos="P" morphofeat="P">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--recommander-->
+    <term tid="t34" type="open" lemma="recommander" pos="V" morphofeat="VW">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t35" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--prochain-->
+    <term tid="t36" type="open" lemma="prochain" pos="G" morphofeat="Ams">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--voyage-->
+    <term tid="t37" type="open" lemma="voyage" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Annecy-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3037543" />
+      </externalReferences>
+    </entity>
+  </entities>
+</KAF>

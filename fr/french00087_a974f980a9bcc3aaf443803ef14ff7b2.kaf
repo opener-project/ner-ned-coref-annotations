@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="fr" version="2.0">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-01-14T16:35:44Z" version="0.0.1" />
+      <lp name="opener-tokenizer-fr" timestamp="2014-01-14T16:35:44Z" version="1.0.1" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-01-14T16:35:44Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="opennlp-fr-ner-all" timestamp="2014-01-14T16:35:44Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-fr" timestamp="2014-01-14 17:35:45" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="coreference">
+      <lp name="corefgraph-fr" timestamp="2014-01-14T17:35:45" version="0.8" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Plus</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="6">jamais</wf>
+    <wf wid="w3" sent="2" para="2" offset="12" length="7">camping</wf>
+    <wf wid="w4" sent="2" para="2" offset="20" length="4">tres</wf>
+    <wf wid="w5" sent="2" para="2" offset="25" length="7">bruyant</wf>
+    <wf wid="w6" sent="2" para="2" offset="33" length="2">le</wf>
+    <wf wid="w7" sent="2" para="2" offset="36" length="15">soir.Sanitaires</wf>
+    <wf wid="w8" sent="2" para="2" offset="52" length="2">et</wf>
+    <wf wid="w9" sent="2" para="2" offset="55" length="7">douches</wf>
+    <wf wid="w10" sent="2" para="2" offset="63" length="3">pas</wf>
+    <wf wid="w11" sent="2" para="2" offset="67" length="4">tres</wf>
+    <wf wid="w12" sent="2" para="2" offset="72" length="7">propres</wf>
+    <wf wid="w13" sent="2" para="2" offset="80" length="6">douche</wf>
+    <wf wid="w14" sent="2" para="2" offset="87" length="6">froide</wf>
+    <wf wid="w15" sent="2" para="2" offset="94" length="1">3</wf>
+    <wf wid="w16" sent="2" para="2" offset="96" length="5">jours</wf>
+    <wf wid="w17" sent="2" para="2" offset="102" length="2">de</wf>
+    <wf wid="w18" sent="2" para="2" offset="105" length="9">suite.Ils</wf>
+    <wf wid="w19" sent="2" para="2" offset="115" length="4">nous</wf>
+    <wf wid="w20" sent="2" para="2" offset="120" length="2">on</wf>
+    <wf wid="w21" sent="2" para="2" offset="123" length="2">vu</wf>
+    <wf wid="w22" sent="2" para="2" offset="126" length="4">mais</wf>
+    <wf wid="w23" sent="2" para="2" offset="131" length="2">ne</wf>
+    <wf wid="w24" sent="2" para="2" offset="134" length="4">nous</wf>
+    <wf wid="w25" sent="2" para="2" offset="139" length="9">reverrons</wf>
+    <wf wid="w26" sent="2" para="2" offset="149" length="7">plus.On</wf>
+    <wf wid="w27" sent="2" para="2" offset="157" length="2">se</wf>
+    <wf wid="w28" sent="2" para="2" offset="160" length="7">demande</wf>
+    <wf wid="w29" sent="2" para="2" offset="168" length="4">pour</wf>
+    <wf wid="w30" sent="2" para="2" offset="173" length="4">quoi</wf>
+    <wf wid="w31" sent="2" para="2" offset="178" length="2">ce</wf>
+    <wf wid="w32" sent="2" para="2" offset="181" length="7">camping</wf>
+    <wf wid="w33" sent="2" para="2" offset="189" length="1">a</wf>
+    <wf wid="w34" sent="2" para="2" offset="191" length="1">4</wf>
+    <wf wid="w35" sent="2" para="2" offset="193" length="7">etoiles</wf>
+  </text>
+  <terms>
+    <!--Plus-->
+    <term tid="t1" type="open" lemma="Plus" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--jamais-->
+    <term tid="t2" type="open" lemma="jamais" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--camping-->
+    <term tid="t3" type="open" lemma="camping" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--tres-->
+    <term tid="t4" type="open" lemma="tres" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--bruyant-->
+    <term tid="t5" type="open" lemma="bruyant" pos="V" morphofeat="VG">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t6" type="close" lemma="le" pos="D" morphofeat="Dms">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--soir.Sanitaires-->
+    <term tid="t7" type="open" lemma="soir.Sanitaires" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--et-->
+    <term tid="t8" type="close" lemma="et" pos="C" morphofeat="CC">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--douches-->
+    <term tid="t9" type="close" lemma="douches" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--pas-->
+    <term tid="t10" type="open" lemma="pas" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--tres-->
+    <term tid="t11" type="open" lemma="tres" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--propres-->
+    <term tid="t12" type="open" lemma="propre" pos="G" morphofeat="Amp">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--douche-->
+    <term tid="t13" type="close" lemma="douche" pos="P" morphofeat="P">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--froide-->
+    <term tid="t14" type="open" lemma="froide" pos="N" morphofeat="NCfs">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--3-->
+    <term tid="t15" type="close" lemma="3" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--jours-->
+    <term tid="t16" type="open" lemma="jour" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t17" type="close" lemma="de" pos="P" morphofeat="P">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--suite.Ils-->
+    <term tid="t18" type="open" lemma="suite.Ils" pos="N" morphofeat="NCms">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--nous-->
+    <term tid="t19" type="close" lemma="nous" pos="P" morphofeat="PRO1mp">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--on-->
+    <term tid="t20" type="close" lemma="on" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--vu-->
+    <term tid="t21" type="open" lemma="voir" pos="V" morphofeat="VKms">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--mais-->
+    <term tid="t22" type="open" lemma="mais" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--ne-->
+    <term tid="t23" type="open" lemma="ne" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--nous-->
+    <term tid="t24" type="close" lemma="lui" pos="Q" morphofeat="CLO1mp">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--reverrons-->
+    <term tid="t25" type="open" lemma="reverrons" pos="N" morphofeat="NCfp">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--plus.On-->
+    <term tid="t26" type="open" lemma="plus.On" pos="G" morphofeat="ADV">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t27" type="close" lemma="se" pos="Q" morphofeat="CL3ms">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--demande-->
+    <term tid="t28" type="open" lemma="demander" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--pour-->
+    <term tid="t29" type="close" lemma="pour" pos="P" morphofeat="P">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--quoi-->
+    <term tid="t30" type="close" lemma="quoi" pos="P" morphofeat="PRO">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--ce-->
+    <term tid="t31" type="close" lemma="ce" pos="P" morphofeat="PRO">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--camping-->
+    <term tid="t32" type="close" lemma="camping" pos="O" morphofeat="ET">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t33" type="open" lemma="avoir" pos="V" morphofeat="VP3s">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--4-->
+    <term tid="t34" type="close" lemma="4" pos="D" morphofeat="Dmp">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--etoiles-->
+    <term tid="t35" type="open" lemma="etoiles" pos="N" morphofeat="NCmp">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+  </terms>
+  <coreferences>
+    <coref coid="c1">
+      <!--nous-->
+      <span>
+        <target id="t24" />
+      </span>
+      <!--nous-->
+      <span>
+        <target id="t19" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--se-->
+      <span>
+        <target id="t27" />
+      </span>
+      <!--plus.On-->
+      <span>
+        <target id="t26" />
+      </span>
+      <!--on-->
+      <span>
+        <target id="t20" />
+      </span>
+      <!--suite.Ils-->
+      <span>
+        <target id="t18" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--camping-->
+      <span>
+        <target id="t32" />
+      </span>
+      <!--camping-->
+      <span>
+        <target id="t3" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--douches-->
+      <span>
+        <target id="t9" />
+      </span>
+      <!--douche-->
+      <span>
+        <target id="t13" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>
