@@ -300,4 +300,44 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--el centro de Milan-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3173435" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Percent">
+      <references>
+        <!--% recomendable-->
+        <span>
+          <target id="t39" />
+          <target id="t40" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Buen hotel-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--Muy buen hotel-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

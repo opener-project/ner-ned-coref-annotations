@@ -468,4 +468,77 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Barcelona-->
+        <span>
+          <target id="t44" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3128760" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--les-->
+      <span>
+        <target id="t23" />
+      </span>
+      <!--La gente de recepción-->
+      <span>
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--El pueblo donde está-->
+      <span>
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+      </span>
+      <!--donde-->
+      <span>
+        <target id="t31" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t49" />
+      </span>
+      <!--lo que me interesaba ,-->
+      <span>
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t46" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--si-->
+      <span>
+        <target id="t64" />
+      </span>
+      <!--la ciudad condal en si-->
+      <span>
+        <target id="t60" />
+        <target id="t61" />
+        <target id="t62" />
+        <target id="t63" />
+        <target id="t64" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

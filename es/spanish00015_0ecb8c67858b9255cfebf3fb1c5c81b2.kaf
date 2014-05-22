@@ -573,4 +573,53 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--BAHIA PRINCIPE-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="169698196373786" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--me-->
+      <span>
+        <target id="t33" />
+      </span>
+      <!--yo-->
+      <span>
+        <target id="t26" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--la playa-->
+      <span>
+        <target id="t31" />
+        <target id="t32" />
+      </span>
+      <!--la playa-->
+      <span>
+        <target id="t63" />
+        <target id="t64" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--hotel-->
+      <span>
+        <target id="t74" />
+      </span>
+      <!--BAHIA PRINCIPE-->
+      <span>
+        <target id="t23" />
+        <target id="t24" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

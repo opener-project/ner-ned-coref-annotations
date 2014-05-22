@@ -1140,4 +1140,164 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--la fiesta de Halloween-->
+        <span>
+          <target id="t119" />
+          <target id="t120" />
+          <target id="t121" />
+          <target id="t122" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Hotel">
+      <references>
+        <!--H10 Conquistador-->
+        <span>
+          <target id="t155" />
+          <target id="t156" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--la segunda vez que nos quedamos en este hotel-->
+      <span>
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t12" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--las mejoras que se han hecho de un año para otro-->
+      <span>
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t28" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--El año pasado-->
+      <span>
+        <target id="t38" />
+        <target id="t39" />
+        <target id="t40" />
+      </span>
+      <!--un año-->
+      <span>
+        <target id="t33" />
+        <target id="t34" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--la fuente de chocolate-->
+      <span>
+        <target id="t95" />
+        <target id="t96" />
+        <target id="t97" />
+        <target id="t98" />
+      </span>
+      <!--Lo mejor-->
+      <span>
+        <target id="t92" />
+        <target id="t93" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--nosotros-->
+      <span>
+        <target id="t105" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t13" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--donde-->
+      <span>
+        <target id="t123" />
+      </span>
+      <!--la fiesta de Halloween-->
+      <span>
+        <target id="t119" />
+        <target id="t120" />
+        <target id="t121" />
+        <target id="t122" />
+      </span>
+    </coref>
+    <coref coid="c7">
+      <!--que-->
+      <span>
+        <target id="t150" />
+      </span>
+      <!--el año que viene-->
+      <span>
+        <target id="t148" />
+        <target id="t149" />
+        <target id="t150" />
+        <target id="t151" />
+      </span>
+    </coref>
+    <coref coid="c8">
+      <!--este hotel-->
+      <span>
+        <target id="t16" />
+        <target id="t17" />
+      </span>
+      <!--H10 Conquistador-->
+      <span>
+        <target id="t155" />
+        <target id="t156" />
+      </span>
+      <!--todo el hotel-->
+      <span>
+        <target id="t139" />
+        <target id="t140" />
+        <target id="t141" />
+      </span>
+    </coref>
+    <coref coid="c9">
+      <!--todo el personal-->
+      <span>
+        <target id="t124" />
+        <target id="t125" />
+        <target id="t126" />
+      </span>
+      <!--El personal-->
+      <span>
+        <target id="t100" />
+        <target id="t101" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t102" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

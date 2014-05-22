@@ -1154,4 +1154,96 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Date">
+      <references>
+        <!--noviembre de 2013-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--la estación de Sants-->
+        <span>
+          <target id="t118" />
+          <target id="t119" />
+          <target id="t120" />
+          <target id="t121" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--la parte sur de Barcelona-->
+        <span>
+          <target id="t136" />
+          <target id="t137" />
+          <target id="t138" />
+          <target id="t139" />
+          <target id="t140" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3128760" />
+      </externalReferences>
+    </entity>
+    <entity eid="e4" type="Hotel">
+      <references>
+        <!--Torre Catalunya-->
+        <span>
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="130344" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--se-->
+      <span>
+        <target id="t105" />
+      </span>
+      <!--el suelo de mármol-->
+      <span>
+        <target id="t101" />
+        <target id="t102" />
+        <target id="t103" />
+        <target id="t104" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--El desayuno en la última planta-->
+      <span>
+        <target id="t142" />
+        <target id="t143" />
+        <target id="t144" />
+        <target id="t145" />
+        <target id="t146" />
+        <target id="t147" />
+      </span>
+      <!--mismo-->
+      <span>
+        <target id="t162" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el hotel-->
+      <span>
+        <target id="t22" />
+        <target id="t23" />
+      </span>
+      <!--Torre Catalunya-->
+      <span>
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

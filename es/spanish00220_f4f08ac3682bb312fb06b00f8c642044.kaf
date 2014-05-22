@@ -818,4 +818,67 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Valencia-->
+        <span>
+          <target id="t33" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2509954" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t25" />
+      </span>
+      <!--lo que buscas-->
+      <span>
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--zona de aparcamiento limitado-->
+      <span>
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+      </span>
+      <!--zona azul-->
+      <span>
+        <target id="t60" />
+        <target id="t61" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t64" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--hotel-->
+      <span>
+        <target id="t78" />
+      </span>
+      <!--Hotel algo antiguo pero con todas las necesidades cubiertas-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

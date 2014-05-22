@@ -888,4 +888,135 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Gran Via-->
+        <span>
+          <target id="t50" />
+          <target id="t51" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--Rey León-->
+        <span>
+          <target id="t84" />
+          <target id="t85" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Attraction">
+      <references>
+        <!--rey león-->
+        <span>
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Attraction">
+      <references>
+        <!--circo del sol-->
+        <span>
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--un par de espectáculos-->
+      <span>
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+      </span>
+      <!--( rey león y circo del sol )-->
+      <span>
+        <target id="t20" />
+        <target id="t21" />
+        <target id="t22" />
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--este hotel-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t70" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t90" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--Rey León-->
+      <span>
+        <target id="t84" />
+        <target id="t85" />
+      </span>
+      <!--rey león-->
+      <span>
+        <target id="t21" />
+        <target id="t22" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--La habitación-->
+      <span>
+        <target id="t92" />
+        <target id="t93" />
+      </span>
+      <!--una habitación con terraza con magníficas vistas a Gran Via-->
+      <span>
+        <target id="t42" />
+        <target id="t43" />
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--nos-->
+      <span>
+        <target id="t54" />
+      </span>
+      <!--nuestra-->
+      <span>
+        <target id="t120" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--me-->
+      <span>
+        <target id="t40" />
+      </span>
+      <!--socio del club playavip-->
+      <span>
+        <target id="t36" />
+        <target id="t37" />
+        <target id="t38" />
+        <target id="t39" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

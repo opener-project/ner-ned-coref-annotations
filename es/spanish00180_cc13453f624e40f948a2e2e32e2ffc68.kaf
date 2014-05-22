@@ -923,4 +923,65 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--la plaza de la república-->
+        <span>
+          <target id="t93" />
+          <target id="t94" />
+          <target id="t95" />
+          <target id="t96" />
+          <target id="t97" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="91305" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Paris-->
+        <span>
+          <target id="t3" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2988507" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el necesario-->
+      <span>
+        <target id="t35" />
+        <target id="t36" />
+      </span>
+      <!--poco espacio-->
+      <span>
+        <target id="t31" />
+        <target id="t32" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t78" />
+      </span>
+      <!--pastillas de jabón de manos que reponían todos los días-->
+      <span>
+        <target id="t73" />
+        <target id="t74" />
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+        <target id="t79" />
+        <target id="t80" />
+        <target id="t81" />
+        <target id="t82" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -993,4 +993,86 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Valencia-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2509954" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--un-->
+        <span>
+          <target id="t56" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--genial-->
+      <span>
+        <target id="t91" />
+      </span>
+      <!--detalle-->
+      <span>
+        <target id="t64" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--nos-->
+      <span>
+        <target id="t89" />
+      </span>
+      <!--el resto-->
+      <span>
+        <target id="t102" />
+        <target id="t103" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--. Muchas-->
+      <span>
+        <target id="t136" />
+        <target id="t137" />
+      </span>
+      <!--para-->
+      <span>
+        <target id="t39" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--a este-->
+      <span>
+        <target id="t133" />
+        <target id="t134" />
+      </span>
+      <!--poner-->
+      <span>
+        <target id="t130" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--. Muy-->
+      <span>
+        <target id="t95" />
+        <target id="t96" />
+      </span>
+      <!--lo-->
+      <span>
+        <target id="t124" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

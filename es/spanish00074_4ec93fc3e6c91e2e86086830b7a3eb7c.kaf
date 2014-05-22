@@ -1049,4 +1049,84 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Zaragoza-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3104324" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--El Pilar-->
+        <span>
+          <target id="t52" />
+          <target id="t53" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--tu-->
+      <span>
+        <target id="t49" />
+      </span>
+      <!--te-->
+      <span>
+        <target id="t82" />
+      </span>
+      <!--tu-->
+      <span>
+        <target id="t138" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--las comidas-->
+      <span>
+        <target id="t91" />
+        <target id="t92" />
+      </span>
+      <!--El único pero-->
+      <span>
+        <target id="t87" />
+        <target id="t88" />
+        <target id="t89" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--él-->
+      <span>
+        <target id="t120" />
+      </span>
+      <!--un hotel para hacer actividades a través de él-->
+      <span>
+        <target id="t112" />
+        <target id="t113" />
+        <target id="t114" />
+        <target id="t115" />
+        <target id="t116" />
+        <target id="t117" />
+        <target id="t118" />
+        <target id="t119" />
+        <target id="t120" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--Zaragoza-->
+      <span>
+        <target id="t9" />
+      </span>
+      <!--la ciudad-->
+      <span>
+        <target id="t40" />
+        <target id="t41" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

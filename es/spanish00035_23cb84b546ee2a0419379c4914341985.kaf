@@ -524,4 +524,63 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--gandia-->
+        <span>
+          <target id="t24" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2517367" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el hotel-->
+      <span>
+        <target id="t11" />
+        <target id="t12" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t36" />
+      </span>
+      <!--el hotel-->
+      <span>
+        <target id="t47" />
+        <target id="t48" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--una estancia que incluia solo desayuno-->
+      <span>
+        <target id="t52" />
+        <target id="t53" />
+        <target id="t54" />
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t54" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el desayuno que ponen-->
+      <span>
+        <target id="t64" />
+        <target id="t65" />
+        <target id="t66" />
+        <target id="t67" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t66" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

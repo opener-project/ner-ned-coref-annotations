@@ -706,4 +706,72 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Punta Cana-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3494242" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Percent">
+      <references>
+        <!--% este-->
+        <span>
+          <target id="t89" />
+          <target id="t90" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--mi-->
+      <span>
+        <target id="t12" />
+      </span>
+      <!--yo-->
+      <span>
+        <target id="t15" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--nos-->
+      <span>
+        <target id="t17" />
+      </span>
+      <!--mi pareja y yo-->
+      <span>
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t38" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--hotal-->
+      <span>
+        <target id="t31" />
+      </span>
+      <!--este hotal-->
+      <span>
+        <target id="t21" />
+        <target id="t22" />
+      </span>
+      <!--hotel a-->
+      <span>
+        <target id="t91" />
+        <target id="t92" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

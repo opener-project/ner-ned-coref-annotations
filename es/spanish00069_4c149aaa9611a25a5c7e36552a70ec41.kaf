@@ -440,4 +440,67 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--pleno centro de florencia-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--la estacion central de florencia-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Attraction">
+      <references>
+        <!--duomo-->
+        <span>
+          <target id="t38" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="212994" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--algo simple-->
+      <span>
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+      <!--El desayuno-->
+      <span>
+        <target id="t46" />
+        <target id="t47" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t56" />
+      </span>
+      <!--el precio que tiene-->
+      <span>
+        <target id="t54" />
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -951,4 +951,115 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Forum-->
+        <span>
+          <target id="t22" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--el centro comercial Diagonal del Mar-->
+        <span>
+          <target id="t58" />
+          <target id="t59" />
+          <target id="t60" />
+          <target id="t61" />
+          <target id="t62" />
+          <target id="t63" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--el centro de Barcelona-->
+        <span>
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3128760" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t31" />
+      </span>
+      <!--una parada de metro cercana que te conecta con el centro de Barcelona en 20 o 30 minutos-->
+      <span>
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+        <target id="t38" />
+        <target id="t39" />
+        <target id="t40" />
+        <target id="t41" />
+        <target id="t42" />
+        <target id="t43" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t49" />
+      </span>
+      <!--Una de las ventajas que tiene-->
+      <span>
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t74" />
+      </span>
+      <!--Lo que menos me gustó-->
+      <span>
+        <target id="t73" />
+        <target id="t74" />
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--lo-->
+      <span>
+        <target id="t123" />
+      </span>
+      <!--un 4 estrellas-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t54" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

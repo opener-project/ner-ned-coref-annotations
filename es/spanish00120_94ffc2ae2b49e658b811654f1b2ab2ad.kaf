@@ -769,4 +769,140 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--barcelona-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3128760" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Barcelona , las-->
+        <span>
+          <target id="t68" />
+          <target id="t69" />
+          <target id="t70" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--primera-->
+        <span>
+          <target id="t103" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3128760" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--este hotel.El-->
+      <span>
+        <target id="t17" />
+        <target id="t18" />
+      </span>
+      <!--Buen hotel-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--como tal , está-->
+      <span>
+        <target id="t20" />
+        <target id="t21" />
+        <target id="t22" />
+        <target id="t23" />
+      </span>
+      <!--Está-->
+      <span>
+        <target id="t59" />
+      </span>
+      <!--para-->
+      <span>
+        <target id="t95" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--del hotel . Está-->
+      <span>
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+        <target id="t59" />
+      </span>
+      <!--desfavorable , es-->
+      <span>
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--no hay-->
+      <span>
+        <target id="t84" />
+        <target id="t85" />
+      </span>
+      <!--muy alejada del centro de Barcelona , las-->
+      <span>
+        <target id="t63" />
+        <target id="t64" />
+        <target id="t65" />
+        <target id="t66" />
+        <target id="t67" />
+        <target id="t68" />
+        <target id="t69" />
+        <target id="t70" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--vienen a conocer Barcelona por primera vez , genial-->
+      <span>
+        <target id="t98" />
+        <target id="t99" />
+        <target id="t100" />
+        <target id="t101" />
+        <target id="t102" />
+        <target id="t103" />
+        <target id="t104" />
+        <target id="t105" />
+        <target id="t106" />
+      </span>
+      <!--a-->
+      <span>
+        <target id="t99" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--Barcelona , las-->
+      <span>
+        <target id="t68" />
+        <target id="t69" />
+        <target id="t70" />
+      </span>
+      <!--centro-->
+      <span>
+        <target id="t5" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--primera-->
+      <span>
+        <target id="t103" />
+      </span>
+      <!--barcelona-->
+      <span>
+        <target id="t12" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -923,4 +923,106 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Disney-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--parada de bus Disney-->
+        <span>
+          <target id="t95" />
+          <target id="t96" />
+          <target id="t97" />
+          <target id="t98" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="POI">
+      <references>
+        <!--un alcampo-->
+        <span>
+          <target id="t117" />
+          <target id="t118" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Me-->
+      <span>
+        <target id="t10" />
+      </span>
+      <!--mi-->
+      <span>
+        <target id="t25" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--un estudio pequeñito-->
+      <span>
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" />
+      </span>
+      <!--un hotel nuevo-->
+      <span>
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+      </span>
+      <!--Una buena opción de alojamiento-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+      <!--le-->
+      <span>
+        <target id="t84" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t104" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t83" />
+      </span>
+      <!--la única pega que le encuentro-->
+      <span>
+        <target id="t80" />
+        <target id="t81" />
+        <target id="t82" />
+        <target id="t83" />
+        <target id="t84" />
+        <target id="t85" />
+      </span>
+      <!--La pega que tiene-->
+      <span>
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t47" />
+      </span>
+      <!--Esa-->
+      <span>
+        <target id="t78" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -965,4 +965,69 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Date">
+      <references>
+        <!--el mes de mayo-->
+        <span>
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--nos-->
+      <span>
+        <target id="t37" />
+      </span>
+      <!--los unicos clientes del hotel-->
+      <span>
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+      </span>
+      <!--nuestro-->
+      <span>
+        <target id="t8" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--hotel-->
+      <span>
+        <target id="t35" />
+      </span>
+      <!--Este hotel-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--el hotel-->
+      <span>
+        <target id="t68" />
+        <target id="t69" />
+      </span>
+      <!--el hotel-->
+      <span>
+        <target id="t119" />
+        <target id="t120" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--esta-->
+      <span>
+        <target id="t113" />
+      </span>
+      <!--la tele-->
+      <span>
+        <target id="t109" />
+        <target id="t110" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

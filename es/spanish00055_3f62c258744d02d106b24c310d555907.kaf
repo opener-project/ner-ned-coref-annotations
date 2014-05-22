@@ -293,4 +293,34 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Piazza dei Miracoli-->
+        <span>
+          <target id="t32" />
+          <target id="t33" />
+          <target id="t34" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="189899" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Hotel normalito-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--un edificio antiguo-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

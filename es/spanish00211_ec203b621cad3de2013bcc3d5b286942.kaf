@@ -783,4 +783,103 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Date">
+      <references>
+        <!--el viernes 8-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--sabado 9 de julio-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--un hotel estupendo-->
+      <span>
+        <target id="t20" />
+        <target id="t21" />
+        <target id="t22" />
+      </span>
+      <!--Hotel muy bien enclavado-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+        <target id="t4" />
+      </span>
+      <!--él-->
+      <span>
+        <target id="t32" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t34" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--la segunda vez que nos alojamos en él-->
+      <span>
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t28" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--nos-->
+      <span>
+        <target id="t54" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t29" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--una habitación ( 608 ) un poco deteriorada-->
+      <span>
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+        <target id="t59" />
+        <target id="t60" />
+        <target id="t61" />
+        <target id="t62" />
+        <target id="t63" />
+      </span>
+      <!--una habitación cómoda-->
+      <span>
+        <target id="t105" />
+        <target id="t106" />
+        <target id="t107" />
+      </span>
+      <!--la habitación-->
+      <span>
+        <target id="t68" />
+        <target id="t69" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

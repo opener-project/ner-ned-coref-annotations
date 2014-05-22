@@ -937,4 +937,46 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Valle Dordoña-->
+        <span>
+          <target id="t122" />
+          <target id="t123" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Sarlat-->
+        <span>
+          <target id="t119" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--camping-->
+      <span>
+        <target id="t22" />
+      </span>
+      <!--Buen camping-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--ellas-->
+      <span>
+        <target id="t57" />
+      </span>
+      <!--piscinas-->
+      <span>
+        <target id="t50" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

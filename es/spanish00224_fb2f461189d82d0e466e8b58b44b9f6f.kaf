@@ -776,4 +776,56 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--Hackerbrücke-->
+        <span>
+          <target id="t76" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Munich-->
+        <span>
+          <target id="t108" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Attraction">
+      <references>
+        <!--Lidl-->
+        <span>
+          <target id="t49" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Hackerbrücke-->
+      <span>
+        <target id="t76" />
+      </span>
+      <!--la estación de tren-->
+      <span>
+        <target id="t67" />
+        <target id="t68" />
+        <target id="t69" />
+        <target id="t70" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--hotel-->
+      <span>
+        <target id="t65" />
+      </span>
+      <!--E hotel-->
+      <span>
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

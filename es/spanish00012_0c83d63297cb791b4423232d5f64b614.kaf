@@ -860,4 +860,148 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Las Vegas-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--Agosto de 2012-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Strip-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Time">
+      <references>
+        <!--3 de la madrugada-->
+        <span>
+          <target id="t56" />
+          <target id="t57" />
+          <target id="t58" />
+          <target id="t59" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--su-->
+      <span>
+        <target id="t25" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t13" />
+        <target id="t14" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t116" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--nosotros-->
+      <span>
+        <target id="t35" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t40" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t64" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el que-->
+      <span>
+        <target id="t50" />
+        <target id="t51" />
+      </span>
+      <!--un escenario en el que había actuaciones hasta las 3 de la madrugada-->
+      <span>
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+        <target id="t53" />
+        <target id="t54" />
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+        <target id="t59" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t44" />
+      </span>
+      <!--una habitación que daba a un escenario en el que había actuaciones hasta las 3 de la madrugada-->
+      <span>
+        <target id="t42" />
+        <target id="t43" />
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+        <target id="t53" />
+        <target id="t54" />
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+        <target id="t59" />
+      </span>
+      <!--la habitación-->
+      <span>
+        <target id="t85" />
+        <target id="t86" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--habitaciones que den a la parte trasera del hotel-->
+      <span>
+        <target id="t108" />
+        <target id="t109" />
+        <target id="t110" />
+        <target id="t111" />
+        <target id="t112" />
+        <target id="t113" />
+        <target id="t114" />
+        <target id="t115" />
+        <target id="t116" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t109" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

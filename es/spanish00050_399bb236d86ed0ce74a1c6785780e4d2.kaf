@@ -958,4 +958,105 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Money">
+      <references>
+        <!--1 euro-->
+        <span>
+          <target id="t56" />
+          <target id="t57" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Money">
+      <references>
+        <!--24 euros-->
+        <span>
+          <target id="t124" />
+          <target id="t125" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t9" />
+      </span>
+      <!--Hotel sencillo sin grandes prensiones pero que sorprende a pesar de sus dos estrellas-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t131" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t66" />
+      </span>
+      <!--el calor que hizo esos días-->
+      <span>
+        <target id="t64" />
+        <target id="t65" />
+        <target id="t66" />
+        <target id="t67" />
+        <target id="t68" />
+        <target id="t69" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t89" />
+      </span>
+      <!--el ruido que las ventanas de madera tan típicas de la zona no consiguen aislar totalmente-->
+      <span>
+        <target id="t87" />
+        <target id="t88" />
+        <target id="t89" />
+        <target id="t90" />
+        <target id="t91" />
+        <target id="t92" />
+        <target id="t93" />
+        <target id="t94" />
+        <target id="t95" />
+        <target id="t96" />
+        <target id="t97" />
+        <target id="t98" />
+        <target id="t99" />
+        <target id="t100" />
+        <target id="t101" />
+        <target id="t102" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t62" />
+      </span>
+      <!--agua fria gratuita-->
+      <span>
+        <target id="t59" />
+        <target id="t60" />
+        <target id="t61" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

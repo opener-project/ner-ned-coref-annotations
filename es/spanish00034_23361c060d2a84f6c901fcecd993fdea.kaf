@@ -951,4 +951,68 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Basílica del Pilar-->
+        <span>
+          <target id="t111" />
+          <target id="t112" />
+          <target id="t113" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--pleno centro de Zaragoza-->
+        <span>
+          <target id="t101" />
+          <target id="t102" />
+          <target id="t103" />
+          <target id="t104" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Hotel">
+      <references>
+        <!--Hotel Palafox-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--nos-->
+      <span>
+        <target id="t29" />
+      </span>
+      <!--Nuestra-->
+      <span>
+        <target id="t6" />
+      </span>
+      <!--nosotros-->
+      <span>
+        <target id="t119" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--hotel-->
+      <span>
+        <target id="t46" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t97" />
+        <target id="t98" />
+      </span>
+      <!--Hotel Palafox-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

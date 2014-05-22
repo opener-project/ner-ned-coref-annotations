@@ -797,4 +797,143 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--los conciertos del Hessentag 2011-->
+        <span>
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+          <target id="t30" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Hotel">
+      <references>
+        <!--hoteles Marriott-->
+        <span>
+          <target id="t58" />
+          <target id="t59" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Hotel">
+      <references>
+        <!--Courtyard-->
+        <span>
+          <target id="t62" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Hotel">
+      <references>
+        <!--el mismo Marriott-->
+        <span>
+          <target id="t100" />
+          <target id="t101" />
+          <target id="t102" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="Location">
+      <references>
+        <!--Oberursel-->
+        <span>
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2858738" />
+      </externalReferences>
+    </entity>
+    <entity eid="e6" type="Hotel">
+      <references>
+        <!--Marriott-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t45" />
+      </span>
+      <!--La habitacion que nos dieron-->
+      <span>
+        <target id="t43" />
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t76" />
+      </span>
+      <!--todos los que haya ido-->
+      <span>
+        <target id="t74" />
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el mas cutre de todos los que haya ido-->
+      <span>
+        <target id="t70" />
+        <target id="t71" />
+        <target id="t72" />
+        <target id="t73" />
+        <target id="t74" />
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+      <!--este-->
+      <span>
+        <target id="t67" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--Marriott-->
+      <span>
+        <target id="t4" />
+      </span>
+      <!--hoteles Marriott-->
+      <span>
+        <target id="t58" />
+        <target id="t59" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--donde-->
+      <span>
+        <target id="t23" />
+      </span>
+      <!--Oberursel-->
+      <span>
+        <target id="t21" />
+      </span>
+      <!--la ciudad-->
+      <span>
+        <target id="t97" />
+        <target id="t98" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

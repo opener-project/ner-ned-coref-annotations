@@ -349,4 +349,62 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Sirenis Tropical-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--este pasado mes de noviembre-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t45" />
+      </span>
+      <!--lo mejor que he visto-->
+      <span>
+        <target id="t43" />
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+      </span>
+      <!--Relacion calidad precio-->
+      <span>
+        <target id="t40" />
+        <target id="t41" />
+        <target id="t42" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--unas vacaciones excelente-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+      </span>
+      <!--Excelentes vacaciones-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

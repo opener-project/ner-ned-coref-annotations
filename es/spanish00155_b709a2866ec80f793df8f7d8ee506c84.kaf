@@ -762,4 +762,82 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--no-->
+        <span>
+          <target id="t100" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Gran Vía-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Vía la-->
+        <span>
+          <target id="t61" />
+          <target id="t62" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--este hostal tan genial-->
+      <span>
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+      </span>
+      <!--los típicos edificios altos con apartamentos normales-->
+      <span>
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--podría-->
+      <span>
+        <target id="t79" />
+      </span>
+      <!--único que podría quejarme es-->
+      <span>
+        <target id="t77" />
+        <target id="t78" />
+        <target id="t79" />
+        <target id="t80" />
+        <target id="t81" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--Gran Vía-->
+      <span>
+        <target id="t8" />
+        <target id="t9" />
+      </span>
+      <!--Vía la-->
+      <span>
+        <target id="t61" />
+        <target id="t62" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -895,4 +895,146 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Hotel Paris de Encamp-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Andorra-->
+        <span>
+          <target id="t6" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3130067" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Andorra-->
+        <span>
+          <target id="t14" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3130067" />
+      </externalReferences>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--pueblo de Encamp-->
+        <span>
+          <target id="t111" />
+          <target id="t112" />
+          <target id="t113" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3040686" />
+      </externalReferences>
+    </entity>
+    <entity eid="e5" type="Attraction">
+      <references>
+        <!--balneario de Caldea-->
+        <span>
+          <target id="t70" />
+          <target id="t71" />
+          <target id="t72" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t50" />
+      </span>
+      <!--lo que hemos visto anunciado en paginas de reservas-->
+      <span>
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+        <target id="t53" />
+        <target id="t54" />
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--nuestra-->
+      <span>
+        <target id="t20" />
+      </span>
+      <!--nuestros-->
+      <span>
+        <target id="t124" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--lo-->
+      <span>
+        <target id="t121" />
+      </span>
+      <!--Hotel limpio y cuidado-->
+      <span>
+        <target id="t96" />
+        <target id="t97" />
+        <target id="t98" />
+        <target id="t99" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t44" />
+      </span>
+      <!--Este hotel de Andorra-->
+      <span>
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+      </span>
+      <!--Hotel Paris de Encamp-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+        <target id="t4" />
+      </span>
+      <!--una excelente eleccion por nuestra parte-->
+      <span>
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+        <target id="t21" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t94" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--Andorra-->
+      <span>
+        <target id="t6" />
+      </span>
+      <!--Andorra-->
+      <span>
+        <target id="t14" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

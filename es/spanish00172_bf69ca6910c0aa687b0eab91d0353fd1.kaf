@@ -937,4 +937,83 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--centro de Peñiscola-->
+        <span>
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--lo que-->
+      <span>
+        <target id="t11" />
+        <target id="t12" />
+      </span>
+      <!--todo lo que respecta al trato y a la comida-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t97" />
+      </span>
+      <!--la unica pega que puedo destacar-->
+      <span>
+        <target id="t94" />
+        <target id="t95" />
+        <target id="t96" />
+        <target id="t97" />
+        <target id="t98" />
+        <target id="t99" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el hotel-->
+      <span>
+        <target id="t102" />
+        <target id="t103" />
+      </span>
+      <!--un hotel muy casero-->
+      <span>
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+      <!--lo-->
+      <span>
+        <target id="t60" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--las habitaciones-->
+      <span>
+        <target id="t35" />
+        <target id="t36" />
+      </span>
+      <!--las habitaciones-->
+      <span>
+        <target id="t68" />
+        <target id="t69" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

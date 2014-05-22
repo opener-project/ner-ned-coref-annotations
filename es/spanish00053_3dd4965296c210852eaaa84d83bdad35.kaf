@@ -363,4 +363,48 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Roma-->
+        <span>
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3169070" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--la estación de Termini-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="5583" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t24" />
+      </span>
+      <!--todas las posibilidades que eso ofrece-->
+      <span>
+        <target id="t21" />
+        <target id="t22" />
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

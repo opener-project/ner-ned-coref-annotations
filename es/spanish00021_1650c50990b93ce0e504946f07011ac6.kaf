@@ -370,4 +370,46 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--punta cana-->
+        <span>
+          <target id="t33" />
+          <target id="t34" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3494242" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--este hotel-->
+      <span>
+        <target id="t39" />
+        <target id="t40" />
+      </span>
+      <!--Hotel de ensueños-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+      </span>
+      <!--un paraíso en el paraíso mismo-->
+      <span>
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+      </span>
+      <!--lo-->
+      <span>
+        <target id="t27" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

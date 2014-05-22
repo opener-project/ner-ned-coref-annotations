@@ -797,4 +797,135 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Gran Via 21 ¡¡.-->
+        <span>
+          <target id="t109" />
+          <target id="t110" />
+          <target id="t111" />
+          <target id="t112" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--la ciudad de Madrid-->
+        <span>
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Madrid-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--el centro de Madrid-->
+        <span>
+          <target id="t65" />
+          <target id="t66" />
+          <target id="t67" />
+          <target id="t68" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--mí-->
+      <span>
+        <target id="t31" />
+      </span>
+      <!--mi-->
+      <span>
+        <target id="t27" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--la ciudad de Madrid-->
+      <span>
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+      </span>
+      <!--Madrid-->
+      <span>
+        <target id="t4" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--Gran Via 21 ¡¡.-->
+      <span>
+        <target id="t109" />
+        <target id="t110" />
+        <target id="t111" />
+        <target id="t112" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+      <!--Nuestro hotel-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t10" />
+      </span>
+      <!--sus-->
+      <span>
+        <target id="t13" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t16" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t57" />
+        <target id="t58" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--Nuestro-->
+      <span>
+        <target id="t1" />
+      </span>
+      <!--Nos-->
+      <span>
+        <target id="t5" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t32" />
+      </span>
+      <!--nuestra-->
+      <span>
+        <target id="t99" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

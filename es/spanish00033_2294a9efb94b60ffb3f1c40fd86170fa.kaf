@@ -1084,4 +1084,131 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--de costa adeje en tenerife que-->
+        <span>
+          <target id="t133" />
+          <target id="t134" />
+          <target id="t135" />
+          <target id="t136" />
+          <target id="t137" />
+          <target id="t138" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--encanto-->
+        <span>
+          <target id="t140" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Money">
+      <references>
+        <!--280 euros-->
+        <span>
+          <target id="t56" />
+          <target id="t57" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Nos-->
+      <span>
+        <target id="t1" />
+      </span>
+      <!--Nosotros-->
+      <span>
+        <target id="t6" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t21" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t50" />
+      </span>
+      <!--año-->
+      <span>
+        <target id="t142" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--lo-->
+      <span>
+        <target id="t22" />
+      </span>
+      <!--lo que contratamos-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t19" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t37" />
+      </span>
+      <!--el pack-->
+      <span>
+        <target id="t35" />
+        <target id="t36" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t91" />
+      </span>
+      <!--la operadora que trabajaba con el hotel-->
+      <span>
+        <target id="t89" />
+        <target id="t90" />
+        <target id="t91" />
+        <target id="t92" />
+        <target id="t93" />
+        <target id="t94" />
+        <target id="t95" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--el-->
+      <span>
+        <target id="t141" />
+      </span>
+      <!--de costa adeje en tenerife que-->
+      <span>
+        <target id="t133" />
+        <target id="t134" />
+        <target id="t135" />
+        <target id="t136" />
+        <target id="t137" />
+        <target id="t138" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--que-->
+      <span>
+        <target id="t49" />
+      </span>
+      <!--lo que nos ofertaron-->
+      <span>
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

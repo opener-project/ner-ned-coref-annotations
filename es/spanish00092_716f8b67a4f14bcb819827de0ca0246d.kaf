@@ -811,4 +811,129 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--El camping Pola-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Time">
+      <references>
+        <!--las 8 de la mañana-->
+        <span>
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+          <target id="t51" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--un lugar para no repetir-->
+      <span>
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+      </span>
+      <!--El camping Pola-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+      <!--todo el camping-->
+      <span>
+        <target id="t67" />
+        <target id="t68" />
+        <target id="t69" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--te-->
+      <span>
+        <target id="t28" />
+      </span>
+      <!--te-->
+      <span>
+        <target id="t30" />
+      </span>
+      <!--te-->
+      <span>
+        <target id="t52" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--éstos-->
+      <span>
+        <target id="t75" />
+      </span>
+      <!--unos baños-->
+      <span>
+        <target id="t64" />
+        <target id="t65" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t72" />
+      </span>
+      <!--cosa que hace que éstos esten muy sucios y excesivamente concurridos-->
+      <span>
+        <target id="t71" />
+        <target id="t72" />
+        <target id="t73" />
+        <target id="t74" />
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+        <target id="t79" />
+        <target id="t80" />
+        <target id="t81" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--nos-->
+      <span>
+        <target id="t85" />
+      </span>
+      <!--nosotros-->
+      <span>
+        <target id="t84" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--que-->
+      <span>
+        <target id="t89" />
+      </span>
+      <!--un bungalow que estaba muy cerca de la montaña-->
+      <span>
+        <target id="t87" />
+        <target id="t88" />
+        <target id="t89" />
+        <target id="t90" />
+        <target id="t91" />
+        <target id="t92" />
+        <target id="t93" />
+        <target id="t94" />
+        <target id="t95" />
+      </span>
+      <!--él-->
+      <span>
+        <target id="t100" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

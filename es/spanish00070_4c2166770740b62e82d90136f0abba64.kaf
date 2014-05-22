@@ -482,4 +482,69 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--centro de Madrid-->
+        <span>
+          <target id="t49" />
+          <target id="t50" />
+          <target id="t51" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--plena Gran Vía-->
+        <span>
+          <target id="t64" />
+          <target id="t65" />
+          <target id="t66" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="137217" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--la Puerta del Sol-->
+        <span>
+          <target id="t58" />
+          <target id="t59" />
+          <target id="t60" />
+          <target id="t61" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="133612606708519" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Hotel no demasiado moderno-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+      </span>
+      <!--Buen hotel urbano de paso-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t33" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

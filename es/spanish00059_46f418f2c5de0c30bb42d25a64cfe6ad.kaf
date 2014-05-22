@@ -839,4 +839,104 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Sevilla-->
+        <span>
+          <target id="t31" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2510911" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Percent">
+      <references>
+        <!--100 %-->
+        <span>
+          <target id="t84" />
+          <target id="t85" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el unico hotel de Sevilla que considero-->
+      <span>
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t17" />
+        <target id="t18" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t73" />
+        <target id="t74" />
+      </span>
+      <!--una autentica preciosidad-->
+      <span>
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t87" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t106" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t93" />
+      </span>
+      <!--lo que ofrecen-->
+      <span>
+        <target id="t92" />
+        <target id="t93" />
+        <target id="t94" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--mio-->
+      <span>
+        <target id="t98" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t101" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t115" />
+      </span>
+      <!--los croissants mas tiernos y ricos que he probado-->
+      <span>
+        <target id="t109" />
+        <target id="t110" />
+        <target id="t111" />
+        <target id="t112" />
+        <target id="t113" />
+        <target id="t114" />
+        <target id="t115" />
+        <target id="t116" />
+        <target id="t117" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

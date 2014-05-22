@@ -951,4 +951,90 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--la casa de Ana Frank-->
+        <span>
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Holanda-->
+        <span>
+          <target id="t79" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Amsterdam-->
+        <span>
+          <target id="t102" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2759794" />
+      </externalReferences>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--Plaza Dam-->
+        <span>
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--su-->
+      <span>
+        <target id="t14" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t9" />
+        <target id="t10" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--Ubicación-->
+      <span>
+        <target id="t1" />
+      </span>
+      <!--ubicación-->
+      <span>
+        <target id="t3" />
+      </span>
+      <!--ubicación-->
+      <span>
+        <target id="t5" />
+      </span>
+      <!--su ubicación-->
+      <span>
+        <target id="t14" />
+        <target id="t15" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--La habitación-->
+      <span>
+        <target id="t38" />
+        <target id="t39" />
+      </span>
+      <!--la habitación-->
+      <span>
+        <target id="t89" />
+        <target id="t90" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

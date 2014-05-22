@@ -965,4 +965,138 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--centro de Madrid-->
+        <span>
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--la misma puerta del sol-->
+        <span>
+          <target id="t59" />
+          <target id="t60" />
+          <target id="t61" />
+          <target id="t62" />
+          <target id="t63" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="133612606708519" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--sol-->
+        <span>
+          <target id="t88" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="133612606708519" />
+      </externalReferences>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--la calle carmen-->
+        <span>
+          <target id="t53" />
+          <target id="t54" />
+          <target id="t55" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--donde-->
+      <span>
+        <target id="t31" />
+      </span>
+      <!--el lugar donde está ubicado-->
+      <span>
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--este lugar-->
+      <span>
+        <target id="t81" />
+        <target id="t82" />
+      </span>
+      <!--la misma puerta del sol-->
+      <span>
+        <target id="t59" />
+        <target id="t60" />
+        <target id="t61" />
+        <target id="t62" />
+        <target id="t63" />
+      </span>
+      <!--sol-->
+      <span>
+        <target id="t88" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--este-->
+      <span>
+        <target id="t120" />
+      </span>
+      <!--el hotel-->
+      <span>
+        <target id="t107" />
+        <target id="t108" />
+      </span>
+      <!--él-->
+      <span>
+        <target id="t128" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t131" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t124" />
+      </span>
+      <!--la seguridad que solo acceden a él huéspedes del hotel-->
+      <span>
+        <target id="t122" />
+        <target id="t123" />
+        <target id="t124" />
+        <target id="t125" />
+        <target id="t126" />
+        <target id="t127" />
+        <target id="t128" />
+        <target id="t129" />
+        <target id="t130" />
+        <target id="t131" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--mis-->
+      <span>
+        <target id="t2" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t133" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

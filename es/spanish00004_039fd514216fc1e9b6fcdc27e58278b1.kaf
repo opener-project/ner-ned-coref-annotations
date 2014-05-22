@@ -587,4 +587,42 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--florencia-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--todo-->
+      <span>
+        <target id="t6" />
+      </span>
+      <!--todo-->
+      <span>
+        <target id="t10" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--este hotel-->
+      <span>
+        <target id="t43" />
+        <target id="t44" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t19" />
+        <target id="t20" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t21" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

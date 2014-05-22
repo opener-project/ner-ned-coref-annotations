@@ -370,4 +370,89 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Date">
+      <references>
+        <!--agosto y septiembre-->
+        <span>
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--agosto y septiembre-->
+        <span>
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--los fines de semana-->
+      <span>
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+      </span>
+      <!--Fines de semana-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--,-->
+      <span>
+        <target id="t39" />
+      </span>
+      <!--ensuciaron-->
+      <span>
+        <target id="t37" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--piscinas muy-->
+      <span>
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+      <!--piscinas ,-->
+      <span>
+        <target id="t44" />
+        <target id="t45" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--semana-->
+      <span>
+        <target id="t3" />
+      </span>
+      <!--semana-->
+      <span>
+        <target id="t17" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--agosto y septiembre-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+      <!--agosto y septiembre-->
+      <span>
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

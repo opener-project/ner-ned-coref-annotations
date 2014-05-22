@@ -356,4 +356,45 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Roma-->
+        <span>
+          <target id="t19" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3169070" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t7" />
+      </span>
+      <!--un hotel que está muy bien ubicado-->
+      <span>
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--mí-->
+      <span>
+        <target id="t35" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t36" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

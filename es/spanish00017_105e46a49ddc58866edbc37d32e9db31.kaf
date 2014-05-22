@@ -769,4 +769,102 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Bayside-->
+        <span>
+          <target id="t58" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--Metrorail-->
+        <span>
+          <target id="t76" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="POI">
+      <references>
+        <!--Metromover-->
+        <span>
+          <target id="t78" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Attraction">
+      <references>
+        <!--American Airlines Arena-->
+        <span>
+          <target id="t61" />
+          <target id="t62" />
+          <target id="t63" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="POI">
+      <references>
+        <!--CVS-->
+        <span>
+          <target id="t85" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--una habitación en un piso bajo-->
+      <span>
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+      </span>
+      <!--la-->
+      <span>
+        <target id="t29" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--buses , Metrorail y Metromover-->
+      <span>
+        <target id="t74" />
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+      <!--transporte público de la ciudad-->
+      <span>
+        <target id="t68" />
+        <target id="t69" />
+        <target id="t70" />
+        <target id="t71" />
+        <target id="t72" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el aire de los aparatos de aire acondicionado del lobby-->
+      <span>
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+        <target id="t53" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t39" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

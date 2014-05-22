@@ -328,4 +328,31 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--duomo-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="212665" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--un hotel antiguo-->
+      <span>
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t8" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -895,4 +895,115 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--España-->
+        <span>
+          <target id="t66" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--27-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Date">
+      <references>
+        <!--31 de Abril del 2011-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--me-->
+      <span>
+        <target id="t31" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t24" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t71" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t80" />
+      </span>
+      <!--emails-->
+      <span>
+        <target id="t123" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--picaduras de chinches-->
+      <span>
+        <target id="t84" />
+        <target id="t85" />
+        <target id="t86" />
+      </span>
+      <!--picaduras de insectos-->
+      <span>
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--insectos-->
+      <span>
+        <target id="t29" />
+      </span>
+      <!--chinches-->
+      <span>
+        <target id="t86" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--los desayunos-->
+      <span>
+        <target id="t91" />
+        <target id="t92" />
+      </span>
+      <!--Otra cosa-->
+      <span>
+        <target id="t88" />
+        <target id="t89" />
+      </span>
+      <!--los que-->
+      <span>
+        <target id="t95" />
+        <target id="t96" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t104" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--hotel ni-->
+      <span>
+        <target id="t113" />
+        <target id="t114" />
+      </span>
+      <!--este hostel-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

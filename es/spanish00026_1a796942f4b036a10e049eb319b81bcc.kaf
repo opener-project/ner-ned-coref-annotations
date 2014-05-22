@@ -482,4 +482,113 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--Centrale-->
+        <span>
+          <target id="t21" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Milán-->
+        <span>
+          <target id="t28" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3173435" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--el Norte de Italia-->
+        <span>
+          <target id="t35" />
+          <target id="t36" />
+          <target id="t37" />
+          <target id="t38" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--Milán-->
+        <span>
+          <target id="t33" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3173435" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--su-->
+      <span>
+        <target id="t14" />
+      </span>
+      <!--un hotel sencillo-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--lo mejor-->
+      <span>
+        <target id="t11" />
+        <target id="t12" />
+      </span>
+      <!--su ubicación-->
+      <span>
+        <target id="t14" />
+        <target id="t15" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--Centrale-->
+      <span>
+        <target id="t21" />
+      </span>
+      <!--la impresionante estación central de Milán-->
+      <span>
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+      </span>
+      <!--donde-->
+      <span>
+        <target id="t31" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--Milán-->
+      <span>
+        <target id="t33" />
+      </span>
+      <!--Milán-->
+      <span>
+        <target id="t28" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--El desayuno-->
+      <span>
+        <target id="t57" />
+        <target id="t58" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t62" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

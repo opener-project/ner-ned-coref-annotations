@@ -1035,4 +1035,113 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Disneyland-->
+        <span>
+          <target id="t12" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--RER-->
+        <span>
+          <target id="t19" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Time">
+      <references>
+        <!--las 12 de la noche-->
+        <span>
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--París-->
+        <span>
+          <target id="t37" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2988507" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--estos apartamentos-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+      </span>
+      <!--Cómodos apartamentos-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--la cual-->
+      <span>
+        <target id="t59" />
+        <target id="t60" />
+      </span>
+      <!--una máquina para hacer el check · in-->
+      <span>
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+        <target id="t53" />
+        <target id="t54" />
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+      </span>
+      <!--la máquina-->
+      <span>
+        <target id="t82" />
+        <target id="t83" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t78" />
+      </span>
+      <!--un teléfono que se indicaba en la máquina-->
+      <span>
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+        <target id="t79" />
+        <target id="t80" />
+        <target id="t81" />
+        <target id="t82" />
+        <target id="t83" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--nos-->
+      <span>
+        <target id="t99" />
+      </span>
+      <!--nuestra-->
+      <span>
+        <target id="t97" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t61" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

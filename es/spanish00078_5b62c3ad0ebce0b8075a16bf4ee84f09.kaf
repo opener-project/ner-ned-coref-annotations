@@ -391,4 +391,49 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--roma-->
+        <span>
+          <target id="t30" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3169070" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el hotel-->
+      <span>
+        <target id="t12" />
+        <target id="t13" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t51" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t47" />
+      </span>
+      <!--el hecho de que el personal del hotel hablase español-->
+      <span>
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+        <target id="t53" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

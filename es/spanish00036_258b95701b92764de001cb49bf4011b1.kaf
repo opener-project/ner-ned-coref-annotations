@@ -566,4 +566,27 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--coliseo-->
+        <span>
+          <target id="t66" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--fontana di Trevi-->
+        <span>
+          <target id="t59" />
+          <target id="t60" />
+          <target id="t61" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="248" />
+      </externalReferences>
+    </entity>
+  </entities>
 </KAF>

@@ -1105,4 +1105,108 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--IFEMA-->
+        <span>
+          <target id="t61" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--IFEMA-->
+        <span>
+          <target id="t71" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Madrid-->
+        <span>
+          <target id="t148" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Me-->
+      <span>
+        <target id="t6" />
+      </span>
+      <!--Me-->
+      <span>
+        <target id="t20" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t79" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t106" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t122" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--el hotel-->
+      <span>
+        <target id="t63" />
+        <target id="t64" />
+      </span>
+      <!--el hotel-->
+      <span>
+        <target id="t24" />
+        <target id="t25" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--IFEMA-->
+      <span>
+        <target id="t61" />
+      </span>
+      <!--IFEMA-->
+      <span>
+        <target id="t71" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--la cama-->
+      <span>
+        <target id="t104" />
+        <target id="t105" />
+      </span>
+      <!--la cama-->
+      <span>
+        <target id="t81" />
+        <target id="t82" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--que-->
+      <span>
+        <target id="t144" />
+      </span>
+      <!--la próxima vez que necesite hotel en Madrid-->
+      <span>
+        <target id="t141" />
+        <target id="t142" />
+        <target id="t143" />
+        <target id="t144" />
+        <target id="t145" />
+        <target id="t146" />
+        <target id="t147" />
+        <target id="t148" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -825,4 +825,110 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--centro de Calella de Palafrugell-->
+        <span>
+          <target id="t38" />
+          <target id="t39" />
+          <target id="t40" />
+          <target id="t41" />
+          <target id="t42" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Calella-->
+        <span>
+          <target id="t75" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t30" />
+      </span>
+      <!--lo que mas nos interesa-->
+      <span>
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+      </span>
+      <!--accesos excelentes al centro de Calella de Palafrugell y a la playa-->
+      <span>
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+        <target id="t38" />
+        <target id="t39" />
+        <target id="t40" />
+        <target id="t41" />
+        <target id="t42" />
+        <target id="t43" />
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--una colina-->
+      <span>
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+      <!--Calella-->
+      <span>
+        <target id="t75" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--nos-->
+      <span>
+        <target id="t32" />
+      </span>
+      <!--Nosotros-->
+      <span>
+        <target id="t89" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--la cuesta-->
+      <span>
+        <target id="t65" />
+        <target id="t66" />
+      </span>
+      <!--cuesta-->
+      <span>
+        <target id="t56" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--se-->
+      <span>
+        <target id="t19" />
+      </span>
+      <!--lo cual-->
+      <span>
+        <target id="t17" />
+        <target id="t18" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--se-->
+      <span>
+        <target id="t85" />
+      </span>
+      <!--algunos-->
+      <span>
+        <target id="t87" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -986,4 +986,82 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--el barrio del Carmen-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Básica pensión-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--esta pensión-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+      <!--La-->
+      <span>
+        <target id="t20" />
+      </span>
+      <!--la pensión-->
+      <span>
+        <target id="t98" />
+        <target id="t99" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--el nuestro-->
+      <span>
+        <target id="t85" />
+        <target id="t86" />
+      </span>
+      <!--El baño-->
+      <span>
+        <target id="t79" />
+        <target id="t80" />
+      </span>
+      <!--baño-->
+      <span>
+        <target id="t54" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t46" />
+      </span>
+      <!--La habitación que nos tocó-->
+      <span>
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--una pensión barata-->
+      <span>
+        <target id="t113" />
+        <target id="t114" />
+        <target id="t115" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t116" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -594,4 +594,74 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--punta cana-->
+        <span>
+          <target id="t7" />
+          <target id="t8" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3494242" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Time">
+      <references>
+        <!--las 12 de la noche-->
+        <span>
+          <target id="t49" />
+          <target id="t50" />
+          <target id="t51" />
+          <target id="t52" />
+          <target id="t53" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Hotel">
+      <references>
+        <!--live nooo !-->
+        <span>
+          <target id="t74" />
+          <target id="t75" />
+          <target id="t76" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Hotel">
+      <references>
+        <!--travelplan-->
+        <span>
+          <target id="t80" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="Hotel">
+      <references>
+        <!--menos-->
+        <span>
+          <target id="t82" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Pésimo hotel-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--El peor hotel de punta cana-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

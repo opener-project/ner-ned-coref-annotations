@@ -1140,4 +1140,192 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--West Yorkshire-->
+        <span>
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Hotel">
+      <references>
+        <!--Leeds Royal Armouries-->
+        <span>
+          <target id="t31" />
+          <target id="t32" />
+          <target id="t33" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--barrio de Clarence Dock-->
+        <span>
+          <target id="t46" />
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--Leeds-->
+        <span>
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2644688" />
+      </externalReferences>
+    </entity>
+    <entity eid="e5" type="Hotel">
+      <references>
+        <!--el hotel Holiday Inn-->
+        <span>
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e6" type="Location">
+      <references>
+        <!--el barrio de Clarence Dock-->
+        <span>
+          <target id="t122" />
+          <target id="t123" />
+          <target id="t124" />
+          <target id="t125" />
+          <target id="t126" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e7" type="Location">
+      <references>
+        <!--Leeds-->
+        <span>
+          <target id="t100" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2644688" />
+      </externalReferences>
+    </entity>
+    <entity eid="e8" type="Percent">
+      <references>
+        <!--100 %-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t91" />
+      </span>
+      <!--un hotel que tenemos de referencia-->
+      <span>
+        <target id="t89" />
+        <target id="t90" />
+        <target id="t91" />
+        <target id="t92" />
+        <target id="t93" />
+        <target id="t94" />
+      </span>
+      <!--el hotel Holiday Inn-->
+      <span>
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t36" />
+        <target id="t37" />
+      </span>
+      <!--Hotel con precios muy competitivos relación calidad / precio-->
+      <span>
+        <target id="t107" />
+        <target id="t108" />
+        <target id="t109" />
+        <target id="t110" />
+        <target id="t111" />
+        <target id="t112" />
+        <target id="t113" />
+        <target id="t114" />
+        <target id="t115" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t137" />
+      </span>
+      <!--Leeds Royal Armouries-->
+      <span>
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--ésta mágica ciudad-->
+      <span>
+        <target id="t103" />
+        <target id="t104" />
+        <target id="t105" />
+      </span>
+      <!--Leeds-->
+      <span>
+        <target id="t100" />
+      </span>
+      <!--Leeds-->
+      <span>
+        <target id="t17" />
+      </span>
+      <!--la ciudad-->
+      <span>
+        <target id="t159" />
+        <target id="t160" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el barrio de Clarence Dock-->
+      <span>
+        <target id="t122" />
+        <target id="t123" />
+        <target id="t124" />
+        <target id="t125" />
+        <target id="t126" />
+      </span>
+      <!--barrio de Clarence Dock-->
+      <span>
+        <target id="t46" />
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--centro de la ciudad-->
+      <span>
+        <target id="t157" />
+        <target id="t158" />
+        <target id="t159" />
+        <target id="t160" />
+      </span>
+      <!--centro-->
+      <span>
+        <target id="t42" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -853,4 +853,23 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Money">
+      <references>
+        <!--€ diarios-->
+        <span>
+          <target id="t103" />
+          <target id="t104" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--.-->
+      <span>
+        <target id="t120" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

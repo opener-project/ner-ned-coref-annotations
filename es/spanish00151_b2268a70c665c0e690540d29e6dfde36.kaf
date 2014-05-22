@@ -1098,4 +1098,167 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Club Carlson-->
+        <span>
+          <target id="t46" />
+          <target id="t47" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Helsinki-->
+        <span>
+          <target id="t87" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="658225" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Hotel">
+      <references>
+        <!--Radisson-->
+        <span>
+          <target id="t8" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Hotel">
+      <references>
+        <!--Radisson-->
+        <span>
+          <target id="t109" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="Money">
+      <references>
+        <!--15 €-->
+        <span>
+          <target id="t142" />
+          <target id="t143" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--me-->
+      <span>
+        <target id="t6" />
+      </span>
+      <!--Me-->
+      <span>
+        <target id="t1" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t22" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t35" />
+      </span>
+      <!--mi-->
+      <span>
+        <target id="t42" />
+      </span>
+      <!--yo-->
+      <span>
+        <target id="t89" />
+      </span>
+      <!--Me-->
+      <span>
+        <target id="t138" />
+      </span>
+      <!--yo-->
+      <span>
+        <target id="t152" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t21" />
+      </span>
+      <!--una habitacion estandar-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t114" />
+      </span>
+      <!--los que disfruten de ver una pelicula saboreando un buen malta-->
+      <span>
+        <target id="t113" />
+        <target id="t114" />
+        <target id="t115" />
+        <target id="t116" />
+        <target id="t117" />
+        <target id="t118" />
+        <target id="t119" />
+        <target id="t120" />
+        <target id="t121" />
+        <target id="t122" />
+        <target id="t123" />
+      </span>
+      <!--les-->
+      <span>
+        <target id="t124" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t127" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--las-->
+      <span>
+        <target id="t133" />
+      </span>
+      <!--botellitas de 5cl-->
+      <span>
+        <target id="t129" />
+        <target id="t130" />
+        <target id="t131" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--el mejor y el mas variado de Helsinki-->
+      <span>
+        <target id="t80" />
+        <target id="t81" />
+        <target id="t82" />
+        <target id="t83" />
+        <target id="t84" />
+        <target id="t85" />
+        <target id="t86" />
+        <target id="t87" />
+      </span>
+      <!--El desayuno-->
+      <span>
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--Radisson-->
+      <span>
+        <target id="t109" />
+      </span>
+      <!--Radisson-->
+      <span>
+        <target id="t8" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -1154,4 +1154,77 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Madrid-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--pleno corazón de Madrid-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t95" />
+      </span>
+      <!--Lo que hay en el milibar-->
+      <span>
+        <target id="t94" />
+        <target id="t95" />
+        <target id="t96" />
+        <target id="t97" />
+        <target id="t98" />
+        <target id="t99" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--desayuno-->
+      <span>
+        <target id="t131" />
+      </span>
+      <!--desayuno-->
+      <span>
+        <target id="t119" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--Un hotel con una situación privilegiada en pleno corazón de Madrid-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+        <target id="t15" />
+        <target id="t16" />
+      </span>
+      <!--hotel en Madrid-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -1056,4 +1056,145 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Barcelona-->
+        <span>
+          <target id="t8" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3128760" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Hotel">
+      <references>
+        <!--la torre nova-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="135030" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Date">
+      <references>
+        <!--Agosto-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--centro de catalunya .-->
+        <span>
+          <target id="t129" />
+          <target id="t130" />
+          <target id="t131" />
+          <target id="t132" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="160199" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--una pareja de Barcelona-->
+      <span>
+        <target id="t5" />
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+      <!--Nuestra-->
+      <span>
+        <target id="t34" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t42" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--la piscina-->
+      <span>
+        <target id="t69" />
+        <target id="t70" />
+      </span>
+      <!--una enorme piscina-->
+      <span>
+        <target id="t72" />
+        <target id="t73" />
+        <target id="t74" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que se-->
+      <span>
+        <target id="t88" />
+        <target id="t89" />
+      </span>
+      <!--lo que se pueda necesitar Las-->
+      <span>
+        <target id="t87" />
+        <target id="t88" />
+        <target id="t89" />
+        <target id="t90" />
+        <target id="t91" />
+        <target id="t92" />
+      </span>
+      <!--pueda-->
+      <span>
+        <target id="t90" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--aparecen-->
+      <span>
+        <target id="t95" />
+      </span>
+      <!--fotos que aparecen en la web ,-->
+      <span>
+        <target id="t93" />
+        <target id="t94" />
+        <target id="t95" />
+        <target id="t96" />
+        <target id="t97" />
+        <target id="t98" />
+        <target id="t99" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--agosto ,-->
+      <span>
+        <target id="t119" />
+        <target id="t120" />
+      </span>
+      <!--Agosto-->
+      <span>
+        <target id="t20" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--conocemos-->
+      <span>
+        <target id="t141" />
+      </span>
+      <!--el mundo que conocemos ,-->
+      <span>
+        <target id="t138" />
+        <target id="t139" />
+        <target id="t140" />
+        <target id="t141" />
+        <target id="t142" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

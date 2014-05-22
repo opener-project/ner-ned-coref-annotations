@@ -1091,4 +1091,130 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--VellMari-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--primeros de septiembre-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Mi-->
+      <span>
+        <target id="t3" />
+      </span>
+      <!--yo-->
+      <span>
+        <target id="t6" />
+      </span>
+      <!--mi-->
+      <span>
+        <target id="t39" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--unas vacaciones increíbles-->
+      <span>
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+      </span>
+      <!--Vacaciones Geniales-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--los hoteles más bonitos en los que he estado-->
+      <span>
+        <target id="t22" />
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+      </span>
+      <!--los que-->
+      <span>
+        <target id="t27" />
+        <target id="t28" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--las toallas-->
+      <span>
+        <target id="t102" />
+        <target id="t103" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t104" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--Nos-->
+      <span>
+        <target id="t108" />
+      </span>
+      <!--Mi familia y yo-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t128" />
+      </span>
+    </coref>
+    <coref coid="c6">
+      <!--Lo-->
+      <span>
+        <target id="t121" />
+      </span>
+      <!--un hotel completamente familiar-->
+      <span>
+        <target id="t116" />
+        <target id="t117" />
+        <target id="t118" />
+        <target id="t119" />
+      </span>
+    </coref>
+    <coref coid="c7">
+      <!--todos-->
+      <span>
+        <target id="t151" />
+      </span>
+      <!--el personal-->
+      <span>
+        <target id="t133" />
+        <target id="t134" />
+      </span>
+      <!--Todo el personal-->
+      <span>
+        <target id="t50" />
+        <target id="t51" />
+        <target id="t52" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

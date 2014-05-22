@@ -902,4 +902,66 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Madrid-->
+        <span>
+          <target id="t39" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Money">
+      <references>
+        <!--. Wifi-->
+        <span>
+          <target id="t93" />
+          <target id="t94" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--sin cargo-->
+      <span>
+        <target id="t66" />
+        <target id="t67" />
+      </span>
+      <!--bien pequeño-->
+      <span>
+        <target id="t78" />
+        <target id="t79" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--baño no-->
+      <span>
+        <target id="t101" />
+        <target id="t102" />
+      </span>
+      <!--la habitación.Hay-->
+      <span>
+        <target id="t47" />
+        <target id="t48" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--varios teatros-->
+      <span>
+        <target id="t121" />
+        <target id="t122" />
+      </span>
+      <!--la situación , con-->
+      <span>
+        <target id="t117" />
+        <target id="t118" />
+        <target id="t119" />
+        <target id="t120" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

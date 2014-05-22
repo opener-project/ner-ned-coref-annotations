@@ -958,4 +958,134 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--madrid-->
+        <span>
+          <target id="t10" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3117735" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Hotel">
+      <references>
+        <!--Senator Gran Via-->
+        <span>
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--la plaza de callao-->
+        <span>
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+          <target id="t51" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--plaza españa-->
+        <span>
+          <target id="t53" />
+          <target id="t54" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="Date">
+      <references>
+        <!--diciembre-->
+        <span>
+          <target id="t15" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Senator Gran Via-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t39" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t62" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t133" />
+        <target id="t134" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t43" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--ella-->
+      <span>
+        <target id="t34" />
+      </span>
+      <!--esta cadena-->
+      <span>
+        <target id="t27" />
+        <target id="t28" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--lo-->
+      <span>
+        <target id="t117" />
+      </span>
+      <!--el comedor-->
+      <span>
+        <target id="t113" />
+        <target id="t114" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t109" />
+      </span>
+      <!--el pequeño caos que se forma en el comedor-->
+      <span>
+        <target id="t106" />
+        <target id="t107" />
+        <target id="t108" />
+        <target id="t109" />
+        <target id="t110" />
+        <target id="t111" />
+        <target id="t112" />
+        <target id="t113" />
+        <target id="t114" />
+      </span>
+      <!--un " pero "-->
+      <span>
+        <target id="t100" />
+        <target id="t101" />
+        <target id="t102" />
+        <target id="t103" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -321,4 +321,35 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--la estación de trenes Santa Maria Novella-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el precio que pagas-->
+      <span>
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t10" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

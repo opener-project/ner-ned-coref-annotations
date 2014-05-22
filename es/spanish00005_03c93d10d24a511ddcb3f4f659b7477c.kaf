@@ -419,4 +419,48 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Milán-->
+        <span>
+          <target id="t47" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="22107" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Percent">
+      <references>
+        <!--100 %-->
+        <span>
+          <target id="t57" />
+          <target id="t58" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--este hotel que recomiendo 100 %-->
+      <span>
+        <target id="t53" />
+        <target id="t54" />
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t55" />
+      </span>
+      <!--Buen Hotel-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

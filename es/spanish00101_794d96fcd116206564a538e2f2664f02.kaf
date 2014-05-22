@@ -727,4 +727,110 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Véneto es-->
+        <span>
+          <target id="t83" />
+          <target id="t84" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="275" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Roma-->
+        <span>
+          <target id="t13" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3169070" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Roma-->
+        <span>
+          <target id="t66" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3169070" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--me-->
+      <span>
+        <target id="t22" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t15" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--este hotel-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+      </span>
+      <!--lo-->
+      <span>
+        <target id="t26" />
+      </span>
+      <!--Hotel-->
+      <span>
+        <target id="t80" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--emblemática calle ,-->
+      <span>
+        <target id="t86" />
+        <target id="t87" />
+        <target id="t88" />
+      </span>
+      <!--Véneto es-->
+      <span>
+        <target id="t83" />
+        <target id="t84" />
+      </span>
+      <!--que se-->
+      <span>
+        <target id="t91" />
+        <target id="t92" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--Roma-->
+      <span>
+        <target id="t13" />
+      </span>
+      <!--Roma-->
+      <span>
+        <target id="t66" />
+      </span>
+    </coref>
+    <coref coid="c5">
+      <!--las estaciones de Bus y metro-->
+      <span>
+        <target id="t68" />
+        <target id="t69" />
+        <target id="t70" />
+        <target id="t71" />
+        <target id="t72" />
+        <target id="t73" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t74" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

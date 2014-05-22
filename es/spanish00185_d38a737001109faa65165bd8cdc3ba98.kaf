@@ -811,4 +811,127 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--la estación de Arc de Triomf-->
+        <span>
+          <target id="t22" />
+          <target id="t23" />
+          <target id="t24" />
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="POI">
+      <references>
+        <!--la parada de Marina-->
+        <span>
+          <target id="t33" />
+          <target id="t34" />
+          <target id="t35" />
+          <target id="t36" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--el parc de la Ciudadela-->
+        <span>
+          <target id="t52" />
+          <target id="t53" />
+          <target id="t54" />
+          <target id="t55" />
+          <target id="t56" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="POI">
+      <references>
+        <!--la Estació del Nord-->
+        <span>
+          <target id="t42" />
+          <target id="t43" />
+          <target id="t44" />
+          <target id="t45" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="Attraction">
+      <references>
+        <!--el Arco del Triunfo-->
+        <span>
+          <target id="t47" />
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--escapadas urbanas-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+      <!--escapadas urbanas-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--El hotel-->
+      <span>
+        <target id="t13" />
+        <target id="t14" />
+      </span>
+      <!--Un hotel ideal para escapadas urbanas-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t58" />
+        <target id="t59" />
+      </span>
+      <!--todo el hotel-->
+      <span>
+        <target id="t99" />
+        <target id="t100" />
+        <target id="t101" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t113" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--la estación de Arc de Triomf-->
+      <span>
+        <target id="t22" />
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+      </span>
+      <!--el Arco del Triunfo-->
+      <span>
+        <target id="t47" />
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

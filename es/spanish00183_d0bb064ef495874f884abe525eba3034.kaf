@@ -510,4 +510,47 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--la estación de Termini-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+          <target id="t21" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="204207" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--su-->
+      <span>
+        <target id="t55" />
+      </span>
+      <!--Los empleados-->
+      <span>
+        <target id="t51" />
+        <target id="t52" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--la cual-->
+      <span>
+        <target id="t24" />
+        <target id="t25" />
+      </span>
+      <!--la estación de Termini-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+        <target id="t21" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

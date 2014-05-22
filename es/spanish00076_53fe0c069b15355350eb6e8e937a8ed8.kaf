@@ -930,4 +930,32 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--centro histórico de Peñíscola-->
+        <span>
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+          <target id="t20" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el hotel-->
+      <span>
+        <target id="t41" />
+        <target id="t42" />
+      </span>
+      <!--un hotel encantador-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

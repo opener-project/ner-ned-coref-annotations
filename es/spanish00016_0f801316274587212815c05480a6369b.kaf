@@ -398,4 +398,56 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--la playa de uvero alto-->
+        <span>
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+          <target id="t28" />
+          <target id="t29" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--Noviembre-->
+        <span>
+          <target id="t5" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--la zona de playa y piscina-->
+      <span>
+        <target id="t39" />
+        <target id="t40" />
+        <target id="t41" />
+        <target id="t42" />
+        <target id="t43" />
+        <target id="t44" />
+      </span>
+      <!--lo mejor-->
+      <span>
+        <target id="t37" />
+        <target id="t38" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--Excelentes vacaciones-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--excelentes vacaciones-->
+      <span>
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

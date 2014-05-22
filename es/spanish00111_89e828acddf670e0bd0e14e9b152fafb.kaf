@@ -496,4 +496,79 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="POI">
+      <references>
+        <!--Aeropuerto de Linate-->
+        <span>
+          <target id="t21" />
+          <target id="t22" />
+          <target id="t23" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--la plaza del domo-->
+        <span>
+          <target id="t66" />
+          <target id="t67" />
+          <target id="t68" />
+          <target id="t69" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Buen servicio-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--El servicio-->
+      <span>
+        <target id="t7" />
+        <target id="t8" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t57" />
+      </span>
+      <!--el tranvía que pasa por enfrente del hotel-->
+      <span>
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+        <target id="t59" />
+        <target id="t60" />
+        <target id="t61" />
+        <target id="t62" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--hotel-->
+      <span>
+        <target id="t62" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t25" />
+        <target id="t26" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--centro-->
+      <span>
+        <target id="t40" />
+      </span>
+      <!--centro-->
+      <span>
+        <target id="t6" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

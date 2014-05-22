@@ -867,4 +867,60 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Nou Camp-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="156393" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Lo mejor-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--el spa-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+      </span>
+      <!--el spa-->
+      <span>
+        <target id="t92" />
+        <target id="t93" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t73" />
+      </span>
+      <!--una botella de cava que no reponen cuando se acaba-->
+      <span>
+        <target id="t69" />
+        <target id="t70" />
+        <target id="t71" />
+        <target id="t72" />
+        <target id="t73" />
+        <target id="t74" />
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t77" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

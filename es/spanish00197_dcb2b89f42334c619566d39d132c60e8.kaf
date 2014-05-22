@@ -636,4 +636,39 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Milán-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3173435" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Hotel céntrico y con buenos servicios-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t25" />
+        <target id="t26" />
+      </span>
+      <!--Lo-->
+      <span>
+        <target id="t69" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

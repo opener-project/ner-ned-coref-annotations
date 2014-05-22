@@ -818,4 +818,108 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Casa Camper Barcelona-->
+        <span>
+          <target id="t107" />
+          <target id="t108" />
+          <target id="t109" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Hotel">
+      <references>
+        <!--el hotel Casa Camper Barcelona-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el hotel Casa Camper Barcelona-->
+      <span>
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+      </span>
+      <!--él-->
+      <span>
+        <target id="t33" />
+      </span>
+      <!--Casa Camper Barcelona-->
+      <span>
+        <target id="t107" />
+        <target id="t108" />
+        <target id="t109" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t111" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t39" />
+      </span>
+      <!--La empleada de recepción que me atendió-->
+      <span>
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+        <target id="t38" />
+        <target id="t39" />
+        <target id="t40" />
+        <target id="t41" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t40" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t5" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t64" />
+      </span>
+      <!--le-->
+      <span>
+        <target id="t70" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--un hotel-->
+      <span>
+        <target id="t84" />
+        <target id="t85" />
+      </span>
+      <!--su-->
+      <span>
+        <target id="t94" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--lo-->
+      <span>
+        <target id="t113" />
+      </span>
+      <!--una evidencia-->
+      <span>
+        <target id="t101" />
+        <target id="t102" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

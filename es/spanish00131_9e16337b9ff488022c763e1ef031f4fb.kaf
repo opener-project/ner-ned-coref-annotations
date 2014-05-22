@@ -762,4 +762,53 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Restaurant">
+      <references>
+        <!--El Quijote-->
+        <span>
+          <target id="t93" />
+          <target id="t94" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--un desastre-->
+      <span>
+        <target id="t82" />
+        <target id="t83" />
+      </span>
+      <!--Los restaurantes temáticos-->
+      <span>
+        <target id="t78" />
+        <target id="t79" />
+        <target id="t80" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--El Quijote-->
+      <span>
+        <target id="t93" />
+        <target id="t94" />
+      </span>
+      <!--el peor-->
+      <span>
+        <target id="t96" />
+        <target id="t97" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--Las habitaciones-->
+      <span>
+        <target id="t34" />
+        <target id="t35" />
+      </span>
+      <!--habitaciones-->
+      <span>
+        <target id="t53" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

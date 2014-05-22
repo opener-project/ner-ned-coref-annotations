@@ -1126,4 +1126,177 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Gran Palladium Bavaro-->
+        <span>
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Hotel">
+      <references>
+        <!--Gran Palladium Pta Cana-->
+        <span>
+          <target id="t50" />
+          <target id="t51" />
+          <target id="t52" />
+          <target id="t53" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Hotel">
+      <references>
+        <!--Gran Palladium Bavaro-->
+        <span>
+          <target id="t69" />
+          <target id="t70" />
+          <target id="t71" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--Punta Cana-->
+        <span>
+          <target id="t113" />
+          <target id="t114" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3494242" />
+      </externalReferences>
+    </entity>
+    <entity eid="e5" type="Hotel">
+      <references>
+        <!--Palladium-->
+        <span>
+          <target id="t17" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e6" type="Location">
+      <references>
+        <!--la playa de Arena Gorda-->
+        <span>
+          <target id="t150" />
+          <target id="t151" />
+          <target id="t152" />
+          <target id="t153" />
+          <target id="t154" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e7" type="Location">
+      <references>
+        <!--Cabeza de Toro-->
+        <span>
+          <target id="t156" />
+          <target id="t157" />
+          <target id="t158" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e8" type="Percent">
+      <references>
+        <!--100 %-->
+        <span>
+          <target id="t120" />
+          <target id="t121" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--me-->
+      <span>
+        <target id="t20" />
+      </span>
+      <!--me-->
+      <span>
+        <target id="t9" />
+      </span>
+      <!--mis-->
+      <span>
+        <target id="t32" />
+      </span>
+      <!--mi-->
+      <span>
+        <target id="t146" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--éste-->
+      <span>
+        <target id="t73" />
+      </span>
+      <!--Gran Palladium Bavaro-->
+      <span>
+        <target id="t69" />
+        <target id="t70" />
+        <target id="t71" />
+      </span>
+      <!--él-->
+      <span>
+        <target id="t38" />
+      </span>
+      <!--Gran Palladium Bavaro-->
+      <span>
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+      </span>
+      <!--un excelente complejo-->
+      <span>
+        <target id="t75" />
+        <target id="t76" />
+        <target id="t77" />
+      </span>
+      <!--un gran complejo-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+      <!--El complejo-->
+      <span>
+        <target id="t97" />
+        <target id="t98" />
+      </span>
+      <!--este-->
+      <span>
+        <target id="t116" />
+      </span>
+      <!--lo-->
+      <span>
+        <target id="t117" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--que-->
+      <span>
+        <target id="t85" />
+      </span>
+      <!--las malas opiniones que leí en el trip advisor-->
+      <span>
+        <target id="t82" />
+        <target id="t83" />
+        <target id="t84" />
+        <target id="t85" />
+        <target id="t86" />
+        <target id="t87" />
+        <target id="t88" />
+        <target id="t89" />
+        <target id="t90" />
+      </span>
+      <!--eso-->
+      <span>
+        <target id="t95" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

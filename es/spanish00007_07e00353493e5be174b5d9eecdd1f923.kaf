@@ -475,4 +475,73 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Montmartre-->
+        <span>
+          <target id="t9" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="86853" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--parís.-->
+        <span>
+          <target id="t39" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2988507" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t35" />
+      </span>
+      <!--las palizas de andar que te metes en parís.-->
+      <span>
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+        <target id="t38" />
+        <target id="t39" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--el barrio-->
+      <span>
+        <target id="t40" />
+        <target id="t41" />
+      </span>
+      <!--Montmartre-->
+      <span>
+        <target id="t9" />
+      </span>
+      <!--sus-->
+      <span>
+        <target id="t58" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--mis-->
+      <span>
+        <target id="t13" />
+      </span>
+      <!--Mi-->
+      <span>
+        <target id="t1" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

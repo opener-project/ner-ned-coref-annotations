@@ -1105,4 +1105,89 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Date">
+      <references>
+        <!--8 de diciembre-->
+        <span>
+          <target id="t93" />
+          <target id="t94" />
+          <target id="t95" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--8 de diciembre-->
+        <span>
+          <target id="t56" />
+          <target id="t57" />
+          <target id="t58" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Time">
+      <references>
+        <!--20:30 h-->
+        <span>
+          <target id="t68" />
+          <target id="t69" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--8 de diciembre-->
+      <span>
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+      </span>
+      <!--8 de diciembre-->
+      <span>
+        <target id="t93" />
+        <target id="t94" />
+        <target id="t95" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--un hotel de cuatro estrellas-->
+      <span>
+        <target id="t15" />
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+      </span>
+      <!--muy-->
+      <span>
+        <target id="t143" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--la habitación-->
+      <span>
+        <target id="t9" />
+        <target id="t10" />
+      </span>
+      <!--habitación normalita-->
+      <span>
+        <target id="t154" />
+        <target id="t155" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--que-->
+      <span>
+        <target id="t4" />
+      </span>
+      <!--lo que ofrecen-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+        <target id="t5" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

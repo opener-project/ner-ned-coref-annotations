@@ -993,4 +993,139 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Campos Eliseos-->
+        <span>
+          <target id="t68" />
+          <target id="t69" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--Madelaine-->
+        <span>
+          <target id="t111" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="POI">
+      <references>
+        <!--autobús Nº 80-->
+        <span>
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Time">
+      <references>
+        <!--las 12 de la noche-->
+        <span>
+          <target id="t55" />
+          <target id="t56" />
+          <target id="t57" />
+          <target id="t58" />
+          <target id="t59" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="Attraction">
+      <references>
+        <!--Plaza Vendome-->
+        <span>
+          <target id="t113" />
+          <target id="t114" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e6" type="Person">
+      <references>
+        <!--sobre-->
+        <span>
+          <target id="t127" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e7" type="Attraction">
+      <references>
+        <!--Puente del Alma-->
+        <span>
+          <target id="t74" />
+          <target id="t75" />
+          <target id="t76" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e8" type="Attraction">
+      <references>
+        <!--Grandes Almacenes-->
+        <span>
+          <target id="t103" />
+          <target id="t104" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e9" type="Attraction">
+      <references>
+        <!--Ópera-->
+        <span>
+          <target id="t109" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t35" />
+      </span>
+      <!--lo que he visto en la página del hotel-->
+      <span>
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+        <target id="t38" />
+        <target id="t39" />
+        <target id="t40" />
+        <target id="t41" />
+        <target id="t42" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--autobús Nº 80-->
+      <span>
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t51" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--hotel-->
+      <span>
+        <target id="t42" />
+      </span>
+      <!--un gran hotel-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--donde-->
+      <span>
+        <target id="t83" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

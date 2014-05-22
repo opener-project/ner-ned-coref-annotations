@@ -1028,4 +1028,96 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Costa Adeje-->
+        <span>
+          <target id="t53" />
+          <target id="t54" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="2522437" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Person">
+      <references>
+        <!--Omar-->
+        <span>
+          <target id="t133" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Person">
+      <references>
+        <!--Fernando-->
+        <span>
+          <target id="t138" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="Location">
+      <references>
+        <!--las Islas Canarias-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e5" type="Hotel">
+      <references>
+        <!--Hotel Dream Gran Tacande-->
+        <span>
+          <target id="t48" />
+          <target id="t49" />
+          <target id="t50" />
+          <target id="t51" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-fb" reference="148011905268140" />
+      </externalReferences>
+    </entity>
+    <entity eid="e6" type="Location">
+      <references>
+        <!--las Playas del Duque-->
+        <span>
+          <target id="t75" />
+          <target id="t76" />
+          <target id="t77" />
+          <target id="t78" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--el Fin de Año-->
+      <span>
+        <target id="t22" />
+        <target id="t23" />
+        <target id="t24" />
+        <target id="t25" />
+      </span>
+      <!--fin de año-->
+      <span>
+        <target id="t4" />
+        <target id="t5" />
+        <target id="t6" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--Año-->
+      <span>
+        <target id="t25" />
+      </span>
+      <!--año-->
+      <span>
+        <target id="t6" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

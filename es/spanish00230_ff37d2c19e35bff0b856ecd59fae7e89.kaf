@@ -706,4 +706,91 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--el centro de Pisa-->
+        <span>
+          <target id="t72" />
+          <target id="t73" />
+          <target id="t74" />
+          <target id="t75" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3170647" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--su-->
+      <span>
+        <target id="t15" />
+      </span>
+      <!--estos apartamentos-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+      <!--unos apartamentos con 2 habitaciones , un baño , un comedor y una cocina totalmente equipada-->
+      <span>
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+        <target id="t32" />
+        <target id="t33" />
+        <target id="t34" />
+        <target id="t35" />
+        <target id="t36" />
+        <target id="t37" />
+        <target id="t38" />
+        <target id="t39" />
+        <target id="t40" />
+        <target id="t41" />
+        <target id="t42" />
+        <target id="t43" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--su precio-->
+      <span>
+        <target id="t15" />
+        <target id="t16" />
+      </span>
+      <!--Lo mejor de estos apartamentos-->
+      <span>
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--el que reservamos nosotros-->
+      <span>
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+        <target id="t51" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t49" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--autobús-->
+      <span>
+        <target id="t57" />
+      </span>
+      <!--el autobús-->
+      <span>
+        <target id="t77" />
+        <target id="t78" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

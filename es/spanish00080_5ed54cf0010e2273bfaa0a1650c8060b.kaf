@@ -888,4 +888,52 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Urgell-->
+        <span>
+          <target id="t30" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--este hotel-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t8" />
+        <target id="t9" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t89" />
+        <target id="t90" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--la habitación-->
+      <span>
+        <target id="t111" />
+        <target id="t112" />
+      </span>
+      <!--la habitación-->
+      <span>
+        <target id="t99" />
+        <target id="t100" />
+      </span>
+      <!--una habitación más grande-->
+      <span>
+        <target id="t84" />
+        <target id="t85" />
+        <target id="t86" />
+        <target id="t87" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

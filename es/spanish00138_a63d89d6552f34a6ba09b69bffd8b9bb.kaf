@@ -790,4 +790,43 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--2 noches-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--2 noches-->
+      <span>
+        <target id="t15" />
+        <target id="t16" />
+      </span>
+      <!--esta espectacularmente-->
+      <span>
+        <target id="t24" />
+        <target id="t25" />
+      </span>
+      <!--mal-->
+      <span>
+        <target id="t82" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--para-->
+      <span>
+        <target id="t101" />
+      </span>
+      <!--trato-->
+      <span>
+        <target id="t61" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

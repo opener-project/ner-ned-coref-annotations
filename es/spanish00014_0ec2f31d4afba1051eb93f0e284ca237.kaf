@@ -426,4 +426,72 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Gran Bahía Principe Ambar-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--un hotel que merece la pena visitarlo-->
+      <span>
+        <target id="t16" />
+        <target id="t17" />
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+        <target id="t21" />
+        <target id="t22" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t18" />
+      </span>
+      <!--un lugar para recomendarlo-->
+      <span>
+        <target id="t55" />
+        <target id="t56" />
+        <target id="t57" />
+        <target id="t58" />
+      </span>
+      <!--Muy buen hotel-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+        <target id="t3" />
+      </span>
+      <!--Gran Bahía Principe Ambar-->
+      <span>
+        <target id="t10" />
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--el que-->
+      <span>
+        <target id="t28" />
+        <target id="t29" />
+      </span>
+      <!--el lugar en el que está situado-->
+      <span>
+        <target id="t25" />
+        <target id="t26" />
+        <target id="t27" />
+        <target id="t28" />
+        <target id="t29" />
+        <target id="t30" />
+        <target id="t31" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

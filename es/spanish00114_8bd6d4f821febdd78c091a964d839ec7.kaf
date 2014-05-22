@@ -734,4 +734,70 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Date">
+      <references>
+        <!--día 28-->
+        <span>
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--día 25 de Marzo-->
+        <span>
+          <target id="t13" />
+          <target id="t14" />
+          <target id="t15" />
+          <target id="t16" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Hotel recomendable-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--este hotel-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+      </span>
+      <!--El hotel-->
+      <span>
+        <target id="t21" />
+        <target id="t22" />
+      </span>
+      <!--hotel-->
+      <span>
+        <target id="t43" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--Spa-->
+      <span>
+        <target id="t54" />
+      </span>
+      <!--que-->
+      <span>
+        <target id="t55" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--las camas-->
+      <span>
+        <target id="t84" />
+        <target id="t85" />
+      </span>
+      <!--cama-->
+      <span>
+        <target id="t82" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

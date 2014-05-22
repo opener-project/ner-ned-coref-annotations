@@ -1084,4 +1084,121 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--World Trade Center-->
+        <span>
+          <target id="t75" />
+          <target id="t76" />
+          <target id="t77" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Location">
+      <references>
+        <!--Dubai-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="292223" />
+      </externalReferences>
+    </entity>
+    <entity eid="e3" type="Time">
+      <references>
+        <!--las 3 a.m.-->
+        <span>
+          <target id="t25" />
+          <target id="t26" />
+          <target id="t27" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="POI">
+      <references>
+        <!--parada Emirates-->
+        <span>
+          <target id="t58" />
+          <target id="t59" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="128996" />
+      </externalReferences>
+    </entity>
+    <entity eid="e5" type="Time">
+      <references>
+        <!--6-->
+        <span>
+          <target id="t139" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e6" type="Time">
+      <references>
+        <!--9:30-->
+        <span>
+          <target id="t141" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e7" type="Money">
+      <references>
+        <!--96 euros-->
+        <span>
+          <target id="t123" />
+          <target id="t124" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t62" />
+      </span>
+      <!--parada Emirates-->
+      <span>
+        <target id="t58" />
+        <target id="t59" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--nosotros-->
+      <span>
+        <target id="t64" />
+      </span>
+      <!--nos-->
+      <span>
+        <target id="t65" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--la habitación (-->
+      <span>
+        <target id="t120" />
+        <target id="t121" />
+        <target id="t122" />
+      </span>
+      <!--la habitación-->
+      <span>
+        <target id="t97" />
+        <target id="t98" />
+      </span>
+    </coref>
+    <coref coid="c4">
+      <!--se-->
+      <span>
+        <target id="t132" />
+      </span>
+      <!--El desayuno-->
+      <span>
+        <target id="t129" />
+        <target id="t130" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

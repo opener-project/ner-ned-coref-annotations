@@ -349,4 +349,65 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--Duomo-->
+        <span>
+          <target id="t22" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-venues" reference="212994" />
+      </externalReferences>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--la Iglesia de San Lorenzo-->
+        <span>
+          <target id="t15" />
+          <target id="t16" />
+          <target id="t17" />
+          <target id="t18" />
+          <target id="t19" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="Location">
+      <references>
+        <!--Florencia-->
+        <span>
+          <target id="t4" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3176959" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--la ducha-->
+      <span>
+        <target id="t43" />
+        <target id="t44" />
+      </span>
+      <!--Lo malo-->
+      <span>
+        <target id="t41" />
+        <target id="t42" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--Un pequeño hotel de buena presencia-->
+      <span>
+        <target id="t6" />
+        <target id="t7" />
+        <target id="t8" />
+        <target id="t9" />
+        <target id="t10" />
+        <target id="t11" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

@@ -601,4 +601,31 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Location">
+      <references>
+        <!--Pisa-->
+        <span>
+          <target id="t20" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="tourpedia-locations" reference="3170647" />
+      </externalReferences>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--Buenas habitaciones-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+      <!--Las habitaciones-->
+      <span>
+        <target id="t22" />
+        <target id="t23" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>

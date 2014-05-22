@@ -566,4 +566,66 @@
       </span>
     </term>
   </terms>
+  <entities>
+    <entity eid="e1" type="Attraction">
+      <references>
+        <!--la Cúpula del Duomo-->
+        <span>
+          <target id="t53" />
+          <target id="t54" />
+          <target id="t55" />
+          <target id="t56" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Attraction">
+      <references>
+        <!--Campanile-->
+        <span>
+          <target id="t64" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--este hotel-->
+      <span>
+        <target id="t3" />
+        <target id="t4" />
+      </span>
+      <!--un viejo palacio reformado-->
+      <span>
+        <target id="t11" />
+        <target id="t12" />
+        <target id="t13" />
+        <target id="t14" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--que-->
+      <span>
+        <target id="t49" />
+      </span>
+      <!--la que ocupé-->
+      <span>
+        <target id="t48" />
+        <target id="t49" />
+        <target id="t50" />
+      </span>
+    </coref>
+    <coref coid="c3">
+      <!--las campanas del Campanile-->
+      <span>
+        <target id="t61" />
+        <target id="t62" />
+        <target id="t63" />
+        <target id="t64" />
+      </span>
+      <!--se-->
+      <span>
+        <target id="t58" />
+      </span>
+    </coref>
+  </coreferences>
 </KAF>
