@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAF xml:lang="es" version="v1.opener">
+  <kafHeader>
+    <fileDesc />
+    <linguisticProcessors layer="text">
+      <lp name="opener-tokenizer-es" timestamp="2013-12-05T11:02:49Z" version="1.0" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="ehu-pos-en" timestamp="2013-12-05 12:02:50" version="1.0" />
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="10">Excelentes</wf>
+    <wf wid="w2" sent="1" para="1" offset="11" length="10">vacaciones</wf>
+    <wf wid="w3" sent="2" para="2" offset="22" length="5">Viaje</wf>
+    <wf wid="w4" sent="2" para="2" offset="28" length="3">con</wf>
+    <wf wid="w5" sent="2" para="2" offset="32" length="2">mi</wf>
+    <wf wid="w6" sent="2" para="2" offset="35" length="5">mujer</wf>
+    <wf wid="w7" sent="2" para="2" offset="41" length="1">a</wf>
+    <wf wid="w8" sent="2" para="2" offset="43" length="7">Sirenis</wf>
+    <wf wid="w9" sent="2" para="2" offset="51" length="8">Tropical</wf>
+    <wf wid="w10" sent="2" para="2" offset="60" length="4">este</wf>
+    <wf wid="w11" sent="2" para="2" offset="65" length="6">pasado</wf>
+    <wf wid="w12" sent="2" para="2" offset="72" length="3">mes</wf>
+    <wf wid="w13" sent="2" para="2" offset="76" length="2">de</wf>
+    <wf wid="w14" sent="2" para="2" offset="79" length="9">noviembre</wf>
+    <wf wid="w15" sent="2" para="2" offset="89" length="1">y</wf>
+    <wf wid="w16" sent="2" para="2" offset="91" length="3">han</wf>
+    <wf wid="w17" sent="2" para="2" offset="95" length="4">sido</wf>
+    <wf wid="w18" sent="2" para="2" offset="100" length="4">unas</wf>
+    <wf wid="w19" sent="2" para="2" offset="105" length="10">vacaciones</wf>
+    <wf wid="w20" sent="2" para="2" offset="116" length="9">excelente</wf>
+    <wf wid="w21" sent="2" para="2" offset="125" length="1">.</wf>
+    <wf wid="w22" sent="3" para="2" offset="127" length="2">El</wf>
+    <wf wid="w23" sent="3" para="2" offset="130" length="8">servicio</wf>
+    <wf wid="w24" sent="3" para="2" offset="138" length="1">,</wf>
+    <wf wid="w25" sent="3" para="2" offset="140" length="3">las</wf>
+    <wf wid="w26" sent="3" para="2" offset="144" length="12">habitaciones</wf>
+    <wf wid="w27" sent="3" para="2" offset="156" length="1">,</wf>
+    <wf wid="w28" sent="3" para="2" offset="158" length="2">la</wf>
+    <wf wid="w29" sent="3" para="2" offset="161" length="7">piscina</wf>
+    <wf wid="w30" sent="3" para="2" offset="168" length="1">,</wf>
+    <wf wid="w31" sent="3" para="2" offset="170" length="2">la</wf>
+    <wf wid="w32" sent="3" para="2" offset="173" length="5">playa</wf>
+    <wf wid="w33" sent="3" para="2" offset="179" length="1">y</wf>
+    <wf wid="w34" sent="3" para="2" offset="181" length="4">todo</wf>
+    <wf wid="w35" sent="3" para="2" offset="186" length="2">en</wf>
+    <wf wid="w36" sent="3" para="2" offset="189" length="7">general</wf>
+    <wf wid="w37" sent="3" para="2" offset="197" length="2">es</wf>
+    <wf wid="w38" sent="3" para="2" offset="200" length="9">excelente</wf>
+    <wf wid="w39" sent="3" para="2" offset="209" length="1">.</wf>
+    <wf wid="w40" sent="4" para="2" offset="211" length="8">Relacion</wf>
+    <wf wid="w41" sent="4" para="2" offset="220" length="7">calidad</wf>
+    <wf wid="w42" sent="4" para="2" offset="228" length="6">precio</wf>
+    <wf wid="w43" sent="4" para="2" offset="235" length="2">lo</wf>
+    <wf wid="w44" sent="4" para="2" offset="238" length="5">mejor</wf>
+    <wf wid="w45" sent="4" para="2" offset="244" length="3">que</wf>
+    <wf wid="w46" sent="4" para="2" offset="248" length="2">he</wf>
+    <wf wid="w47" sent="4" para="2" offset="251" length="5">visto</wf>
+    <wf wid="w48" sent="4" para="2" offset="256" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Excelentes-->
+    <term tid="t1" type="open" lemma="excelentes" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--vacaciones-->
+    <term tid="t2" type="open" lemma="vacaciones" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w2" />
+      </span>
+    </term>
+    <!--Viaje-->
+    <term tid="t3" type="close" lemma="Viaje" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w3" />
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t4" type="open" lemma="con" pos="A" morphofeat="RB">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--mi-->
+    <term tid="t5" type="close" lemma="mi" pos="O" morphofeat="MD">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--mujer-->
+    <term tid="t6" type="open" lemma="mujer" pos="V" morphofeat="VB">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t7" type="close" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w7" />
+      </span>
+    </term>
+    <!--Sirenis-->
+    <term tid="t8" type="close" lemma="Sirenis" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--Tropical-->
+    <term tid="t9" type="close" lemma="Tropical" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--este-->
+    <term tid="t10" type="open" lemma="este" pos="N" morphofeat="NN">
+      <span>
+        <target id="w10" />
+      </span>
+    </term>
+    <!--pasado-->
+    <term tid="t11" type="open" lemma="pasado" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+    </term>
+    <!--mes-->
+    <term tid="t12" type="open" lemma="mes" pos="V" morphofeat="VBZ">
+      <span>
+        <target id="w12" />
+      </span>
+    </term>
+    <!--de-->
+    <term tid="t13" type="close" lemma="de" pos="P" morphofeat="IN">
+      <span>
+        <target id="w13" />
+      </span>
+    </term>
+    <!--noviembre-->
+    <term tid="t14" type="open" lemma="noviembre" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w14" />
+      </span>
+    </term>
+    <!--y-->
+    <term tid="t15" type="open" lemma="y" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+    <!--han-->
+    <term tid="t16" type="open" lemma="han" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w16" />
+      </span>
+    </term>
+    <!--sido-->
+    <term tid="t17" type="open" lemma="sido" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17" />
+      </span>
+    </term>
+    <!--unas-->
+    <term tid="t18" type="open" lemma="unas" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w18" />
+      </span>
+    </term>
+    <!--vacaciones-->
+    <term tid="t19" type="open" lemma="vacaciones" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w19" />
+      </span>
+    </term>
+    <!--excelente-->
+    <term tid="t20" type="open" lemma="excelente" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w20" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t21" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w21" />
+      </span>
+    </term>
+    <!--El-->
+    <term tid="t22" type="close" lemma="El" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w22" />
+      </span>
+    </term>
+    <!--servicio-->
+    <term tid="t23" type="open" lemma="servicio" pos="N" morphofeat="NN">
+      <span>
+        <target id="w23" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t24" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w24" />
+      </span>
+    </term>
+    <!--las-->
+    <term tid="t25" type="close" lemma="las" pos="O" morphofeat="UH">
+      <span>
+        <target id="w25" />
+      </span>
+    </term>
+    <!--habitaciones-->
+    <term tid="t26" type="open" lemma="habitaciones" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w26" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t27" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w27" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t28" type="close" lemma="la" pos="D" morphofeat="DT">
+      <span>
+        <target id="w28" />
+      </span>
+    </term>
+    <!--piscina-->
+    <term tid="t29" type="open" lemma="piscina" pos="N" morphofeat="NN">
+      <span>
+        <target id="w29" />
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t30" type="close" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w30" />
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t31" type="close" lemma="la" pos="D" morphofeat="DT">
+      <span>
+        <target id="w31" />
+      </span>
+    </term>
+    <!--playa-->
+    <term tid="t32" type="open" lemma="playa" pos="N" morphofeat="NN">
+      <span>
+        <target id="w32" />
+      </span>
+    </term>
+    <!--y-->
+    <term tid="t33" type="open" lemma="y" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w33" />
+      </span>
+    </term>
+    <!--todo-->
+    <term tid="t34" type="open" lemma="todo" pos="N" morphofeat="NN">
+      <span>
+        <target id="w34" />
+      </span>
+    </term>
+    <!--en-->
+    <term tid="t35" type="close" lemma="en" pos="P" morphofeat="IN">
+      <span>
+        <target id="w35" />
+      </span>
+    </term>
+    <!--general-->
+    <term tid="t36" type="open" lemma="general" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w36" />
+      </span>
+    </term>
+    <!--es-->
+    <term tid="t37" type="open" lemma="es" pos="N" morphofeat="NNS">
+      <span>
+        <target id="w37" />
+      </span>
+    </term>
+    <!--excelente-->
+    <term tid="t38" type="open" lemma="excelente" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w38" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t39" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w39" />
+      </span>
+    </term>
+    <!--Relacion-->
+    <term tid="t40" type="close" lemma="Relacion" pos="R" morphofeat="NNP">
+      <span>
+        <target id="w40" />
+      </span>
+    </term>
+    <!--calidad-->
+    <term tid="t41" type="open" lemma="calidad" pos="V" morphofeat="VBD">
+      <span>
+        <target id="w41" />
+      </span>
+    </term>
+    <!--precio-->
+    <term tid="t42" type="open" lemma="precio" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w42" />
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t43" type="open" lemma="lo" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w43" />
+      </span>
+    </term>
+    <!--mejor-->
+    <term tid="t44" type="open" lemma="mejor" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w44" />
+      </span>
+    </term>
+    <!--que-->
+    <term tid="t45" type="open" lemma="que" pos="N" morphofeat="NN">
+      <span>
+        <target id="w45" />
+      </span>
+    </term>
+    <!--he-->
+    <term tid="t46" type="close" lemma="he" pos="Q" morphofeat="PRP">
+      <span>
+        <target id="w46" />
+      </span>
+    </term>
+    <!--visto-->
+    <term tid="t47" type="open" lemma="visto" pos="A" morphofeat="RB">
+      <span>
+        <target id="w47" />
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t48" type="close" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w48" />
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="Hotel">
+      <references>
+        <!--Sirenis Tropical-->
+        <span>
+          <target id="t8" />
+          <target id="t9" />
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="Date">
+      <references>
+        <!--este pasado mes de noviembre-->
+        <span>
+          <target id="t10" />
+          <target id="t11" />
+          <target id="t12" />
+          <target id="t13" />
+          <target id="t14" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <coreferences>
+    <coref coid="c1">
+      <!--que-->
+      <span>
+        <target id="t45" />
+      </span>
+      <!--lo mejor que he visto-->
+      <span>
+        <target id="t43" />
+        <target id="t44" />
+        <target id="t45" />
+        <target id="t46" />
+        <target id="t47" />
+      </span>
+      <!--Relacion calidad precio-->
+      <span>
+        <target id="t40" />
+        <target id="t41" />
+        <target id="t42" />
+      </span>
+    </coref>
+    <coref coid="c2">
+      <!--unas vacaciones excelente-->
+      <span>
+        <target id="t18" />
+        <target id="t19" />
+        <target id="t20" />
+      </span>
+      <!--Excelentes vacaciones-->
+      <span>
+        <target id="t1" />
+        <target id="t2" />
+      </span>
+    </coref>
+  </coreferences>
+</KAF>
