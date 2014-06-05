@@ -11,6 +11,9 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-en" timestamp="2014-06-05 9:29:22" version="1.0" />
     </linguisticProcessors>
+    <linguisticProcessors layer="constituency">
+      <lp name="ehu-parse-en" version="1.0" />
+    </linguisticProcessors>
   </kafHeader>
   <text>
     <wf wid="w1" sent="1" para="1" offset="0" length="10">Absolutely</wf>
@@ -551,7 +554,7 @@
       </t>
       <!--Tree edges-->
       <edge id="tre9" from="nter7" to="nter6" />
-      <edge id="tre10" from="nter8" to="nter7" head="yes" />
+      <edge id="tre10" from="nter8" to="nter7" />
       <edge id="tre11" from="nter9" to="nter8" />
       <edge id="tre12" from="ter3" to="nter9" />
       <edge id="tre13" from="nter10" to="nter8" />
@@ -568,7 +571,7 @@
       <edge id="tre24" from="ter8" to="nter16" />
       <edge id="tre25" from="nter17" to="nter15" head="yes" />
       <edge id="tre26" from="ter9" to="nter17" />
-      <edge id="tre27" from="nter18" to="nter7" />
+      <edge id="tre27" from="nter18" to="nter7" head="yes" />
       <edge id="tre28" from="ter10" to="nter18" />
     </tree>
     <tree>
@@ -655,7 +658,7 @@
       </t>
       <!--Tree edges-->
       <edge id="tre30" from="nter20" to="nter19" />
-      <edge id="tre31" from="nter21" to="nter20" head="yes" />
+      <edge id="tre31" from="nter21" to="nter20" />
       <edge id="tre32" from="nter22" to="nter21" head="yes" />
       <edge id="tre33" from="ter11" to="nter22" />
       <edge id="tre34" from="nter23" to="nter20" />
@@ -668,7 +671,7 @@
       <edge id="tre41" from="nter28" to="nter27" />
       <edge id="tre42" from="ter14" to="nter28" />
       <edge id="tre43" from="nter29" to="nter27" />
-      <edge id="tre44" from="nter30" to="nter29" head="yes" />
+      <edge id="tre44" from="nter30" to="nter29" />
       <edge id="tre45" from="nter31" to="nter30" />
       <edge id="tre46" from="ter15" to="nter31" />
       <edge id="tre47" from="nter32" to="nter30" head="yes" />
@@ -680,7 +683,7 @@
       <edge id="tre53" from="ter18" to="nter35" />
       <edge id="tre54" from="nter36" to="nter34" head="yes" />
       <edge id="tre55" from="ter19" to="nter36" />
-      <edge id="tre56" from="nter37" to="nter20" />
+      <edge id="tre56" from="nter37" to="nter20" head="yes" />
       <edge id="tre57" from="ter20" to="nter37" />
     </tree>
     <tree>
@@ -823,7 +826,7 @@
       </t>
       <!--Tree edges-->
       <edge id="tre59" from="nter39" to="nter38" />
-      <edge id="tre60" from="nter40" to="nter39" head="yes" />
+      <edge id="tre60" from="nter40" to="nter39" />
       <edge id="tre61" from="nter41" to="nter40" />
       <edge id="tre62" from="ter21" to="nter41" />
       <edge id="tre63" from="nter42" to="nter40" head="yes" />
@@ -840,7 +843,7 @@
       <edge id="tre74" from="nter49" to="nter48" />
       <edge id="tre75" from="ter26" to="nter49" />
       <edge id="tre76" from="nter50" to="nter48" />
-      <edge id="tre77" from="nter51" to="nter50" head="yes" />
+      <edge id="tre77" from="nter51" to="nter50" />
       <edge id="tre78" from="nter52" to="nter51" />
       <edge id="tre79" from="ter27" to="nter52" />
       <edge id="tre80" from="nter53" to="nter51" />
@@ -864,7 +867,7 @@
       <edge id="tre98" from="ter36" to="nter62" />
       <edge id="tre99" from="nter63" to="nter60" head="yes" />
       <edge id="tre100" from="ter37" to="nter63" />
-      <edge id="tre101" from="nter64" to="nter39" />
+      <edge id="tre101" from="nter64" to="nter39" head="yes" />
       <edge id="tre102" from="ter38" to="nter64" />
     </tree>
     <tree>
@@ -1019,14 +1022,14 @@
       <!--Tree edges-->
       <edge id="tre104" from="nter66" to="nter65" />
       <edge id="tre105" from="nter67" to="nter66" />
-      <edge id="tre106" from="nter68" to="nter67" head="yes" />
+      <edge id="tre106" from="nter68" to="nter67" />
       <edge id="tre107" from="nter69" to="nter68" head="yes" />
       <edge id="tre108" from="ter39" to="nter69" />
       <edge id="tre109" from="nter70" to="nter67" />
       <edge id="tre110" from="nter71" to="nter70" />
       <edge id="tre111" from="ter40" to="nter71" />
       <edge id="tre112" from="nter72" to="nter70" />
-      <edge id="tre113" from="nter73" to="nter72" head="yes" />
+      <edge id="tre113" from="nter73" to="nter72" />
       <edge id="tre114" from="nter74" to="nter73" />
       <edge id="tre115" from="ter41" to="nter74" />
       <edge id="tre116" from="nter75" to="nter73" />
@@ -1041,8 +1044,8 @@
       <edge id="tre125" from="ter45" to="nter80" />
       <edge id="tre126" from="nter81" to="nter66" />
       <edge id="tre127" from="ter46" to="nter81" />
-      <edge id="tre128" from="nter82" to="nter66" />
-      <edge id="tre129" from="nter83" to="nter82" head="yes" />
+      <edge id="tre128" from="nter82" to="nter66" head="yes" />
+      <edge id="tre129" from="nter83" to="nter82" />
       <edge id="tre130" from="nter84" to="nter83" head="yes" />
       <edge id="tre131" from="ter47" to="nter84" />
       <edge id="tre132" from="nter85" to="nter82" />
@@ -1055,7 +1058,7 @@
       <edge id="tre139" from="nter90" to="nter89" />
       <edge id="tre140" from="ter50" to="nter90" />
       <edge id="tre141" from="nter91" to="nter89" />
-      <edge id="tre142" from="nter92" to="nter91" head="yes" />
+      <edge id="tre142" from="nter92" to="nter91" />
       <edge id="tre143" from="nter93" to="nter92" head="yes" />
       <edge id="tre144" from="ter51" to="nter93" />
       <edge id="tre145" from="nter94" to="nter91" />

@@ -18,6 +18,9 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-fr" timestamp="2014-02-03T10:07:27" version="0.8" />
     </linguisticProcessors>
+    <linguisticProcessors layer="constituency">
+      <lp name="ehu-parse-fr" version="1.0" />
+    </linguisticProcessors>
   </kafHeader>
   <text>
     <wf wid="w1" sent="1" para="1" offset="0" length="7">GENIALE</wf>
@@ -641,11 +644,11 @@
       <edge id="tre76" from="nter45" to="nter3" />
       <edge id="tre77" from="nter46" to="nter45" head="yes" />
       <edge id="tre78" from="ter32" to="nter46" />
-      <edge id="tre79" from="nter47" to="nter3" />
+      <edge id="tre79" from="nter47" to="nter3" head="yes" />
       <edge id="tre80" from="ter33" to="nter47" />
       <edge id="tre81" from="nter48" to="nter3" />
       <edge id="tre82" from="ter34" to="nter48" />
-      <edge id="tre83" from="nter49" to="nter3" head="yes" />
+      <edge id="tre83" from="nter49" to="nter3" />
       <edge id="tre84" from="ter35" to="nter49" />
     </tree>
   </constituency>

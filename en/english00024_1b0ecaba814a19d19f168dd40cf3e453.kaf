@@ -11,6 +11,9 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-en" timestamp="2014-06-05 9:29:23" version="1.0" />
     </linguisticProcessors>
+    <linguisticProcessors layer="constituency">
+      <lp name="ehu-parse-en" version="1.0" />
+    </linguisticProcessors>
   </kafHeader>
   <text>
     <wf wid="w1" sent="1" para="1" offset="0" length="1">A</wf>
@@ -553,7 +556,7 @@
       </t>
       <!--Tree edges-->
       <edge id="tre10" from="nter7" to="nter6" />
-      <edge id="tre11" from="nter8" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter7" head="yes" />
       <edge id="tre12" from="nter9" to="nter8" />
       <edge id="tre13" from="nter10" to="nter9" />
       <edge id="tre14" from="ter4" to="nter10" />
@@ -561,7 +564,7 @@
       <edge id="tre16" from="nter12" to="nter11" />
       <edge id="tre17" from="ter5" to="nter12" />
       <edge id="tre18" from="nter13" to="nter11" />
-      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre19" from="nter14" to="nter13" />
       <edge id="tre20" from="nter15" to="nter14" />
       <edge id="tre21" from="ter6" to="nter15" />
       <edge id="tre22" from="nter16" to="nter14" />
@@ -581,7 +584,7 @@
       <edge id="tre36" from="nter24" to="nter23" />
       <edge id="tre37" from="ter13" to="nter24" />
       <edge id="tre38" from="nter25" to="nter23" />
-      <edge id="tre39" from="nter26" to="nter25" head="yes" />
+      <edge id="tre39" from="nter26" to="nter25" />
       <edge id="tre40" from="nter27" to="nter26" />
       <edge id="tre41" from="ter14" to="nter27" />
       <edge id="tre42" from="nter28" to="nter26" head="yes" />
@@ -704,7 +707,7 @@
       </t>
       <!--Tree edges-->
       <edge id="tre60" from="nter39" to="nter38" />
-      <edge id="tre61" from="nter40" to="nter39" head="yes" />
+      <edge id="tre61" from="nter40" to="nter39" />
       <edge id="tre62" from="nter41" to="nter40" />
       <edge id="tre63" from="ter22" to="nter41" />
       <edge id="tre64" from="nter42" to="nter40" head="yes" />
@@ -732,7 +735,7 @@
       <edge id="tre86" from="ter32" to="nter54" />
       <edge id="tre87" from="nter55" to="nter52" head="yes" />
       <edge id="tre88" from="ter33" to="nter55" />
-      <edge id="tre89" from="nter56" to="nter39" />
+      <edge id="tre89" from="nter56" to="nter39" head="yes" />
       <edge id="tre90" from="ter34" to="nter56" />
     </tree>
     <tree>
@@ -828,7 +831,7 @@
       </t>
       <!--Tree edges-->
       <edge id="tre92" from="nter58" to="nter57" />
-      <edge id="tre93" from="nter59" to="nter58" head="yes" />
+      <edge id="tre93" from="nter59" to="nter58" />
       <edge id="tre94" from="nter60" to="nter59" />
       <edge id="tre95" from="ter35" to="nter60" />
       <edge id="tre96" from="nter61" to="nter59" />
@@ -839,7 +842,7 @@
       <edge id="tre101" from="nter64" to="nter63" />
       <edge id="tre102" from="ter38" to="nter64" />
       <edge id="tre103" from="nter65" to="nter63" />
-      <edge id="tre104" from="nter66" to="nter65" head="yes" />
+      <edge id="tre104" from="nter66" to="nter65" />
       <edge id="tre105" from="nter67" to="nter66" head="yes" />
       <edge id="tre106" from="ter39" to="nter67" />
       <edge id="tre107" from="nter68" to="nter65" />
@@ -857,7 +860,7 @@
       <edge id="tre119" from="ter43" to="nter76" />
       <edge id="tre120" from="nter77" to="nter74" head="yes" />
       <edge id="tre121" from="ter44" to="nter77" />
-      <edge id="tre122" from="nter78" to="nter58" />
+      <edge id="tre122" from="nter78" to="nter58" head="yes" />
       <edge id="tre123" from="ter45" to="nter78" />
     </tree>
   </constituency>

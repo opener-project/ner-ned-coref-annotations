@@ -11,6 +11,9 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-es" timestamp="2014-06-04 17:36:19" version="1.0" />
     </linguisticProcessors>
+    <linguisticProcessors layer="constituency">
+      <lp name="ehu-parse-es" version="1.0" />
+    </linguisticProcessors>
   </kafHeader>
   <text>
     <wf wid="w1" sent="1" para="1" offset="0" length="7">Piccolo</wf>
@@ -420,7 +423,7 @@
       <nt id="nter2" label="SENTENCE" />
       <nt id="nter3" label="SN" />
       <nt id="nter4" label="GRUP.NOM" />
-      <nt id="nter5" label="NP0000P|PERSON" />
+      <nt id="nter5" label="NP00000" />
       <nt id="nter6" label="FP" />
       <!--Terminals-->
       <!--Piccolo-->
@@ -437,7 +440,7 @@
       </t>
       <!--Tree edges-->
       <edge id="tre2" from="nter2" to="nter1" />
-      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
       <edge id="tre4" from="nter4" to="nter3" head="yes" />
       <edge id="tre5" from="nter5" to="nter4" head="yes" />
       <edge id="tre6" from="ter1" to="nter5" />
@@ -449,10 +452,12 @@
       <nt id="nter7" label="TOP" />
       <nt id="nter8" label="SENTENCE" />
       <nt id="nter9" label="SN" />
-      <nt id="nter10" label="DA0MS0" />
-      <nt id="nter11" label="GRUP.NOM" />
-      <nt id="nter12" label="NP0000L|LOCATION" />
-      <nt id="nter13" label="FP" />
+      <nt id="nter10" label="GRUP.NOM" />
+      <nt id="nter11" label="NP00000" />
+      <nt id="nter12" label="SN" />
+      <nt id="nter13" label="GRUP.NOM" />
+      <nt id="nter14" label="NP00000" />
+      <nt id="nter15" label="FP" />
       <!--Terminals-->
       <!--Hotel-->
       <t id="ter3">
@@ -475,44 +480,66 @@
       <!--Tree edges-->
       <edge id="tre10" from="nter8" to="nter7" />
       <edge id="tre11" from="nter9" to="nter8" />
-      <edge id="tre12" from="nter10" to="nter9" />
-      <edge id="tre13" from="ter3" to="nter10" />
-      <edge id="tre14" from="nter11" to="nter9" head="yes" />
-      <edge id="tre15" from="nter12" to="nter11" head="yes" />
-      <edge id="tre16" from="ter4" to="nter12" />
-      <edge id="tre17" from="nter13" to="nter8" />
-      <edge id="tre18" from="ter5" to="nter13" />
+      <edge id="tre12" from="nter10" to="nter9" head="yes" />
+      <edge id="tre13" from="nter11" to="nter10" head="yes" />
+      <edge id="tre14" from="ter3" to="nter11" />
+      <edge id="tre15" from="nter12" to="nter8" head="yes" />
+      <edge id="tre16" from="nter13" to="nter12" head="yes" />
+      <edge id="tre17" from="nter14" to="nter13" head="yes" />
+      <edge id="tre18" from="ter4" to="nter14" />
+      <edge id="tre19" from="nter15" to="nter8" />
+      <edge id="tre20" from="ter5" to="nter15" />
     </tree>
     <tree>
       <!--Non-terminals-->
-      <nt id="nter14" label="INC" />
-      <nt id="nter15" label="DI0MS0" />
-      <nt id="nter16" label="GRUP.A" />
-      <nt id="nter17" label="AQ0MS0" />
-      <nt id="nter18" label="NCMS000" />
-      <nt id="nter19" label="PREP" />
-      <nt id="nter20" label="SPS00" />
-      <nt id="nter21" label="GRUP.A" />
-      <nt id="nter22" label="AQ0FS0" />
-      <nt id="nter23" label="NCFS000" />
-      <nt id="nter24" label="FC" />
-      <nt id="nter25" label="AQ0MS0" />
+      <nt id="nter16" label="TOP" />
+      <nt id="nter17" label="SENTENCE" />
+      <nt id="nter18" label="SN" />
+      <nt id="nter19" label="DI0MS0" />
+      <nt id="nter20" label="GRUP.NOM" />
+      <nt id="nter21" label="S.A" />
+      <nt id="nter22" label="GRUP.A" />
+      <nt id="nter23" label="AQ0MS0" />
+      <nt id="nter24" label="NCMS000" />
+      <nt id="nter25" label="SP" />
       <nt id="nter26" label="PREP" />
       <nt id="nter27" label="SPS00" />
-      <nt id="nter28" label="DA0FS0" />
-      <nt id="nter29" label="NP0000O|ORGANIZATION" />
-      <nt id="nter30" label="PREP" />
-      <nt id="nter31" label="SPS00" />
-      <nt id="nter32" label="NP0000L|LOCATION" />
-      <nt id="nter33" label="GRUP.NOM" />
-      <nt id="nter34" label="NP0000L|LOCATION" />
-      <nt id="nter35" label="CONJ" />
-      <nt id="nter36" label="CC" />
-      <nt id="nter37" label="PREP" />
-      <nt id="nter38" label="SPCMS" />
-      <nt id="nter39" label="GRUP.NOM" />
-      <nt id="nter40" label="NP0000P|PERSON" />
-      <nt id="nter41" label="FP" />
+      <nt id="nter28" label="SN" />
+      <nt id="nter29" label="GRUP.NOM" />
+      <nt id="nter30" label="S.A" />
+      <nt id="nter31" label="GRUP.A" />
+      <nt id="nter32" label="AQ0FS0" />
+      <nt id="nter33" label="NCFS000" />
+      <nt id="nter34" label="S.A" />
+      <nt id="nter35" label="FC" />
+      <nt id="nter36" label="GRUP.A" />
+      <nt id="nter37" label="AQ0MS0" />
+      <nt id="nter38" label="SP" />
+      <nt id="nter39" label="SP" />
+      <nt id="nter40" label="PREP" />
+      <nt id="nter41" label="SPS00" />
+      <nt id="nter42" label="SN" />
+      <nt id="nter43" label="DA0FS0" />
+      <nt id="nter44" label="GRUP.NOM" />
+      <nt id="nter45" label="NP00000" />
+      <nt id="nter46" label="SP" />
+      <nt id="nter47" label="PREP" />
+      <nt id="nter48" label="SPS00" />
+      <nt id="nter49" label="SN" />
+      <nt id="nter50" label="GRUP.NOM" />
+      <nt id="nter51" label="NP00000" />
+      <nt id="nter52" label="SN" />
+      <nt id="nter53" label="GRUP.NOM" />
+      <nt id="nter54" label="NP00000" />
+      <nt id="nter55" label="CONJ" />
+      <nt id="nter56" label="CC" />
+      <nt id="nter57" label="SP" />
+      <nt id="nter58" label="PREP" />
+      <nt id="nter59" label="SPCMS" />
+      <nt id="nter60" label="SN" />
+      <nt id="nter61" label="GRUP.NOM" />
+      <nt id="nter62" label="NCMS000" />
+      <nt id="nter63" label="FP" />
       <!--Terminals-->
       <!--Un-->
       <t id="ter6">
@@ -623,73 +650,94 @@
         </span>
       </t>
       <!--Tree edges-->
-      <edge id="tre20" from="nter15" to="nter14" />
-      <edge id="tre21" from="ter6" to="nter15" />
-      <edge id="tre22" from="nter16" to="nter14" />
-      <edge id="tre23" from="nter17" to="nter16" head="yes" />
-      <edge id="tre24" from="ter7" to="nter17" />
-      <edge id="tre25" from="nter18" to="nter14" />
-      <edge id="tre26" from="ter8" to="nter18" />
-      <edge id="tre27" from="nter19" to="nter14" />
-      <edge id="tre28" from="nter20" to="nter19" head="yes" />
-      <edge id="tre29" from="ter9" to="nter20" />
-      <edge id="tre30" from="nter21" to="nter14" head="yes" />
-      <edge id="tre31" from="nter22" to="nter21" head="yes" />
-      <edge id="tre32" from="ter10" to="nter22" />
-      <edge id="tre33" from="nter23" to="nter14" />
-      <edge id="tre34" from="ter11" to="nter23" />
-      <edge id="tre35" from="nter24" to="nter14" />
-      <edge id="tre36" from="ter12" to="nter24" />
-      <edge id="tre37" from="nter25" to="nter14" />
-      <edge id="tre38" from="ter13" to="nter25" />
-      <edge id="tre39" from="nter26" to="nter14" />
-      <edge id="tre40" from="nter27" to="nter26" head="yes" />
-      <edge id="tre41" from="ter14" to="nter27" />
-      <edge id="tre42" from="nter28" to="nter14" />
-      <edge id="tre43" from="ter15" to="nter28" />
-      <edge id="tre44" from="nter29" to="nter14" />
-      <edge id="tre45" from="ter16" to="nter29" />
-      <edge id="tre46" from="nter30" to="nter14" />
-      <edge id="tre47" from="nter31" to="nter30" head="yes" />
-      <edge id="tre48" from="ter17" to="nter31" />
-      <edge id="tre49" from="nter32" to="nter14" />
-      <edge id="tre50" from="ter18" to="nter32" />
-      <edge id="tre51" from="nter33" to="nter14" />
-      <edge id="tre52" from="nter34" to="nter33" head="yes" />
-      <edge id="tre53" from="ter19" to="nter34" />
-      <edge id="tre54" from="nter35" to="nter14" />
-      <edge id="tre55" from="nter36" to="nter35" head="yes" />
-      <edge id="tre56" from="ter20" to="nter36" />
-      <edge id="tre57" from="nter37" to="nter14" />
-      <edge id="tre58" from="nter38" to="nter37" head="yes" />
-      <edge id="tre59" from="ter21" to="nter38" />
-      <edge id="tre60" from="nter39" to="nter14" />
-      <edge id="tre61" from="nter40" to="nter39" head="yes" />
-      <edge id="tre62" from="ter22" to="nter40" />
-      <edge id="tre63" from="nter41" to="nter14" />
-      <edge id="tre64" from="ter23" to="nter41" />
+      <edge id="tre22" from="nter17" to="nter16" />
+      <edge id="tre23" from="nter18" to="nter17" head="yes" />
+      <edge id="tre24" from="nter19" to="nter18" />
+      <edge id="tre25" from="ter6" to="nter19" />
+      <edge id="tre26" from="nter20" to="nter18" head="yes" />
+      <edge id="tre27" from="nter21" to="nter20" />
+      <edge id="tre28" from="nter22" to="nter21" />
+      <edge id="tre29" from="nter23" to="nter22" head="yes" />
+      <edge id="tre30" from="ter7" to="nter23" />
+      <edge id="tre31" from="nter24" to="nter20" head="yes" />
+      <edge id="tre32" from="ter8" to="nter24" />
+      <edge id="tre33" from="nter25" to="nter20" />
+      <edge id="tre34" from="nter26" to="nter25" head="yes" />
+      <edge id="tre35" from="nter27" to="nter26" head="yes" />
+      <edge id="tre36" from="ter9" to="nter27" />
+      <edge id="tre37" from="nter28" to="nter25" />
+      <edge id="tre38" from="nter29" to="nter28" head="yes" />
+      <edge id="tre39" from="nter30" to="nter29" />
+      <edge id="tre40" from="nter31" to="nter30" />
+      <edge id="tre41" from="nter32" to="nter31" head="yes" />
+      <edge id="tre42" from="ter10" to="nter32" />
+      <edge id="tre43" from="nter33" to="nter29" />
+      <edge id="tre44" from="ter11" to="nter33" />
+      <edge id="tre45" from="nter34" to="nter29" head="yes" />
+      <edge id="tre46" from="nter35" to="nter34" />
+      <edge id="tre47" from="ter12" to="nter35" />
+      <edge id="tre48" from="nter36" to="nter34" />
+      <edge id="tre49" from="nter37" to="nter36" />
+      <edge id="tre50" from="ter13" to="nter37" />
+      <edge id="tre51" from="nter38" to="nter36" />
+      <edge id="tre52" from="nter39" to="nter38" />
+      <edge id="tre53" from="nter40" to="nter39" head="yes" />
+      <edge id="tre54" from="nter41" to="nter40" head="yes" />
+      <edge id="tre55" from="ter14" to="nter41" />
+      <edge id="tre56" from="nter42" to="nter39" />
+      <edge id="tre57" from="nter43" to="nter42" />
+      <edge id="tre58" from="ter15" to="nter43" />
+      <edge id="tre59" from="nter44" to="nter42" head="yes" />
+      <edge id="tre60" from="nter45" to="nter44" head="yes" />
+      <edge id="tre61" from="ter16" to="nter45" />
+      <edge id="tre62" from="nter46" to="nter44" />
+      <edge id="tre63" from="nter47" to="nter46" head="yes" />
+      <edge id="tre64" from="nter48" to="nter47" head="yes" />
+      <edge id="tre65" from="ter17" to="nter48" />
+      <edge id="tre66" from="nter49" to="nter46" />
+      <edge id="tre67" from="nter50" to="nter49" head="yes" />
+      <edge id="tre68" from="nter51" to="nter50" head="yes" />
+      <edge id="tre69" from="ter18" to="nter51" />
+      <edge id="tre70" from="nter52" to="nter44" />
+      <edge id="tre71" from="nter53" to="nter52" head="yes" />
+      <edge id="tre72" from="nter54" to="nter53" head="yes" />
+      <edge id="tre73" from="ter19" to="nter54" />
+      <edge id="tre74" from="nter55" to="nter38" head="yes" />
+      <edge id="tre75" from="nter56" to="nter55" head="yes" />
+      <edge id="tre76" from="ter20" to="nter56" />
+      <edge id="tre77" from="nter57" to="nter38" />
+      <edge id="tre78" from="nter58" to="nter57" head="yes" />
+      <edge id="tre79" from="nter59" to="nter58" head="yes" />
+      <edge id="tre80" from="ter21" to="nter59" />
+      <edge id="tre81" from="nter60" to="nter57" />
+      <edge id="tre82" from="nter61" to="nter60" head="yes" />
+      <edge id="tre83" from="nter62" to="nter61" head="yes" />
+      <edge id="tre84" from="ter22" to="nter62" />
+      <edge id="tre85" from="nter63" to="nter17" />
+      <edge id="tre86" from="ter23" to="nter63" />
     </tree>
     <tree>
       <!--Non-terminals-->
-      <nt id="nter42" label="TOP" />
-      <nt id="nter43" label="SENTENCE" />
-      <nt id="nter44" label="SADV" />
-      <nt id="nter45" label="GRUP.ADV" />
-      <nt id="nter46" label="RG" />
-      <nt id="nter47" label="SP" />
-      <nt id="nter48" label="PREP" />
-      <nt id="nter49" label="SPS00" />
-      <nt id="nter50" label="SN" />
-      <nt id="nter51" label="DA0FS0" />
-      <nt id="nter52" label="GRUP.NOM" />
-      <nt id="nter53" label="NCFS000" />
-      <nt id="nter54" label="SP" />
-      <nt id="nter55" label="PREP" />
-      <nt id="nter56" label="SPS00" />
-      <nt id="nter57" label="SN" />
-      <nt id="nter58" label="GRUP.NOM" />
-      <nt id="nter59" label="NCMP000" />
-      <nt id="nter60" label="FP" />
+      <nt id="nter64" label="TOP" />
+      <nt id="nter65" label="SENTENCE" />
+      <nt id="nter66" label="S" />
+      <nt id="nter67" label="SADV" />
+      <nt id="nter68" label="GRUP.ADV" />
+      <nt id="nter69" label="RG" />
+      <nt id="nter70" label="SP" />
+      <nt id="nter71" label="PREP" />
+      <nt id="nter72" label="SPS00" />
+      <nt id="nter73" label="SN" />
+      <nt id="nter74" label="DA0FS0" />
+      <nt id="nter75" label="GRUP.NOM" />
+      <nt id="nter76" label="NCFS000" />
+      <nt id="nter77" label="SP" />
+      <nt id="nter78" label="PREP" />
+      <nt id="nter79" label="SPS00" />
+      <nt id="nter80" label="SN" />
+      <nt id="nter81" label="GRUP.NOM" />
+      <nt id="nter82" label="NCMP000" />
+      <nt id="nter83" label="FP" />
       <!--Terminals-->
       <!--Tambien-->
       <t id="ter24">
@@ -734,60 +782,63 @@
         </span>
       </t>
       <!--Tree edges-->
-      <edge id="tre66" from="nter43" to="nter42" />
-      <edge id="tre67" from="nter44" to="nter43" />
-      <edge id="tre68" from="nter45" to="nter44" head="yes" />
-      <edge id="tre69" from="nter46" to="nter45" head="yes" />
-      <edge id="tre70" from="ter24" to="nter46" />
-      <edge id="tre71" from="nter47" to="nter43" />
-      <edge id="tre72" from="nter48" to="nter47" head="yes" />
-      <edge id="tre73" from="nter49" to="nter48" head="yes" />
-      <edge id="tre74" from="ter25" to="nter49" />
-      <edge id="tre75" from="nter50" to="nter47" />
-      <edge id="tre76" from="nter51" to="nter50" />
-      <edge id="tre77" from="ter26" to="nter51" />
-      <edge id="tre78" from="nter52" to="nter50" head="yes" />
-      <edge id="tre79" from="nter53" to="nter52" head="yes" />
-      <edge id="tre80" from="ter27" to="nter53" />
-      <edge id="tre81" from="nter54" to="nter52" />
-      <edge id="tre82" from="nter55" to="nter54" head="yes" />
-      <edge id="tre83" from="nter56" to="nter55" head="yes" />
-      <edge id="tre84" from="ter28" to="nter56" />
-      <edge id="tre85" from="nter57" to="nter54" />
-      <edge id="tre86" from="nter58" to="nter57" head="yes" />
-      <edge id="tre87" from="nter59" to="nter58" head="yes" />
-      <edge id="tre88" from="ter29" to="nter59" />
-      <edge id="tre89" from="nter60" to="nter43" />
-      <edge id="tre90" from="ter30" to="nter60" />
+      <edge id="tre88" from="nter65" to="nter64" />
+      <edge id="tre89" from="nter66" to="nter65" head="yes" />
+      <edge id="tre90" from="nter67" to="nter66" />
+      <edge id="tre91" from="nter68" to="nter67" />
+      <edge id="tre92" from="nter69" to="nter68" head="yes" />
+      <edge id="tre93" from="ter24" to="nter69" />
+      <edge id="tre94" from="nter70" to="nter66" />
+      <edge id="tre95" from="nter71" to="nter70" head="yes" />
+      <edge id="tre96" from="nter72" to="nter71" head="yes" />
+      <edge id="tre97" from="ter25" to="nter72" />
+      <edge id="tre98" from="nter73" to="nter70" />
+      <edge id="tre99" from="nter74" to="nter73" />
+      <edge id="tre100" from="ter26" to="nter74" />
+      <edge id="tre101" from="nter75" to="nter73" head="yes" />
+      <edge id="tre102" from="nter76" to="nter75" head="yes" />
+      <edge id="tre103" from="ter27" to="nter76" />
+      <edge id="tre104" from="nter77" to="nter75" />
+      <edge id="tre105" from="nter78" to="nter77" head="yes" />
+      <edge id="tre106" from="nter79" to="nter78" head="yes" />
+      <edge id="tre107" from="ter28" to="nter79" />
+      <edge id="tre108" from="nter80" to="nter77" />
+      <edge id="tre109" from="nter81" to="nter80" head="yes" />
+      <edge id="tre110" from="nter82" to="nter81" head="yes" />
+      <edge id="tre111" from="ter29" to="nter82" />
+      <edge id="tre112" from="nter83" to="nter65" />
+      <edge id="tre113" from="ter30" to="nter83" />
     </tree>
     <tree>
       <!--Non-terminals-->
-      <nt id="nter61" label="TOP" />
-      <nt id="nter62" label="SENTENCE" />
-      <nt id="nter63" label="S" />
-      <nt id="nter64" label="SADV" />
-      <nt id="nter65" label="GRUP.ADV" />
-      <nt id="nter66" label="RG" />
-      <nt id="nter67" label="PARTICIPI" />
-      <nt id="nter68" label="AQ0MSP" />
-      <nt id="nter69" label="FC" />
-      <nt id="nter70" label="SA" />
-      <nt id="nter71" label="GRUP.A" />
-      <nt id="nter72" label="AQ0CS0" />
-      <nt id="nter73" label="SP" />
-      <nt id="nter74" label="PREP" />
-      <nt id="nter75" label="SPS00" />
-      <nt id="nter76" label="S" />
-      <nt id="nter77" label="INFINITIU" />
-      <nt id="nter78" label="VMN0000" />
-      <nt id="nter79" label="SN" />
-      <nt id="nter80" label="FC" />
-      <nt id="nter81" label="GRUP.NOM" />
-      <nt id="nter82" label="S.A" />
-      <nt id="nter83" label="GRUP.A" />
-      <nt id="nter84" label="AQ0MS0" />
-      <nt id="nter85" label="NCMS000" />
-      <nt id="nter86" label="FP" />
+      <nt id="nter84" label="TOP" />
+      <nt id="nter85" label="SENTENCE" />
+      <nt id="nter86" label="S" />
+      <nt id="nter87" label="SADV" />
+      <nt id="nter88" label="GRUP.ADV" />
+      <nt id="nter89" label="RG" />
+      <nt id="nter90" label="PARTICIPI" />
+      <nt id="nter91" label="AQ0MSP" />
+      <nt id="nter92" label="SN" />
+      <nt id="nter93" label="GRUP.NOM" />
+      <nt id="nter94" label="S.A" />
+      <nt id="nter95" label="FC" />
+      <nt id="nter96" label="GRUP.A" />
+      <nt id="nter97" label="AQ0CS0" />
+      <nt id="nter98" label="SP" />
+      <nt id="nter99" label="PREP" />
+      <nt id="nter100" label="SPS00" />
+      <nt id="nter101" label="S" />
+      <nt id="nter102" label="INFINITIU" />
+      <nt id="nter103" label="VMN0000" />
+      <nt id="nter104" label="SN" />
+      <nt id="nter105" label="FC" />
+      <nt id="nter106" label="GRUP.NOM" />
+      <nt id="nter107" label="S.A" />
+      <nt id="nter108" label="GRUP.A" />
+      <nt id="nter109" label="AQ0MS0" />
+      <nt id="nter110" label="NCMS000" />
+      <nt id="nter111" label="FP" />
       <!--Terminals-->
       <!--Bien-->
       <t id="ter31">
@@ -850,62 +901,66 @@
         </span>
       </t>
       <!--Tree edges-->
-      <edge id="tre92" from="nter62" to="nter61" />
-      <edge id="tre93" from="nter63" to="nter62" />
-      <edge id="tre94" from="nter64" to="nter63" />
-      <edge id="tre95" from="nter65" to="nter64" head="yes" />
-      <edge id="tre96" from="nter66" to="nter65" head="yes" />
-      <edge id="tre97" from="ter31" to="nter66" />
-      <edge id="tre98" from="nter67" to="nter63" />
-      <edge id="tre99" from="nter68" to="nter67" head="yes" />
-      <edge id="tre100" from="ter32" to="nter68" />
-      <edge id="tre101" from="nter69" to="nter62" />
-      <edge id="tre102" from="ter33" to="nter69" />
-      <edge id="tre103" from="nter70" to="nter62" />
-      <edge id="tre104" from="nter71" to="nter70" head="yes" />
-      <edge id="tre105" from="nter72" to="nter71" />
-      <edge id="tre106" from="ter34" to="nter72" />
-      <edge id="tre107" from="nter73" to="nter71" />
-      <edge id="tre108" from="nter74" to="nter73" head="yes" />
-      <edge id="tre109" from="nter75" to="nter74" head="yes" />
-      <edge id="tre110" from="ter35" to="nter75" />
-      <edge id="tre111" from="nter76" to="nter73" />
-      <edge id="tre112" from="nter77" to="nter76" />
-      <edge id="tre113" from="nter78" to="nter77" head="yes" />
-      <edge id="tre114" from="ter36" to="nter78" />
-      <edge id="tre115" from="nter79" to="nter76" head="yes" />
-      <edge id="tre116" from="nter80" to="nter79" />
-      <edge id="tre117" from="ter37" to="nter80" />
-      <edge id="tre118" from="nter81" to="nter79" head="yes" />
-      <edge id="tre119" from="nter82" to="nter81" />
-      <edge id="tre120" from="nter83" to="nter82" head="yes" />
-      <edge id="tre121" from="nter84" to="nter83" head="yes" />
-      <edge id="tre122" from="ter38" to="nter84" />
-      <edge id="tre123" from="nter85" to="nter81" head="yes" />
-      <edge id="tre124" from="ter39" to="nter85" />
-      <edge id="tre125" from="nter86" to="nter62" />
-      <edge id="tre126" from="ter40" to="nter86" />
+      <edge id="tre115" from="nter85" to="nter84" />
+      <edge id="tre116" from="nter86" to="nter85" head="yes" />
+      <edge id="tre117" from="nter87" to="nter86" />
+      <edge id="tre118" from="nter88" to="nter87" />
+      <edge id="tre119" from="nter89" to="nter88" head="yes" />
+      <edge id="tre120" from="ter31" to="nter89" />
+      <edge id="tre121" from="nter90" to="nter86" />
+      <edge id="tre122" from="nter91" to="nter90" head="yes" />
+      <edge id="tre123" from="ter32" to="nter91" />
+      <edge id="tre124" from="nter92" to="nter85" />
+      <edge id="tre125" from="nter93" to="nter92" head="yes" />
+      <edge id="tre126" from="nter94" to="nter93" head="yes" />
+      <edge id="tre127" from="nter95" to="nter94" />
+      <edge id="tre128" from="ter33" to="nter95" />
+      <edge id="tre129" from="nter96" to="nter94" />
+      <edge id="tre130" from="nter97" to="nter96" />
+      <edge id="tre131" from="ter34" to="nter97" />
+      <edge id="tre132" from="nter98" to="nter96" />
+      <edge id="tre133" from="nter99" to="nter98" head="yes" />
+      <edge id="tre134" from="nter100" to="nter99" head="yes" />
+      <edge id="tre135" from="ter35" to="nter100" />
+      <edge id="tre136" from="nter101" to="nter98" />
+      <edge id="tre137" from="nter102" to="nter101" />
+      <edge id="tre138" from="nter103" to="nter102" head="yes" />
+      <edge id="tre139" from="ter36" to="nter103" />
+      <edge id="tre140" from="nter104" to="nter101" head="yes" />
+      <edge id="tre141" from="nter105" to="nter104" />
+      <edge id="tre142" from="ter37" to="nter105" />
+      <edge id="tre143" from="nter106" to="nter104" head="yes" />
+      <edge id="tre144" from="nter107" to="nter106" />
+      <edge id="tre145" from="nter108" to="nter107" />
+      <edge id="tre146" from="nter109" to="nter108" head="yes" />
+      <edge id="tre147" from="ter38" to="nter109" />
+      <edge id="tre148" from="nter110" to="nter106" head="yes" />
+      <edge id="tre149" from="ter39" to="nter110" />
+      <edge id="tre150" from="nter111" to="nter85" />
+      <edge id="tre151" from="ter40" to="nter111" />
     </tree>
     <tree>
       <!--Non-terminals-->
-      <nt id="nter87" label="TOP" />
-      <nt id="nter88" label="SENTENCE" />
-      <nt id="nter89" label="SN" />
-      <nt id="nter90" label="DA0NS0" />
-      <nt id="nter91" label="GRUP.NOM" />
-      <nt id="nter92" label="NCMS000" />
-      <nt id="nter93" label="SN" />
-      <nt id="nter94" label="DA0FS0" />
-      <nt id="nter95" label="GRUP.NOM" />
-      <nt id="nter96" label="NCFS000" />
-      <nt id="nter97" label="SP" />
-      <nt id="nter98" label="FC" />
-      <nt id="nter99" label="PREP" />
-      <nt id="nter100" label="SPS00" />
-      <nt id="nter101" label="SN" />
-      <nt id="nter102" label="GRUP.NOM" />
-      <nt id="nter103" label="NCMS000" />
-      <nt id="nter104" label="FP" />
+      <nt id="nter112" label="TOP" />
+      <nt id="nter113" label="SENTENCE" />
+      <nt id="nter114" label="SN" />
+      <nt id="nter115" label="DA0NS0" />
+      <nt id="nter116" label="GRUP.NOM" />
+      <nt id="nter117" label="S.A" />
+      <nt id="nter118" label="GRUP.A" />
+      <nt id="nter119" label="AQ0MS0" />
+      <nt id="nter120" label="SN" />
+      <nt id="nter121" label="DA0FS0" />
+      <nt id="nter122" label="GRUP.NOM" />
+      <nt id="nter123" label="NCFS000" />
+      <nt id="nter124" label="SP" />
+      <nt id="nter125" label="FC" />
+      <nt id="nter126" label="PREP" />
+      <nt id="nter127" label="SPS00" />
+      <nt id="nter128" label="SN" />
+      <nt id="nter129" label="GRUP.NOM" />
+      <nt id="nter130" label="NCMS000" />
+      <nt id="nter131" label="FP" />
       <!--Terminals-->
       <!--Lo-->
       <t id="ter41">
@@ -956,31 +1011,33 @@
         </span>
       </t>
       <!--Tree edges-->
-      <edge id="tre128" from="nter88" to="nter87" />
-      <edge id="tre129" from="nter89" to="nter88" />
-      <edge id="tre130" from="nter90" to="nter89" />
-      <edge id="tre131" from="ter41" to="nter90" />
-      <edge id="tre132" from="nter91" to="nter89" head="yes" />
-      <edge id="tre133" from="nter92" to="nter91" head="yes" />
-      <edge id="tre134" from="ter42" to="nter92" />
-      <edge id="tre135" from="nter93" to="nter88" />
-      <edge id="tre136" from="nter94" to="nter93" />
-      <edge id="tre137" from="ter43" to="nter94" />
-      <edge id="tre138" from="nter95" to="nter93" head="yes" />
-      <edge id="tre139" from="nter96" to="nter95" head="yes" />
-      <edge id="tre140" from="ter44" to="nter96" />
-      <edge id="tre141" from="nter97" to="nter88" />
-      <edge id="tre142" from="nter98" to="nter97" />
-      <edge id="tre143" from="ter45" to="nter98" />
-      <edge id="tre144" from="nter99" to="nter97" head="yes" />
-      <edge id="tre145" from="nter100" to="nter99" head="yes" />
-      <edge id="tre146" from="ter46" to="nter100" />
-      <edge id="tre147" from="nter101" to="nter97" />
-      <edge id="tre148" from="nter102" to="nter101" head="yes" />
-      <edge id="tre149" from="nter103" to="nter102" head="yes" />
-      <edge id="tre150" from="ter47" to="nter103" />
-      <edge id="tre151" from="nter104" to="nter88" />
-      <edge id="tre152" from="ter48" to="nter104" />
+      <edge id="tre153" from="nter113" to="nter112" />
+      <edge id="tre154" from="nter114" to="nter113" />
+      <edge id="tre155" from="nter115" to="nter114" />
+      <edge id="tre156" from="ter41" to="nter115" />
+      <edge id="tre157" from="nter116" to="nter114" head="yes" />
+      <edge id="tre158" from="nter117" to="nter116" head="yes" />
+      <edge id="tre159" from="nter118" to="nter117" />
+      <edge id="tre160" from="nter119" to="nter118" head="yes" />
+      <edge id="tre161" from="ter42" to="nter119" />
+      <edge id="tre162" from="nter120" to="nter113" head="yes" />
+      <edge id="tre163" from="nter121" to="nter120" />
+      <edge id="tre164" from="ter43" to="nter121" />
+      <edge id="tre165" from="nter122" to="nter120" head="yes" />
+      <edge id="tre166" from="nter123" to="nter122" head="yes" />
+      <edge id="tre167" from="ter44" to="nter123" />
+      <edge id="tre168" from="nter124" to="nter113" />
+      <edge id="tre169" from="nter125" to="nter124" />
+      <edge id="tre170" from="ter45" to="nter125" />
+      <edge id="tre171" from="nter126" to="nter124" head="yes" />
+      <edge id="tre172" from="nter127" to="nter126" head="yes" />
+      <edge id="tre173" from="ter46" to="nter127" />
+      <edge id="tre174" from="nter128" to="nter124" />
+      <edge id="tre175" from="nter129" to="nter128" head="yes" />
+      <edge id="tre176" from="nter130" to="nter129" head="yes" />
+      <edge id="tre177" from="ter47" to="nter130" />
+      <edge id="tre178" from="nter131" to="nter113" />
+      <edge id="tre179" from="ter48" to="nter131" />
     </tree>
   </constituency>
 </KAF>
