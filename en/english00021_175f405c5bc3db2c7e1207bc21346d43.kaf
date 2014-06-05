@@ -8,6 +8,9 @@
     <linguisticProcessors layer="terms">
       <lp name="ehu-pos-en" timestamp="2013-12-05 12:10:21" version="1.0" />
     </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp name="ehu-parse-en" timestamp="2014-06-05 9:29:21" version="1.0" />
+    </linguisticProcessors>
   </kafHeader>
   <text>
     <wf wid="w1" sent="1" para="1" offset="0" length="4">Last</wf>
@@ -935,4 +938,1338 @@
       </span>
     </coref>
   </coreferences>
+  <constituency>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter1" label="TOP" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="JJ" />
+      <nt id="nter5" label="NN" />
+      <nt id="nter6" label="VP" />
+      <nt id="nter7" label="VBZ" />
+      <nt id="nter8" label="PRT" />
+      <nt id="nter9" label="RP" />
+      <nt id="nter10" label="." />
+      <!--Terminals-->
+      <!--Last-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--minute-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--getaway-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--Brugge-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" />
+      <edge id="tre3" from="nter3" to="nter2" head="yes" />
+      <edge id="tre4" from="nter4" to="nter3" />
+      <edge id="tre5" from="ter1" to="nter4" />
+      <edge id="tre6" from="nter5" to="nter3" head="yes" />
+      <edge id="tre7" from="ter2" to="nter5" />
+      <edge id="tre8" from="nter6" to="nter2" />
+      <edge id="tre9" from="nter7" to="nter6" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter6" />
+      <edge id="tre12" from="nter9" to="nter8" head="yes" />
+      <edge id="tre13" from="ter4" to="nter9" />
+      <edge id="tre14" from="nter10" to="nter2" />
+      <edge id="tre15" from="ter5" to="nter10" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter11" label="TOP" />
+      <nt id="nter12" label="S" />
+      <nt id="nter13" label="S" />
+      <nt id="nter14" label="NP" />
+      <nt id="nter15" label="PRP" />
+      <nt id="nter16" label="VP" />
+      <nt id="nter17" label="VBD" />
+      <nt id="nter18" label="ADVP" />
+      <nt id="nter19" label="RB" />
+      <nt id="nter20" label="PP" />
+      <nt id="nter21" label="IN" />
+      <nt id="nter22" label="NP" />
+      <nt id="nter23" label="PRP$" />
+      <nt id="nter24" label="JJ" />
+      <nt id="nter25" label="NN" />
+      <nt id="nter26" label="," />
+      <nt id="nter27" label="NP" />
+      <nt id="nter28" label="PRP" />
+      <nt id="nter29" label="VP" />
+      <nt id="nter30" label="VP" />
+      <nt id="nter31" label="VBP" />
+      <nt id="nter32" label="NP" />
+      <nt id="nter33" label="CD" />
+      <nt id="nter34" label="NNP" />
+      <nt id="nter35" label="NP" />
+      <nt id="nter36" label="DT" />
+      <nt id="nter37" label="NN" />
+      <nt id="nter38" label="PP" />
+      <nt id="nter39" label="IN" />
+      <nt id="nter40" label="NP" />
+      <nt id="nter41" label="PRP" />
+      <nt id="nter42" label="," />
+      <nt id="nter43" label="SBAR" />
+      <nt id="nter44" label="WHNP" />
+      <nt id="nter45" label="WDT" />
+      <nt id="nter46" label="S" />
+      <nt id="nter47" label="VP" />
+      <nt id="nter48" label="VBZ" />
+      <nt id="nter49" label="S" />
+      <nt id="nter50" label="NP" />
+      <nt id="nter51" label="PRP" />
+      <nt id="nter52" label="VP" />
+      <nt id="nter53" label="VBP" />
+      <nt id="nter54" label="ADJP" />
+      <nt id="nter55" label="JJ" />
+      <nt id="nter56" label="ADVP" />
+      <nt id="nter57" label="RB" />
+      <nt id="nter58" label="PP" />
+      <nt id="nter59" label="IN" />
+      <nt id="nter60" label="NP" />
+      <nt id="nter61" label="NNP" />
+      <nt id="nter62" label="." />
+      <!--Terminals-->
+      <!--We-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--stayed-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--there-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--with-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--our-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--big-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--dog-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--pay-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--20-->
+      <t id="ter16">
+        <span>
+          <target id="t16" />
+        </span>
+      </t>
+      <!--Euro-->
+      <t id="ter17">
+        <span>
+          <target id="t17" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter18">
+        <span>
+          <target id="t18" />
+        </span>
+      </t>
+      <!--night-->
+      <t id="ter19">
+        <span>
+          <target id="t19" />
+        </span>
+      </t>
+      <!--for-->
+      <t id="ter20">
+        <span>
+          <target id="t20" />
+        </span>
+      </t>
+      <!--him-->
+      <t id="ter21">
+        <span>
+          <target id="t21" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter22">
+        <span>
+          <target id="t22" />
+        </span>
+      </t>
+      <!--which-->
+      <t id="ter23">
+        <span>
+          <target id="t23" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter24">
+        <span>
+          <target id="t24" />
+        </span>
+      </t>
+      <!--I-->
+      <t id="ter25">
+        <span>
+          <target id="t25" />
+        </span>
+      </t>
+      <!--guess-->
+      <t id="ter26">
+        <span>
+          <target id="t26" />
+        </span>
+      </t>
+      <!--normal-->
+      <t id="ter27">
+        <span>
+          <target id="t27" />
+        </span>
+      </t>
+      <!--here-->
+      <t id="ter28">
+        <span>
+          <target id="t28" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter29">
+        <span>
+          <target id="t29" />
+        </span>
+      </t>
+      <!--Europe-->
+      <t id="ter30">
+        <span>
+          <target id="t30" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter31">
+        <span>
+          <target id="t31" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre17" from="nter12" to="nter11" />
+      <edge id="tre18" from="nter13" to="nter12" />
+      <edge id="tre19" from="nter14" to="nter13" head="yes" />
+      <edge id="tre20" from="nter15" to="nter14" head="yes" />
+      <edge id="tre21" from="ter6" to="nter15" />
+      <edge id="tre22" from="nter16" to="nter13" />
+      <edge id="tre23" from="nter17" to="nter16" />
+      <edge id="tre24" from="ter7" to="nter17" />
+      <edge id="tre25" from="nter18" to="nter16" />
+      <edge id="tre26" from="nter19" to="nter18" head="yes" />
+      <edge id="tre27" from="ter8" to="nter19" />
+      <edge id="tre28" from="nter20" to="nter16" />
+      <edge id="tre29" from="nter21" to="nter20" />
+      <edge id="tre30" from="ter9" to="nter21" />
+      <edge id="tre31" from="nter22" to="nter20" />
+      <edge id="tre32" from="nter23" to="nter22" />
+      <edge id="tre33" from="ter10" to="nter23" />
+      <edge id="tre34" from="nter24" to="nter22" />
+      <edge id="tre35" from="ter11" to="nter24" />
+      <edge id="tre36" from="nter25" to="nter22" head="yes" />
+      <edge id="tre37" from="ter12" to="nter25" />
+      <edge id="tre38" from="nter26" to="nter12" />
+      <edge id="tre39" from="ter13" to="nter26" />
+      <edge id="tre40" from="nter27" to="nter12" head="yes" />
+      <edge id="tre41" from="nter28" to="nter27" head="yes" />
+      <edge id="tre42" from="ter14" to="nter28" />
+      <edge id="tre43" from="nter29" to="nter12" />
+      <edge id="tre44" from="nter30" to="nter29" />
+      <edge id="tre45" from="nter31" to="nter30" />
+      <edge id="tre46" from="ter15" to="nter31" />
+      <edge id="tre47" from="nter32" to="nter30" />
+      <edge id="tre48" from="nter33" to="nter32" />
+      <edge id="tre49" from="ter16" to="nter33" />
+      <edge id="tre50" from="nter34" to="nter32" head="yes" />
+      <edge id="tre51" from="ter17" to="nter34" />
+      <edge id="tre52" from="nter35" to="nter30" />
+      <edge id="tre53" from="nter36" to="nter35" />
+      <edge id="tre54" from="ter18" to="nter36" />
+      <edge id="tre55" from="nter37" to="nter35" head="yes" />
+      <edge id="tre56" from="ter19" to="nter37" />
+      <edge id="tre57" from="nter38" to="nter30" />
+      <edge id="tre58" from="nter39" to="nter38" />
+      <edge id="tre59" from="ter20" to="nter39" />
+      <edge id="tre60" from="nter40" to="nter38" />
+      <edge id="tre61" from="nter41" to="nter40" head="yes" />
+      <edge id="tre62" from="ter21" to="nter41" />
+      <edge id="tre63" from="nter42" to="nter29" />
+      <edge id="tre64" from="ter22" to="nter42" />
+      <edge id="tre65" from="nter43" to="nter29" />
+      <edge id="tre66" from="nter44" to="nter43" />
+      <edge id="tre67" from="nter45" to="nter44" head="yes" />
+      <edge id="tre68" from="ter23" to="nter45" />
+      <edge id="tre69" from="nter46" to="nter43" />
+      <edge id="tre70" from="nter47" to="nter46" />
+      <edge id="tre71" from="nter48" to="nter47" />
+      <edge id="tre72" from="ter24" to="nter48" />
+      <edge id="tre73" from="nter49" to="nter47" />
+      <edge id="tre74" from="nter50" to="nter49" head="yes" />
+      <edge id="tre75" from="nter51" to="nter50" head="yes" />
+      <edge id="tre76" from="ter25" to="nter51" />
+      <edge id="tre77" from="nter52" to="nter49" />
+      <edge id="tre78" from="nter53" to="nter52" />
+      <edge id="tre79" from="ter26" to="nter53" />
+      <edge id="tre80" from="nter54" to="nter52" />
+      <edge id="tre81" from="nter55" to="nter54" head="yes" />
+      <edge id="tre82" from="ter27" to="nter55" />
+      <edge id="tre83" from="nter56" to="nter52" />
+      <edge id="tre84" from="nter57" to="nter56" />
+      <edge id="tre85" from="ter28" to="nter57" />
+      <edge id="tre86" from="nter58" to="nter56" />
+      <edge id="tre87" from="nter59" to="nter58" />
+      <edge id="tre88" from="ter29" to="nter59" />
+      <edge id="tre89" from="nter60" to="nter58" />
+      <edge id="tre90" from="nter61" to="nter60" head="yes" />
+      <edge id="tre91" from="ter30" to="nter61" />
+      <edge id="tre92" from="nter62" to="nter12" />
+      <edge id="tre93" from="ter31" to="nter62" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter63" label="TOP" />
+      <nt id="nter64" label="S" />
+      <nt id="nter65" label="NP" />
+      <nt id="nter66" label="PRP" />
+      <nt id="nter67" label="VP" />
+      <nt id="nter68" label="VP" />
+      <nt id="nter69" label="VBD" />
+      <nt id="nter70" label="RB" />
+      <nt id="nter71" label="VP" />
+      <nt id="nter72" label="VBN" />
+      <nt id="nter73" label="PP" />
+      <nt id="nter74" label="IN" />
+      <nt id="nter75" label="NP" />
+      <nt id="nter76" label="DT" />
+      <nt id="nter77" label="NN" />
+      <nt id="nter78" label="ADVP" />
+      <nt id="nter79" label="IN" />
+      <nt id="nter80" label="," />
+      <nt id="nter81" label="SBAR" />
+      <nt id="nter82" label="WHNP" />
+      <nt id="nter83" label="WDT" />
+      <nt id="nter84" label="S" />
+      <nt id="nter85" label="VP" />
+      <nt id="nter86" label="VBZ" />
+      <nt id="nter87" label="ADVP" />
+      <nt id="nter88" label="RB" />
+      <nt id="nter89" label="ADJP" />
+      <nt id="nter90" label="JJ" />
+      <nt id="nter91" label="." />
+      <!--Terminals-->
+      <!--He-->
+      <t id="ter32">
+        <span>
+          <target id="t32" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter33">
+        <span>
+          <target id="t33" />
+        </span>
+      </t>
+      <!--not-->
+      <t id="ter34">
+        <span>
+          <target id="t34" />
+        </span>
+      </t>
+      <!--allowed-->
+      <t id="ter35">
+        <span>
+          <target id="t35" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter36">
+        <span>
+          <target id="t36" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter37">
+        <span>
+          <target id="t37" />
+        </span>
+      </t>
+      <!--restaurant-->
+      <t id="ter38">
+        <span>
+          <target id="t38" />
+        </span>
+      </t>
+      <!--though-->
+      <t id="ter39">
+        <span>
+          <target id="t39" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter40">
+        <span>
+          <target id="t40" />
+        </span>
+      </t>
+      <!--which-->
+      <t id="ter41">
+        <span>
+          <target id="t41" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter42">
+        <span>
+          <target id="t42" />
+        </span>
+      </t>
+      <!--also-->
+      <t id="ter43">
+        <span>
+          <target id="t43" />
+        </span>
+      </t>
+      <!--acceptable-->
+      <t id="ter44">
+        <span>
+          <target id="t44" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter45">
+        <span>
+          <target id="t45" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre95" from="nter64" to="nter63" />
+      <edge id="tre96" from="nter65" to="nter64" head="yes" />
+      <edge id="tre97" from="nter66" to="nter65" head="yes" />
+      <edge id="tre98" from="ter32" to="nter66" />
+      <edge id="tre99" from="nter67" to="nter64" />
+      <edge id="tre100" from="nter68" to="nter67" />
+      <edge id="tre101" from="nter69" to="nter68" />
+      <edge id="tre102" from="ter33" to="nter69" />
+      <edge id="tre103" from="nter70" to="nter68" />
+      <edge id="tre104" from="ter34" to="nter70" />
+      <edge id="tre105" from="nter71" to="nter68" />
+      <edge id="tre106" from="nter72" to="nter71" />
+      <edge id="tre107" from="ter35" to="nter72" />
+      <edge id="tre108" from="nter73" to="nter71" />
+      <edge id="tre109" from="nter74" to="nter73" />
+      <edge id="tre110" from="ter36" to="nter74" />
+      <edge id="tre111" from="nter75" to="nter73" />
+      <edge id="tre112" from="nter76" to="nter75" />
+      <edge id="tre113" from="ter37" to="nter76" />
+      <edge id="tre114" from="nter77" to="nter75" head="yes" />
+      <edge id="tre115" from="ter38" to="nter77" />
+      <edge id="tre116" from="nter78" to="nter71" />
+      <edge id="tre117" from="nter79" to="nter78" head="yes" />
+      <edge id="tre118" from="ter39" to="nter79" />
+      <edge id="tre119" from="nter80" to="nter67" />
+      <edge id="tre120" from="ter40" to="nter80" />
+      <edge id="tre121" from="nter81" to="nter67" />
+      <edge id="tre122" from="nter82" to="nter81" />
+      <edge id="tre123" from="nter83" to="nter82" head="yes" />
+      <edge id="tre124" from="ter41" to="nter83" />
+      <edge id="tre125" from="nter84" to="nter81" />
+      <edge id="tre126" from="nter85" to="nter84" />
+      <edge id="tre127" from="nter86" to="nter85" />
+      <edge id="tre128" from="ter42" to="nter86" />
+      <edge id="tre129" from="nter87" to="nter85" />
+      <edge id="tre130" from="nter88" to="nter87" head="yes" />
+      <edge id="tre131" from="ter43" to="nter88" />
+      <edge id="tre132" from="nter89" to="nter85" />
+      <edge id="tre133" from="nter90" to="nter89" head="yes" />
+      <edge id="tre134" from="ter44" to="nter90" />
+      <edge id="tre135" from="nter91" to="nter64" />
+      <edge id="tre136" from="ter45" to="nter91" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter92" label="TOP" />
+      <nt id="nter93" label="S" />
+      <nt id="nter94" label="NP" />
+      <nt id="nter95" label="DT" />
+      <nt id="nter96" label="NN" />
+      <nt id="nter97" label="VP" />
+      <nt id="nter98" label="VBD" />
+      <nt id="nter99" label="ADJP" />
+      <nt id="nter100" label="RB" />
+      <nt id="nter101" label="JJ" />
+      <nt id="nter102" label="." />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter46">
+        <span>
+          <target id="t46" />
+        </span>
+      </t>
+      <!--staff-->
+      <t id="ter47">
+        <span>
+          <target id="t47" />
+        </span>
+      </t>
+      <!--were-->
+      <t id="ter48">
+        <span>
+          <target id="t48" />
+        </span>
+      </t>
+      <!--very-->
+      <t id="ter49">
+        <span>
+          <target id="t49" />
+        </span>
+      </t>
+      <!--friendly-->
+      <t id="ter50">
+        <span>
+          <target id="t50" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter51">
+        <span>
+          <target id="t51" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre138" from="nter93" to="nter92" />
+      <edge id="tre139" from="nter94" to="nter93" head="yes" />
+      <edge id="tre140" from="nter95" to="nter94" />
+      <edge id="tre141" from="ter46" to="nter95" />
+      <edge id="tre142" from="nter96" to="nter94" head="yes" />
+      <edge id="tre143" from="ter47" to="nter96" />
+      <edge id="tre144" from="nter97" to="nter93" />
+      <edge id="tre145" from="nter98" to="nter97" />
+      <edge id="tre146" from="ter48" to="nter98" />
+      <edge id="tre147" from="nter99" to="nter97" />
+      <edge id="tre148" from="nter100" to="nter99" />
+      <edge id="tre149" from="ter49" to="nter100" />
+      <edge id="tre150" from="nter101" to="nter99" head="yes" />
+      <edge id="tre151" from="ter50" to="nter101" />
+      <edge id="tre152" from="nter102" to="nter93" />
+      <edge id="tre153" from="ter51" to="nter102" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter103" label="TOP" />
+      <nt id="nter104" label="S" />
+      <nt id="nter105" label="NP" />
+      <nt id="nter106" label="PRP" />
+      <nt id="nter107" label="VP" />
+      <nt id="nter108" label="VBD" />
+      <nt id="nter109" label="ADVP" />
+      <nt id="nter110" label="RB" />
+      <nt id="nter111" label="S" />
+      <nt id="nter112" label="VP" />
+      <nt id="nter113" label="VB" />
+      <nt id="nter114" label="NP" />
+      <nt id="nter115" label="RB" />
+      <nt id="nter116" label="PP" />
+      <nt id="nter117" label="IN" />
+      <nt id="nter118" label="NP" />
+      <nt id="nter119" label="NP" />
+      <nt id="nter120" label="DT" />
+      <nt id="nter121" label="NN" />
+      <nt id="nter122" label="SBAR" />
+      <nt id="nter123" label="IN" />
+      <nt id="nter124" label="S" />
+      <nt id="nter125" label="NP" />
+      <nt id="nter126" label="PRP" />
+      <nt id="nter127" label="VP" />
+      <nt id="nter128" label="VBD" />
+      <nt id="nter129" label="NP" />
+      <nt id="nter130" label="NP" />
+      <nt id="nter131" label="JJS" />
+      <nt id="nter132" label="PP" />
+      <nt id="nter133" label="IN" />
+      <nt id="nter134" label="NP" />
+      <nt id="nter135" label="NP" />
+      <nt id="nter136" label="DT" />
+      <nt id="nter137" label="NNS" />
+      <nt id="nter138" label="ADVP" />
+      <nt id="nter139" label="RB" />
+      <nt id="nter140" label="." />
+      <!--Terminals-->
+      <!--We-->
+      <t id="ter52">
+        <span>
+          <target id="t52" />
+        </span>
+      </t>
+      <!--didn-->
+      <t id="ter53">
+        <span>
+          <target id="t53" />
+        </span>
+      </t>
+      <!--'t-->
+      <t id="ter54">
+        <span>
+          <target id="t54" />
+        </span>
+      </t>
+      <!--stay-->
+      <t id="ter55">
+        <span>
+          <target id="t55" />
+        </span>
+      </t>
+      <!--much-->
+      <t id="ter56">
+        <span>
+          <target id="t56" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter57">
+        <span>
+          <target id="t57" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter58">
+        <span>
+          <target id="t58" />
+        </span>
+      </t>
+      <!--hotel-->
+      <t id="ter59">
+        <span>
+          <target id="t59" />
+        </span>
+      </t>
+      <!--since-->
+      <t id="ter60">
+        <span>
+          <target id="t60" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter61">
+        <span>
+          <target id="t61" />
+        </span>
+      </t>
+      <!--spent-->
+      <t id="ter62">
+        <span>
+          <target id="t62" />
+        </span>
+      </t>
+      <!--most-->
+      <t id="ter63">
+        <span>
+          <target id="t63" />
+        </span>
+      </t>
+      <!--of-->
+      <t id="ter64">
+        <span>
+          <target id="t64" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter65">
+        <span>
+          <target id="t65" />
+        </span>
+      </t>
+      <!--days-->
+      <t id="ter66">
+        <span>
+          <target id="t66" />
+        </span>
+      </t>
+      <!--outside-->
+      <t id="ter67">
+        <span>
+          <target id="t67" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter68">
+        <span>
+          <target id="t68" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre155" from="nter104" to="nter103" />
+      <edge id="tre156" from="nter105" to="nter104" head="yes" />
+      <edge id="tre157" from="nter106" to="nter105" head="yes" />
+      <edge id="tre158" from="ter52" to="nter106" />
+      <edge id="tre159" from="nter107" to="nter104" />
+      <edge id="tre160" from="nter108" to="nter107" />
+      <edge id="tre161" from="ter53" to="nter108" />
+      <edge id="tre162" from="nter109" to="nter107" />
+      <edge id="tre163" from="nter110" to="nter109" head="yes" />
+      <edge id="tre164" from="ter54" to="nter110" />
+      <edge id="tre165" from="nter111" to="nter107" />
+      <edge id="tre166" from="nter112" to="nter111" />
+      <edge id="tre167" from="nter113" to="nter112" />
+      <edge id="tre168" from="ter55" to="nter113" />
+      <edge id="tre169" from="nter114" to="nter112" />
+      <edge id="tre170" from="nter115" to="nter114" head="yes" />
+      <edge id="tre171" from="ter56" to="nter115" />
+      <edge id="tre172" from="nter116" to="nter112" />
+      <edge id="tre173" from="nter117" to="nter116" />
+      <edge id="tre174" from="ter57" to="nter117" />
+      <edge id="tre175" from="nter118" to="nter116" />
+      <edge id="tre176" from="nter119" to="nter118" head="yes" />
+      <edge id="tre177" from="nter120" to="nter119" />
+      <edge id="tre178" from="ter58" to="nter120" />
+      <edge id="tre179" from="nter121" to="nter119" head="yes" />
+      <edge id="tre180" from="ter59" to="nter121" />
+      <edge id="tre181" from="nter122" to="nter118" />
+      <edge id="tre182" from="nter123" to="nter122" />
+      <edge id="tre183" from="ter60" to="nter123" />
+      <edge id="tre184" from="nter124" to="nter122" />
+      <edge id="tre185" from="nter125" to="nter124" head="yes" />
+      <edge id="tre186" from="nter126" to="nter125" head="yes" />
+      <edge id="tre187" from="ter61" to="nter126" />
+      <edge id="tre188" from="nter127" to="nter124" />
+      <edge id="tre189" from="nter128" to="nter127" />
+      <edge id="tre190" from="ter62" to="nter128" />
+      <edge id="tre191" from="nter129" to="nter127" />
+      <edge id="tre192" from="nter130" to="nter129" head="yes" />
+      <edge id="tre193" from="nter131" to="nter130" head="yes" />
+      <edge id="tre194" from="ter63" to="nter131" />
+      <edge id="tre195" from="nter132" to="nter129" />
+      <edge id="tre196" from="nter133" to="nter132" />
+      <edge id="tre197" from="ter64" to="nter133" />
+      <edge id="tre198" from="nter134" to="nter132" />
+      <edge id="tre199" from="nter135" to="nter134" head="yes" />
+      <edge id="tre200" from="nter136" to="nter135" />
+      <edge id="tre201" from="ter65" to="nter136" />
+      <edge id="tre202" from="nter137" to="nter135" head="yes" />
+      <edge id="tre203" from="ter66" to="nter137" />
+      <edge id="tre204" from="nter138" to="nter134" />
+      <edge id="tre205" from="nter139" to="nter138" head="yes" />
+      <edge id="tre206" from="ter67" to="nter139" />
+      <edge id="tre207" from="nter140" to="nter104" />
+      <edge id="tre208" from="ter68" to="nter140" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter141" label="TOP" />
+      <nt id="nter142" label="S" />
+      <nt id="nter143" label="NP" />
+      <nt id="nter144" label="EX" />
+      <nt id="nter145" label="VP" />
+      <nt id="nter146" label="VBP" />
+      <nt id="nter147" label="NP" />
+      <nt id="nter148" label="NP" />
+      <nt id="nter149" label="RB" />
+      <nt id="nter150" label="JJ" />
+      <nt id="nter151" label="NNP" />
+      <nt id="nter152" label="NN" />
+      <nt id="nter153" label="PP" />
+      <nt id="nter154" label="IN" />
+      <nt id="nter155" label="NP" />
+      <nt id="nter156" label="NN" />
+      <nt id="nter157" label="ADVP" />
+      <nt id="nter158" label="RB" />
+      <nt id="nter159" label="." />
+      <!--Terminals-->
+      <!--There-->
+      <t id="ter69">
+        <span>
+          <target id="t69" />
+        </span>
+      </t>
+      <!--aren-->
+      <t id="ter70">
+        <span>
+          <target id="t70" />
+        </span>
+      </t>
+      <!--'t-->
+      <t id="ter71">
+        <span>
+          <target id="t71" />
+        </span>
+      </t>
+      <!--many-->
+      <t id="ter72">
+        <span>
+          <target id="t72" />
+        </span>
+      </t>
+      <!--English-->
+      <t id="ter73">
+        <span>
+          <target id="t73" />
+        </span>
+      </t>
+      <!--channel-->
+      <t id="ter74">
+        <span>
+          <target id="t74" />
+        </span>
+      </t>
+      <!--on-->
+      <t id="ter75">
+        <span>
+          <target id="t75" />
+        </span>
+      </t>
+      <!--TV-->
+      <t id="ter76">
+        <span>
+          <target id="t76" />
+        </span>
+      </t>
+      <!--unfortunately-->
+      <t id="ter77">
+        <span>
+          <target id="t77" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter78">
+        <span>
+          <target id="t78" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre210" from="nter142" to="nter141" />
+      <edge id="tre211" from="nter143" to="nter142" head="yes" />
+      <edge id="tre212" from="nter144" to="nter143" head="yes" />
+      <edge id="tre213" from="ter69" to="nter144" />
+      <edge id="tre214" from="nter145" to="nter142" />
+      <edge id="tre215" from="nter146" to="nter145" />
+      <edge id="tre216" from="ter70" to="nter146" />
+      <edge id="tre217" from="nter147" to="nter145" />
+      <edge id="tre218" from="nter148" to="nter147" head="yes" />
+      <edge id="tre219" from="nter149" to="nter148" />
+      <edge id="tre220" from="ter71" to="nter149" />
+      <edge id="tre221" from="nter150" to="nter148" />
+      <edge id="tre222" from="ter72" to="nter150" />
+      <edge id="tre223" from="nter151" to="nter148" />
+      <edge id="tre224" from="ter73" to="nter151" />
+      <edge id="tre225" from="nter152" to="nter148" head="yes" />
+      <edge id="tre226" from="ter74" to="nter152" />
+      <edge id="tre227" from="nter153" to="nter147" />
+      <edge id="tre228" from="nter154" to="nter153" />
+      <edge id="tre229" from="ter75" to="nter154" />
+      <edge id="tre230" from="nter155" to="nter153" />
+      <edge id="tre231" from="nter156" to="nter155" head="yes" />
+      <edge id="tre232" from="ter76" to="nter156" />
+      <edge id="tre233" from="nter157" to="nter145" />
+      <edge id="tre234" from="nter158" to="nter157" head="yes" />
+      <edge id="tre235" from="ter77" to="nter158" />
+      <edge id="tre236" from="nter159" to="nter142" />
+      <edge id="tre237" from="ter78" to="nter159" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter160" label="TOP" />
+      <nt id="nter161" label="S" />
+      <nt id="nter162" label="NP" />
+      <nt id="nter163" label="DT" />
+      <nt id="nter164" label="NN" />
+      <nt id="nter165" label="VP" />
+      <nt id="nter166" label="VBZ" />
+      <nt id="nter167" label="NP" />
+      <nt id="nter168" label="NN" />
+      <nt id="nter169" label="SBAR" />
+      <nt id="nter170" label="IN" />
+      <nt id="nter171" label="S" />
+      <nt id="nter172" label="NP" />
+      <nt id="nter173" label="PRP" />
+      <nt id="nter174" label="VP" />
+      <nt id="nter175" label="VBP" />
+      <nt id="nter176" label="VP" />
+      <nt id="nter177" label="VBN" />
+      <nt id="nter178" label="S" />
+      <nt id="nter179" label="VP" />
+      <nt id="nter180" label="TO" />
+      <nt id="nter181" label="VP" />
+      <nt id="nter182" label="VB" />
+      <nt id="nter183" label="." />
+      <!--Terminals-->
+      <!--The-->
+      <t id="ter79">
+        <span>
+          <target id="t79" />
+        </span>
+      </t>
+      <!--location-->
+      <t id="ter80">
+        <span>
+          <target id="t80" />
+        </span>
+      </t>
+      <!--is-->
+      <t id="ter81">
+        <span>
+          <target id="t81" />
+        </span>
+      </t>
+      <!--ok-->
+      <t id="ter82">
+        <span>
+          <target id="t82" />
+        </span>
+      </t>
+      <!--if-->
+      <t id="ter83">
+        <span>
+          <target id="t83" />
+        </span>
+      </t>
+      <!--you-->
+      <t id="ter84">
+        <span>
+          <target id="t84" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter85">
+        <span>
+          <target id="t85" />
+        </span>
+      </t>
+      <!--used-->
+      <t id="ter86">
+        <span>
+          <target id="t86" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter87">
+        <span>
+          <target id="t87" />
+        </span>
+      </t>
+      <!--walk-->
+      <t id="ter88">
+        <span>
+          <target id="t88" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter89">
+        <span>
+          <target id="t89" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre239" from="nter161" to="nter160" />
+      <edge id="tre240" from="nter162" to="nter161" head="yes" />
+      <edge id="tre241" from="nter163" to="nter162" />
+      <edge id="tre242" from="ter79" to="nter163" />
+      <edge id="tre243" from="nter164" to="nter162" head="yes" />
+      <edge id="tre244" from="ter80" to="nter164" />
+      <edge id="tre245" from="nter165" to="nter161" />
+      <edge id="tre246" from="nter166" to="nter165" />
+      <edge id="tre247" from="ter81" to="nter166" />
+      <edge id="tre248" from="nter167" to="nter165" />
+      <edge id="tre249" from="nter168" to="nter167" head="yes" />
+      <edge id="tre250" from="ter82" to="nter168" />
+      <edge id="tre251" from="nter169" to="nter165" />
+      <edge id="tre252" from="nter170" to="nter169" />
+      <edge id="tre253" from="ter83" to="nter170" />
+      <edge id="tre254" from="nter171" to="nter169" />
+      <edge id="tre255" from="nter172" to="nter171" head="yes" />
+      <edge id="tre256" from="nter173" to="nter172" head="yes" />
+      <edge id="tre257" from="ter84" to="nter173" />
+      <edge id="tre258" from="nter174" to="nter171" />
+      <edge id="tre259" from="nter175" to="nter174" />
+      <edge id="tre260" from="ter85" to="nter175" />
+      <edge id="tre261" from="nter176" to="nter174" />
+      <edge id="tre262" from="nter177" to="nter176" />
+      <edge id="tre263" from="ter86" to="nter177" />
+      <edge id="tre264" from="nter178" to="nter176" />
+      <edge id="tre265" from="nter179" to="nter178" />
+      <edge id="tre266" from="nter180" to="nter179" />
+      <edge id="tre267" from="ter87" to="nter180" />
+      <edge id="tre268" from="nter181" to="nter179" />
+      <edge id="tre269" from="nter182" to="nter181" head="yes" />
+      <edge id="tre270" from="ter88" to="nter182" />
+      <edge id="tre271" from="nter183" to="nter161" />
+      <edge id="tre272" from="ter89" to="nter183" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter184" label="TOP" />
+      <nt id="nter185" label="S" />
+      <nt id="nter186" label="NP" />
+      <nt id="nter187" label="PRP" />
+      <nt id="nter188" label="VP" />
+      <nt id="nter189" label="VBZ" />
+      <nt id="nter190" label="NP" />
+      <nt id="nter191" label="QP" />
+      <nt id="nter192" label="IN" />
+      <nt id="nter193" label="CD" />
+      <nt id="nter194" label="CD" />
+      <nt id="nter195" label="CD" />
+      <nt id="nter196" label="NNS" />
+      <nt id="nter197" label="NP" />
+      <nt id="nter198" label="NP" />
+      <nt id="nter199" label="JJ" />
+      <nt id="nter200" label="NN" />
+      <nt id="nter201" label="PP" />
+      <nt id="nter202" label="TO" />
+      <nt id="nter203" label="NP" />
+      <nt id="nter204" label="DT" />
+      <nt id="nter205" label="NN" />
+      <nt id="nter206" label="NN" />
+      <nt id="nter207" label="." />
+      <!--Terminals-->
+      <!--It-->
+      <t id="ter90">
+        <span>
+          <target id="t90" />
+        </span>
+      </t>
+      <!--'s-->
+      <t id="ter91">
+        <span>
+          <target id="t91" />
+        </span>
+      </t>
+      <!--about-->
+      <t id="ter92">
+        <span>
+          <target id="t92" />
+        </span>
+      </t>
+      <!--15-->
+      <t id="ter93">
+        <span>
+          <target id="t93" />
+        </span>
+      </t>
+      <!--·-->
+      <t id="ter94">
+        <span>
+          <target id="t94" />
+        </span>
+      </t>
+      <!--20-->
+      <t id="ter95">
+        <span>
+          <target id="t95" />
+        </span>
+      </t>
+      <!--minutes-->
+      <t id="ter96">
+        <span>
+          <target id="t96" />
+        </span>
+      </t>
+      <!--easy-->
+      <t id="ter97">
+        <span>
+          <target id="t97" />
+        </span>
+      </t>
+      <!--walk-->
+      <t id="ter98">
+        <span>
+          <target id="t98" />
+        </span>
+      </t>
+      <!--to-->
+      <t id="ter99">
+        <span>
+          <target id="t99" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter100">
+        <span>
+          <target id="t100" />
+        </span>
+      </t>
+      <!--city-->
+      <t id="ter101">
+        <span>
+          <target id="t101" />
+        </span>
+      </t>
+      <!--center-->
+      <t id="ter102">
+        <span>
+          <target id="t102" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter103">
+        <span>
+          <target id="t103" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre274" from="nter185" to="nter184" />
+      <edge id="tre275" from="nter186" to="nter185" head="yes" />
+      <edge id="tre276" from="nter187" to="nter186" head="yes" />
+      <edge id="tre277" from="ter90" to="nter187" />
+      <edge id="tre278" from="nter188" to="nter185" />
+      <edge id="tre279" from="nter189" to="nter188" />
+      <edge id="tre280" from="ter91" to="nter189" />
+      <edge id="tre281" from="nter190" to="nter188" />
+      <edge id="tre282" from="nter191" to="nter190" />
+      <edge id="tre283" from="nter192" to="nter191" />
+      <edge id="tre284" from="ter92" to="nter192" />
+      <edge id="tre285" from="nter193" to="nter191" />
+      <edge id="tre286" from="ter93" to="nter193" />
+      <edge id="tre287" from="nter194" to="nter191" />
+      <edge id="tre288" from="ter94" to="nter194" />
+      <edge id="tre289" from="nter195" to="nter191" head="yes" />
+      <edge id="tre290" from="ter95" to="nter195" />
+      <edge id="tre291" from="nter196" to="nter190" />
+      <edge id="tre292" from="ter96" to="nter196" />
+      <edge id="tre293" from="nter197" to="nter188" />
+      <edge id="tre294" from="nter198" to="nter197" head="yes" />
+      <edge id="tre295" from="nter199" to="nter198" />
+      <edge id="tre296" from="ter97" to="nter199" />
+      <edge id="tre297" from="nter200" to="nter198" head="yes" />
+      <edge id="tre298" from="ter98" to="nter200" />
+      <edge id="tre299" from="nter201" to="nter197" />
+      <edge id="tre300" from="nter202" to="nter201" />
+      <edge id="tre301" from="ter99" to="nter202" />
+      <edge id="tre302" from="nter203" to="nter201" />
+      <edge id="tre303" from="nter204" to="nter203" />
+      <edge id="tre304" from="ter100" to="nter204" />
+      <edge id="tre305" from="nter205" to="nter203" />
+      <edge id="tre306" from="ter101" to="nter205" />
+      <edge id="tre307" from="nter206" to="nter203" head="yes" />
+      <edge id="tre308" from="ter102" to="nter206" />
+      <edge id="tre309" from="nter207" to="nter185" />
+      <edge id="tre310" from="ter103" to="nter207" />
+    </tree>
+    <tree>
+      <!--Non-terminals-->
+      <nt id="nter208" label="TOP" />
+      <nt id="nter209" label="S" />
+      <nt id="nter210" label="SBAR" />
+      <nt id="nter211" label="WHADVP" />
+      <nt id="nter212" label="WRB" />
+      <nt id="nter213" label="S" />
+      <nt id="nter214" label="NP" />
+      <nt id="nter215" label="PRP" />
+      <nt id="nter216" label="VP" />
+      <nt id="nter217" label="VBD" />
+      <nt id="nter218" label="ADVP" />
+      <nt id="nter219" label="RB" />
+      <nt id="nter220" label="," />
+      <nt id="nter221" label="NP" />
+      <nt id="nter222" label="EX" />
+      <nt id="nter223" label="VP" />
+      <nt id="nter224" label="VBD" />
+      <nt id="nter225" label="NP" />
+      <nt id="nter226" label="DT" />
+      <nt id="nter227" label="JJ" />
+      <nt id="nter228" label="NN" />
+      <nt id="nter229" label="PP" />
+      <nt id="nter230" label="IN" />
+      <nt id="nter231" label="NP" />
+      <nt id="nter232" label="DT" />
+      <nt id="nter233" label="VBG" />
+      <nt id="nter234" label="NN" />
+      <nt id="nter235" label="." />
+      <!--Terminals-->
+      <!--When-->
+      <t id="ter104">
+        <span>
+          <target id="t104" />
+        </span>
+      </t>
+      <!--we-->
+      <t id="ter105">
+        <span>
+          <target id="t105" />
+        </span>
+      </t>
+      <!--stayed-->
+      <t id="ter106">
+        <span>
+          <target id="t106" />
+        </span>
+      </t>
+      <!--there-->
+      <t id="ter107">
+        <span>
+          <target id="t107" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter108">
+        <span>
+          <target id="t108" />
+        </span>
+      </t>
+      <!--there-->
+      <t id="ter109">
+        <span>
+          <target id="t109" />
+        </span>
+      </t>
+      <!--was-->
+      <t id="ter110">
+        <span>
+          <target id="t110" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter111">
+        <span>
+          <target id="t111" />
+        </span>
+      </t>
+      <!--weird-->
+      <t id="ter112">
+        <span>
+          <target id="t112" />
+        </span>
+      </t>
+      <!--smell-->
+      <t id="ter113">
+        <span>
+          <target id="t113" />
+        </span>
+      </t>
+      <!--around-->
+      <t id="ter114">
+        <span>
+          <target id="t114" />
+        </span>
+      </t>
+      <!--the-->
+      <t id="ter115">
+        <span>
+          <target id="t115" />
+        </span>
+      </t>
+      <!--sitting-->
+      <t id="ter116">
+        <span>
+          <target id="t116" />
+        </span>
+      </t>
+      <!--area-->
+      <t id="ter117">
+        <span>
+          <target id="t117" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter118">
+        <span>
+          <target id="t118" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre312" from="nter209" to="nter208" />
+      <edge id="tre313" from="nter210" to="nter209" />
+      <edge id="tre314" from="nter211" to="nter210" />
+      <edge id="tre315" from="nter212" to="nter211" head="yes" />
+      <edge id="tre316" from="ter104" to="nter212" />
+      <edge id="tre317" from="nter213" to="nter210" />
+      <edge id="tre318" from="nter214" to="nter213" head="yes" />
+      <edge id="tre319" from="nter215" to="nter214" head="yes" />
+      <edge id="tre320" from="ter105" to="nter215" />
+      <edge id="tre321" from="nter216" to="nter213" />
+      <edge id="tre322" from="nter217" to="nter216" />
+      <edge id="tre323" from="ter106" to="nter217" />
+      <edge id="tre324" from="nter218" to="nter216" />
+      <edge id="tre325" from="nter219" to="nter218" head="yes" />
+      <edge id="tre326" from="ter107" to="nter219" />
+      <edge id="tre327" from="nter220" to="nter209" />
+      <edge id="tre328" from="ter108" to="nter220" />
+      <edge id="tre329" from="nter221" to="nter209" head="yes" />
+      <edge id="tre330" from="nter222" to="nter221" head="yes" />
+      <edge id="tre331" from="ter109" to="nter222" />
+      <edge id="tre332" from="nter223" to="nter209" />
+      <edge id="tre333" from="nter224" to="nter223" />
+      <edge id="tre334" from="ter110" to="nter224" />
+      <edge id="tre335" from="nter225" to="nter223" />
+      <edge id="tre336" from="nter226" to="nter225" />
+      <edge id="tre337" from="ter111" to="nter226" />
+      <edge id="tre338" from="nter227" to="nter225" />
+      <edge id="tre339" from="ter112" to="nter227" />
+      <edge id="tre340" from="nter228" to="nter225" head="yes" />
+      <edge id="tre341" from="ter113" to="nter228" />
+      <edge id="tre342" from="nter229" to="nter223" />
+      <edge id="tre343" from="nter230" to="nter229" />
+      <edge id="tre344" from="ter114" to="nter230" />
+      <edge id="tre345" from="nter231" to="nter229" />
+      <edge id="tre346" from="nter232" to="nter231" />
+      <edge id="tre347" from="ter115" to="nter232" />
+      <edge id="tre348" from="nter233" to="nter231" />
+      <edge id="tre349" from="ter116" to="nter233" />
+      <edge id="tre350" from="nter234" to="nter231" head="yes" />
+      <edge id="tre351" from="ter117" to="nter234" />
+      <edge id="tre352" from="nter235" to="nter209" />
+      <edge id="tre353" from="ter118" to="nter235" />
+    </tree>
+  </constituency>
 </KAF>
